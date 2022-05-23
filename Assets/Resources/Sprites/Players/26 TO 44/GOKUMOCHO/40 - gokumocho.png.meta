@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,9 +69,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      40 - gokumocho_4: -6441991054668101179
+      40 - gokumocho_7: 6979740360536283291
+      40 - gokumocho_0: 3409470704662437470
+      40 - gokumocho_5: -1849252733781882878
+      40 - gokumocho_6: 4621606361641355605
+      40 - gokumocho_10: 4035734241224211494
+      40 - gokumocho_8: 4925618579278177069
+      40 - gokumocho_2: 36267612974974782
+      40 - gokumocho_3: 2742199756600262457
+      40 - gokumocho_9: 559500300373960993
+      40 - gokumocho_11: -1518882668627691793
+      40 - gokumocho_1: 8169155253949905374
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

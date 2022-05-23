@@ -63,6 +63,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -436,6 +437,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      regalo gratis_12: 6118118086684134031
+      regalo gratis_3: -568376209710027661
+      regalo gratis_9: -5083276981758074488
+      regalo gratis_4: 7542515337260273467
+      regalo gratis_11: 11471292423314610
+      regalo gratis_5: 5271289455310832203
+      regalo gratis_7: -4205321872912537207
+      regalo gratis_1: 4728254106269882420
+      regalo gratis_10: -1731133845815578991
+      regalo gratis_2: -7908992582758300909
+      regalo gratis_8: -8925857368538236420
+      regalo gratis_0: 5273952102217901220
+      regalo gratis_6: -336235596977424207
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

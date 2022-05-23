@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,9 +69,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      50 cactumocho_0: -2219746382676508893
+      50 cactumocho_1: -8705241573892131428
+      50 cactumocho_2: 8558527747603308114
+      50 cactumocho_7: -4290787830193333964
+      50 cactumocho_8: -1106863381712763312
+      50 cactumocho_5: -910973849470517894
+      50 cactumocho_11: 3145289581495019402
+      50 cactumocho_3: -6858009864269726012
+      50 cactumocho_9: -213087306253418047
+      50 cactumocho_4: -8091061023701453352
+      50 cactumocho_10: -5854805456110231854
+      50 cactumocho_6: 1477242427841883263
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

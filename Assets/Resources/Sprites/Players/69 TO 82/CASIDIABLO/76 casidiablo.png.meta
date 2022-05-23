@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,9 +69,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      76 casidiablo_10: 2985976466692008808
+      76 casidiablo_7: 2185428357348098988
+      76 casidiablo_3: 3564364929162163416
+      76 casidiablo_6: -8342048761482530011
+      76 casidiablo_2: -894444330325114258
+      76 casidiablo_5: 193866923098809575
+      76 casidiablo_1: -6799716692312472308
+      76 casidiablo_9: 708698630060403280
+      76 casidiablo_8: 8240925495688402949
+      76 casidiablo_11: 6274383390530446263
+      76 casidiablo_0: 6985344630463900466
+      76 casidiablo_4: 5355060262864146901
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

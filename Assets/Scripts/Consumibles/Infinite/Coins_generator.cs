@@ -15,7 +15,8 @@ public class Coins_generator : MonoBehaviour
     float horizontal = 1f;
     //Tiempo 
     float time = 0f;
-    float qr = 0;
+    float qr = 3;
+    float altura = 0f;
     //Tiempo maximo de demora en aparicion
 
     public static float maxTime = 1f;
@@ -70,20 +71,19 @@ public class Coins_generator : MonoBehaviour
 
                         if (GameController.gamecontroller.levelType == GameController.typesOfLevels.subLevel)
                         {
+                            Debug.Log("hasd" + time);
+                            Debug.Log("hasd qr" + qr);
+                            Debug.Log("altura definida" + altura);
                             
-                            if (time > maxTime)
+
+                            
+
+                            if (qr >= 5)
                             {
-                                Debug.Log("hasd" + time);
-                                Debug.Log("hasd" + qr);
+                                var t = Random.Range(0, 21);
 
-                                 var t = Random.Range(0, 21);
-                                
-                                var altura = 0;
-
-                                if(qr >= 5)
+                                if (t >= 0 && t <= 4)
                                 {
-                                    if (t >= 0 && t <= 4)
-                                    {
                                         altura = 3;
                                     }
                                     else if (t > 4 && t <= 8)
@@ -111,27 +111,30 @@ public class Coins_generator : MonoBehaviour
                                         }
 
                                     }
-
-                                qr = 0f;
-                                }
-                                
-
-                                GameObject c = ObjectPooling.GetObject(coin);
-                                c.transform.position = new Vector3(transform.position.x + Random.Range(-horizontal, horizontal), altura, -5f);
-
-                                GameObject q = ObjectPooling.GetObject(coin);
-                                q.transform.position = new Vector3(transform.position.x + Random.Range(-horizontal, horizontal), (altura + 1f), -5f);
-
-                                time = 0f;
-                                qr += Time.deltaTime;
-                                StartCoroutine(DeSpawn(coin, c, 10f));
-                                StartCoroutine(DeSpawn(coin, q, 10f));
-                            
-                            
+                            qr = 0;
                             }
 
+                                qr += Time.deltaTime;
+
+                                if (time > maxTime)
+                                {                             
+
+                                        GameObject c = ObjectPooling.GetObject(coin);
+                                        c.transform.position = new Vector3(transform.position.x + Random.Range(-horizontal, horizontal), altura, -5f);
+
+                                        GameObject q = ObjectPooling.GetObject(coin);
+                                        q.transform.position = new Vector3(transform.position.x + Random.Range(-horizontal, horizontal), (altura + 1f), -5f);
+
+                                        time = 0f;
+                                
+                                        StartCoroutine(DeSpawn(coin, c, 10f));
+                                        StartCoroutine(DeSpawn(coin, q, 10f));
                             
-                            time += Time.deltaTime;
+                            
+                                }
+
+                            
+                                    time += Time.deltaTime;
                         }   
                         else
                         {

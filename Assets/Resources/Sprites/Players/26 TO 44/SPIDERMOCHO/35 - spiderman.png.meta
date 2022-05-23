@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,9 +69,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      35 - spiderman_6: 3342223160075950870
+      35 - spiderman_1: 3872901322015214664
+      35 - spiderman_7: -5802939791484343267
+      35 - spiderman_8: -7176789166333439074
+      35 - spiderman_0: -2438079054367172048
+      35 - spiderman_3: -1858551373081877968
+      35 - spiderman_10: 4186552373210693792
+      35 - spiderman_5: -7793810894756496604
+      35 - spiderman_2: 2478239335891610922
+      35 - spiderman_11: -7537763404039142903
+      35 - spiderman_9: -5003900660909561760
+      35 - spiderman_4: -6121875603255666300
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,9 +69,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      98 casilyna_8: -9069035951899009703
+      98 casilyna_2: -7984887148703296451
+      98 casilyna_11: -493551633841643601
+      98 casilyna_7: 2723192528042222848
+      98 casilyna_6: 652649756145374420
+      98 casilyna_1: -8927023748365156073
+      98 casilyna_5: -2131298874409483688
+      98 casilyna_3: 1763805421785089899
+      98 casilyna_9: -5940774974584775537
+      98 casilyna_10: -794419994645101378
+      98 casilyna_0: 3009619276413112768
+      98 casilyna_4: -6337677524339000559
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

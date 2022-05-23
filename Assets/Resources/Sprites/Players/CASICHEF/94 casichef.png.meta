@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,9 +69,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      94 casichef_1: -4338462841231442950
+      94 casichef_4: -5172884148362199975
+      94 casichef_9: 867348136638194969
+      94 casichef_8: -6020815766925749272
+      94 casichef_3: -4897382286004687348
+      94 casichef_11: 177904777466912797
+      94 casichef_5: 2900787768771758802
+      94 casichef_7: 5405275262878608518
+      94 casichef_2: -2502776815662332628
+      94 casichef_10: -4993994713313637677
+      94 casichef_0: -4633033719932175518
+      94 casichef_6: 9043318868581133320
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

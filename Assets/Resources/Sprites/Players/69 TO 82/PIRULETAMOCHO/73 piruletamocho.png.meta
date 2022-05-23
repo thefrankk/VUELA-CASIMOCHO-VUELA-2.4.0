@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,9 +69,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      73 piruletamocho_10: 4960078634372074979
+      73 piruletamocho_1: 8953114660349561493
+      73 piruletamocho_9: 8164613422289353482
+      73 piruletamocho_7: -5405903513417802058
+      73 piruletamocho_3: 1914022987158043876
+      73 piruletamocho_5: 4786467658900168324
+      73 piruletamocho_8: 7079488137430201199
+      73 piruletamocho_0: 6699308695799875634
+      73 piruletamocho_6: 4602623269890258081
+      73 piruletamocho_4: 6427000427327140566
+      73 piruletamocho_2: 1496283243853773527
+      73 piruletamocho_11: -2144590677073028272
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

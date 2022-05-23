@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      109 casilobo_2: 5445212237379138963
+      109 casilobo_0: 7194127576211577620
+      109 casilobo_4: 2837131271258317356
+      109 casilobo_3: 4173912854462999734
+      109 casilobo_5: 8004263950920687569
+      109 casilobo_6: -3252814595313763031
+      109 casilobo_10: 7796920408304598737
+      109 casilobo_11: 7006670041159877060
+      109 casilobo_1: -1847599117833820622
+      109 casilobo_7: 1252939008765643015
+      109 casilobo_9: -7175205232049686038
+      109 casilobo_8: 8295803703693742492
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

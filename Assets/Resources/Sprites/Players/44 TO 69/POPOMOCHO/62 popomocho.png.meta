@@ -66,6 +66,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -74,9 +75,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -460,6 +461,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      62 popomocho_8: 1799950478718177271
+      62 popomocho_6: -5955516079247769051
+      62 popomocho_5: 6319874184452038259
+      62 popomocho_0: -2883264135662056639
+      62 popomocho_2: 5800754803081714772
+      62 popomocho_11: 2885364684172762380
+      62 popomocho_1: 3437022622175933549
+      62 popomocho_3: -8003006536880734301
+      62 popomocho_4: 2999979438848190013
+      62 popomocho_12: 932289655300180935
+      62 popomocho_13: -5428967648129419900
+      62 popomocho_7: -6323489620889051077
+      62 popomocho_9: -107677667774837241
+      62 popomocho_10: 2236130846350521355
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

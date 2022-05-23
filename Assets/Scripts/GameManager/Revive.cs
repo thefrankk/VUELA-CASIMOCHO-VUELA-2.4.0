@@ -330,6 +330,7 @@ public class Revive : MonoBehaviour
         //Playerhabs
         //Le sacamos el jetpack
         GameController.gamecontroller.playerJetPack = false;
+        Debug.Log("Playerjetpack status " + GameController.gamecontroller.playerJetPack);
         GameController.playerHabs = GameController.CheckHabilitiesPlayer.outHabilities;
 
         GameController.gamecontroller.GameOver();

@@ -96,6 +96,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -104,9 +105,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -700,6 +701,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      casimocho_vuela_6: 1182072461442311842
+      casimocho_vuela_19: 3339757429492262426
+      casimocho_vuela_20: -5781896520521109519
+      casimocho_vuela_16: 7316318456129506718
+      casimocho_vuela_2: -1513903646870638120
+      casimocho_vuela_3: 8939256601004203213
+      casimocho_vuela_8: -3600047011357104993
+      casimocho_vuela_17: -2165323137824681621
+      casimocho_vuela_22: -4444053657148075446
+      casimocho_vuela_4: 265284663382866675
+      casimocho_vuela_9: 8228212305287295541
+      casimocho_vuela_7: 2983658586319537324
+      casimocho_vuela_15: -7872501268777627031
+      casimocho_vuela_10: -5154930948541200113
+      casimocho_vuela_13: 337230579160724411
+      casimocho_vuela_5: -7867795441687085420
+      casimocho_vuela_14: -8362984107305330160
+      casimocho_vuela_21: 5775381803098173886
+      casimocho_vuela_23: 5996770421051886354
+      casimocho_vuela_0: -4029388363585896784
+      casimocho_vuela_12: 4225512737642579542
+      casimocho_vuela_18: 6170841782447966071
+      casimocho_vuela_11: 7479724839184007636
+      casimocho_vuela_1: 3145713021587133811
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

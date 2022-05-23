@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,9 +69,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      26 CASIRIUS_2: 4195386785415141511
+      26 CASIRIUS_1: -149150642227585099
+      26 CASIRIUS_11: -6528942572318587109
+      26 CASIRIUS_3: 5361846168361330548
+      26 CASIRIUS_7: -1934321435766511539
+      26 CASIRIUS_6: 3342993225058617152
+      26 CASIRIUS_9: 7934310760550823836
+      26 CASIRIUS_10: -41516576208938464
+      26 CASIRIUS_8: 3182545472352209559
+      26 CASIRIUS_0: -4799639966536487402
+      26 CASIRIUS_4: -2725493152044251374
+      26 CASIRIUS_5: -6273627468249525198
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

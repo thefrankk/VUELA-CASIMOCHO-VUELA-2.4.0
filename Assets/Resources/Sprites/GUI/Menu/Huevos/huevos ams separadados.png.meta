@@ -93,6 +93,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -101,9 +102,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -676,6 +677,30 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      huevos ams separadados_14: 4675996619515160943
+      huevos ams separadados_10: -4112233381967728082
+      huevos ams separadados_13: 5192757463837279747
+      huevos ams separadados_3: -6519625345908791399
+      huevos ams separadados_0: -8247441048375191301
+      huevos ams separadados_5: 1864562019322606370
+      huevos ams separadados_9: 6243780106114042568
+      huevos ams separadados_1: -6039078417108794031
+      huevos ams separadados_2: 1761042857403234709
+      huevos ams separadados_15: -6086039745732145082
+      huevos ams separadados_22: 9162541485834407591
+      huevos ams separadados_8: 7117993541986765973
+      huevos ams separadados_20: -8403622515094173641
+      huevos ams separadados_17: 6153286796723942230
+      huevos ams separadados_21: 1711698423303968583
+      huevos ams separadados_12: -4136963490663680375
+      huevos ams separadados_11: 1801575036727267412
+      huevos ams separadados_7: 2974045808154499214
+      huevos ams separadados_18: -2042902427600585655
+      huevos ams separadados_6: 5895562305665540036
+      huevos ams separadados_16: 4849624686759477922
+      huevos ams separadados_4: 8905597515128994822
+      huevos ams separadados_19: -3605863309709693128
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

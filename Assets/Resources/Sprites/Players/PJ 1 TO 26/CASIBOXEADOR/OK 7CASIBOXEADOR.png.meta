@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,9 +69,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      OK 7CASIBOXEADOR_10: 8909938884519570192
+      OK 7CASIBOXEADOR_3: 3299287220133316470
+      OK 7CASIBOXEADOR_7: 4659101661110244880
+      OK 7CASIBOXEADOR_1: 3989173067604093113
+      OK 7CASIBOXEADOR_9: -1748355076811137480
+      OK 7CASIBOXEADOR_0: 8089236730949463000
+      OK 7CASIBOXEADOR_5: -1829195054922984502
+      OK 7CASIBOXEADOR_8: 9029367969905987767
+      OK 7CASIBOXEADOR_11: -3805975032829934457
+      OK 7CASIBOXEADOR_2: 1306323805034000387
+      OK 7CASIBOXEADOR_4: 8760908025544410184
+      OK 7CASIBOXEADOR_6: 5288389358010073666
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

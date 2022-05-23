@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,9 +69,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      59 elegamocho_4: -1030665922542081488
+      59 elegamocho_9: 4394007798651548493
+      59 elegamocho_1: -9134323208971924190
+      59 elegamocho_0: 3839646263334709983
+      59 elegamocho_5: -7776747993005340368
+      59 elegamocho_10: -7485763481153964219
+      59 elegamocho_11: -1571431932853491240
+      59 elegamocho_8: -4712036283810973188
+      59 elegamocho_7: -3220240095317155774
+      59 elegamocho_2: -9173229876484692613
+      59 elegamocho_3: -5216808449625621579
+      59 elegamocho_6: 1636223307636156247
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

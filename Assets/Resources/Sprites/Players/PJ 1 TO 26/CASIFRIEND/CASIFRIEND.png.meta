@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,9 +69,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      CASIFRIEND_8: -1119260022090427939
+      CASIFRIEND_2: 7507023658719438871
+      CASIFRIEND_6: 52593133760944063
+      CASIFRIEND_5: 3084187150832222670
+      CASIFRIEND_3: 4895821874407465008
+      CASIFRIEND_11: 3256683149628186192
+      CASIFRIEND_4: -7351491682226883606
+      CASIFRIEND_9: 5272440944611840052
+      CASIFRIEND_1: 3500264313926853430
+      CASIFRIEND_10: -4457668856401269999
+      CASIFRIEND_0: 8821847156246896632
+      CASIFRIEND_7: -27631459957242525
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

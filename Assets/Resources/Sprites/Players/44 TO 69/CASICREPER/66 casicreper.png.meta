@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,9 +69,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      66 casicreper_3: 4442940781071775804
+      66 casicreper_10: 3107857909100836738
+      66 casicreper_6: 2670776610454911951
+      66 casicreper_5: 1013297475059372015
+      66 casicreper_9: 8774561066681050950
+      66 casicreper_0: 7362044448334702806
+      66 casicreper_1: 3385701689768301252
+      66 casicreper_11: 855066466891599468
+      66 casicreper_4: -4979787253057010156
+      66 casicreper_7: -8785062815652201638
+      66 casicreper_2: 7981010613817182459
+      66 casicreper_8: -3772577575285565785
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

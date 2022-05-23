@@ -147,6 +147,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -155,9 +156,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -1108,6 +1109,48 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      huevos PLATA 02_17: -4310857989412595080
+      huevos PLATA 02_23: 9050048637615401818
+      huevos PLATA 02_21: -3821866320086274073
+      huevos PLATA 02_12: -8066633491010686887
+      huevos PLATA 02_20: -8977074976825928375
+      huevos PLATA 02_10: 6882534437048793129
+      huevos PLATA 02_24: 3581449340662725914
+      huevos PLATA 02_31: -7346926135140114165
+      huevos PLATA 02_5: 5439231730717516326
+      huevos PLATA 02_3: -7170924382701622163
+      huevos PLATA 02_9: -7330417267670556523
+      huevos PLATA 02_38: -5507622596904367831
+      huevos PLATA 02_1: -443962420574834060
+      huevos PLATA 02_28: -4219983351561442423
+      huevos PLATA 02_25: 2761013629169606362
+      huevos PLATA 02_36: -2981186164213609352
+      huevos PLATA 02_11: -2594096723603995516
+      huevos PLATA 02_22: -6894466603387198713
+      huevos PLATA 02_33: 8394605766639042098
+      huevos PLATA 02_2: 4754807004777045257
+      huevos PLATA 02_18: -5596110339594534401
+      huevos PLATA 02_6: -3761520468876879405
+      huevos PLATA 02_35: 2683576939542708338
+      huevos PLATA 02_14: -8508875970459854561
+      huevos PLATA 02_32: -6224572197045777074
+      huevos PLATA 02_27: 345386228655658883
+      huevos PLATA 02_40: -5861993403988049214
+      huevos PLATA 02_4: 1274168646616412008
+      huevos PLATA 02_30: -6101367689986915462
+      huevos PLATA 02_29: 1010037861572973323
+      huevos PLATA 02_8: 1284500236323630292
+      huevos PLATA 02_15: 3484175064044864285
+      huevos PLATA 02_13: -5557858189756030503
+      huevos PLATA 02_16: 9168482034630778514
+      huevos PLATA 02_34: 5161392413967202285
+      huevos PLATA 02_7: -6820673934926824566
+      huevos PLATA 02_26: -5770397250296861575
+      huevos PLATA 02_37: 523154528006401677
+      huevos PLATA 02_0: -920983058848446341
+      huevos PLATA 02_19: -7600524644603911290
+      huevos PLATA 02_39: 7055986228971621694
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

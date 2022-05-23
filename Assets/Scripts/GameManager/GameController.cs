@@ -323,8 +323,8 @@ public class GameController : MonoBehaviour
 
         Application.targetFrameRate = 144;
 
-        PlayGamesPlatform.DebugLogEnabled = true;
-        PlayGamesPlatform.Activate();
+        //PlayGamesPlatform.DebugLogEnabled = true;
+        //PlayGamesPlatform.Activate();
 
 
 
@@ -343,13 +343,13 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-        SingInToGooglePlayServices();
+       // SingInToGooglePlayServices();
 
     }
 
-    public void SingInToGooglePlayServices()
+    /*public void SingInToGooglePlayServices()
     {
-        PlayGamesPlatform.Instance.Authenticate(SignInInteractivity.CanPromptOnce, (result) =>
+        //PlayGamesPlatform.Instance.Authenticate(SignInInteractivity.CanPromptOnce, (result) =>
         {
             switch (result)
             {
@@ -362,7 +362,7 @@ public class GameController : MonoBehaviour
             }
         });
     }
-
+    */
     public void LoadData()
     {
         //Estadisticas
@@ -505,6 +505,7 @@ public class GameController : MonoBehaviour
                 
 
                 playerJetPack = true;
+                Debug.Log("Player jetpack activated" + GameController.gamecontroller.playerJetPack);
 
                 SetParameters(true);
                 BonusParameters(true);
@@ -569,7 +570,7 @@ public class GameController : MonoBehaviour
     public void BonusParameters(bool value)
     {
         var speedObjects = 8.5f;
-        var spawnerTime = 0.03f;
+        var spawnerTime = 0.125f;
         var parallaxBackgroundSpeed = 0.08f;
 
         if (value == true)
@@ -703,6 +704,7 @@ public class GameController : MonoBehaviour
                 subLevelManager.portalIsOnScreen = false;
                 subLevelManager.portalWasActivated = 0;
                 GameController.gamecontroller.playerJetPack = false;
+                Debug.Log("Playerjetpack status " + GameController.gamecontroller.playerJetPack);
                 GameController.playerHabs = GameController.CheckHabilitiesPlayer.outHabilities;
 
 
@@ -1029,6 +1031,7 @@ public class GameController : MonoBehaviour
        
         //Le sacamos el jetpack
         GameController.gamecontroller.playerJetPack = false;
+        Debug.Log("Playerjetpack status " + GameController.gamecontroller.playerJetPack);
         GameController.playerHabs = GameController.CheckHabilitiesPlayer.outHabilities;
 
 

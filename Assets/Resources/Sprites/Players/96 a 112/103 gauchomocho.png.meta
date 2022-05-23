@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      103 gauchomocho_11: 6373520252742698489
+      103 gauchomocho_6: 4114026945822821293
+      103 gauchomocho_0: -5246434747664768198
+      103 gauchomocho_2: -9143975825984985264
+      103 gauchomocho_3: -6106657923903548543
+      103 gauchomocho_8: -6488754306399498525
+      103 gauchomocho_4: 3469846887941029369
+      103 gauchomocho_7: -3979221301305939046
+      103 gauchomocho_1: -5495054320166433836
+      103 gauchomocho_10: -3114235947676601227
+      103 gauchomocho_9: 1598953583209343321
+      103 gauchomocho_5: -6405455964680355959
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

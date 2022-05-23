@@ -36,6 +36,8 @@ public class subPortal : MonoBehaviour
 
         transform.position += Vector3.left * ObjectINFINITE_logic.speedObjects * Time.deltaTime;
 
+       
+
         if(onTransition)
         {
            
@@ -43,16 +45,18 @@ public class subPortal : MonoBehaviour
             {
                 Loader(subLevelManager.instance.nextLevel);
 
-               
+                    Debug.Log("executing transition;");
 
-               
+
                     if (GameController.gamecontroller.levelType == GameController.typesOfLevels.level)
                     {
-                        GameController.playerHabs = GameController.CheckHabilitiesPlayer.withHabilities;
+                    Debug.Log("with habilities;");
+                    GameController.playerHabs = GameController.CheckHabilitiesPlayer.withHabilities;
                     }
                     else
                     {
-                        GameController.playerHabs = GameController.CheckHabilitiesPlayer.outHabilities;
+                    Debug.Log("NO habilitees;");
+                    GameController.playerHabs = GameController.CheckHabilitiesPlayer.outHabilities;
                     }
 
                     GameManager_Menu.guiOneTAP = true;
@@ -93,7 +97,7 @@ public class subPortal : MonoBehaviour
             //desactivamos el portal||11
             subLevelManager.portalIsOnScreen = false;
             subLevelManager.portalWasActivated = 0;
-            GameController.gamecontroller.playerJetPack = false;
+            //GameController.gamecontroller.playerJetPack = false;
 
 
 

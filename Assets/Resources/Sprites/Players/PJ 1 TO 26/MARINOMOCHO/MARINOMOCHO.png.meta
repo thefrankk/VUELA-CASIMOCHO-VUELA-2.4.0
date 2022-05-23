@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,9 +69,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      MARINOMOCHO_2: 6252687468798549579
+      MARINOMOCHO_4: 8493940530213546382
+      MARINOMOCHO_1: -3353821448695346972
+      MARINOMOCHO_9: -7111705159427074030
+      MARINOMOCHO_6: -5658226313460393248
+      MARINOMOCHO_10: -1030896164134033841
+      MARINOMOCHO_0: -5811047839485986607
+      MARINOMOCHO_5: -4124377331443158156
+      MARINOMOCHO_8: 5497482064667091067
+      MARINOMOCHO_11: 8174137718964056390
+      MARINOMOCHO_3: -5091547851674272548
+      MARINOMOCHO_7: -2723103118968286900
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

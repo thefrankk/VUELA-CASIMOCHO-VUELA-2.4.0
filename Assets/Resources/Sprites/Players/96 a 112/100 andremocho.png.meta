@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      100 andremocho_2: -1462389967762697260
+      100 andremocho_11: -3997065400340066667
+      100 andremocho_7: 810015347353333290
+      100 andremocho_8: -2534605138154932464
+      100 andremocho_1: 6397571395195334101
+      100 andremocho_5: -904491201017595267
+      100 andremocho_9: -8926705223575991581
+      100 andremocho_0: 5012030986967807071
+      100 andremocho_10: -2400065719308584909
+      100 andremocho_6: -8894562821277442267
+      100 andremocho_4: 5792916614338739150
+      100 andremocho_3: -6908027949854068845
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

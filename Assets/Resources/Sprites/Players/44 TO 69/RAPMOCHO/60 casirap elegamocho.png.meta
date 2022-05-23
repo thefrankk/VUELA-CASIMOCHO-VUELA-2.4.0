@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,9 +69,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      60 casirap elegamocho_6: -243099802664906905
+      60 casirap elegamocho_0: 7577076019081150688
+      60 casirap elegamocho_2: 7327246179019424651
+      60 casirap elegamocho_9: -2606808911705566754
+      60 casirap elegamocho_4: -2361853906108784807
+      60 casirap elegamocho_11: 4237714758661421654
+      60 casirap elegamocho_7: 4634674129182931315
+      60 casirap elegamocho_3: 4833055226861738748
+      60 casirap elegamocho_8: -6456072342149671516
+      60 casirap elegamocho_5: 841392397365384317
+      60 casirap elegamocho_1: 5907609290608285612
+      60 casirap elegamocho_10: -721515888835299118
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

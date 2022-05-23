@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,9 +69,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      MINIMOCHO_6: 5657088865035025505
+      MINIMOCHO_11: 7624834383920147777
+      MINIMOCHO_4: -6935269267803809550
+      MINIMOCHO_1: 5928001558022000194
+      MINIMOCHO_9: 7661281918087137991
+      MINIMOCHO_2: 1607372151887858111
+      MINIMOCHO_0: -1517496275295660754
+      MINIMOCHO_8: 4386064887309708289
+      MINIMOCHO_3: -1382598850320297064
+      MINIMOCHO_10: -5295486691206528676
+      MINIMOCHO_5: -8861669603892626183
+      MINIMOCHO_7: -2310939051549337313
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

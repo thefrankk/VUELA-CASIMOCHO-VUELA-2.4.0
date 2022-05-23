@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,9 +69,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      CASIMOCHO EXE_7: 4534704454028219351
+      CASIMOCHO EXE_11: -7141801772071652841
+      CASIMOCHO EXE_2: -7245758690807572922
+      CASIMOCHO EXE_1: 7681159695617106461
+      CASIMOCHO EXE_6: 6338720543605075634
+      CASIMOCHO EXE_10: 437280830837298573
+      CASIMOCHO EXE_4: 4825032437893193733
+      CASIMOCHO EXE_9: -2731463173358075595
+      CASIMOCHO EXE_5: -6436980969613681956
+      CASIMOCHO EXE_3: 8390354089600341626
+      CASIMOCHO EXE_0: -8889838796088496827
+      CASIMOCHO EXE_8: -6611358838111495533
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

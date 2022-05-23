@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      97 casilusion_5: 7595630592604519113
+      97 casilusion_9: -4337357395354107258
+      97 casilusion_11: 2332824101826535374
+      97 casilusion_6: -3428468178005706042
+      97 casilusion_8: -3366297737979832388
+      97 casilusion_4: 2771557177621128912
+      97 casilusion_10: 4790126459009647865
+      97 casilusion_7: 2232042878728043631
+      97 casilusion_1: -7134031044134185061
+      97 casilusion_2: -3029822271561188640
+      97 casilusion_0: 3348361291703745147
+      97 casilusion_3: -4044465470109446815
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

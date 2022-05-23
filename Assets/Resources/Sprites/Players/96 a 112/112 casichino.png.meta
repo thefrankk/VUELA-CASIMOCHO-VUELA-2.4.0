@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      112 casichino_8: -1703222808952741678
+      112 casichino_3: 183633981421922791
+      112 casichino_0: -5905807661838232222
+      112 casichino_10: 3337983167979599913
+      112 casichino_1: -941100543717970245
+      112 casichino_7: -4528003853553982970
+      112 casichino_4: 8006315735205446143
+      112 casichino_6: -1028342804141615029
+      112 casichino_2: 3975409096763702099
+      112 casichino_5: 4161764448350926344
+      112 casichino_9: 679025336677359663
+      112 casichino_11: 1441675761892433692
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

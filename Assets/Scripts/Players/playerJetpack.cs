@@ -46,8 +46,13 @@ public class playerJetpack : MonoBehaviour
     }
     private void Start()
     {
+        Debug.Log("the space ship are deactivated");
+        Debug.Log("Player jetpack status" + GameController.gamecontroller.playerJetPack);
+
+
         if (GameController.gamecontroller.playerJetPack != true)
             return;
+        Debug.Log("Creating the space ship");
 
         rPropulsionU = GameController.rocketPropulsionU;
         rPropulsionD = GameController.rocketPropulsionD;

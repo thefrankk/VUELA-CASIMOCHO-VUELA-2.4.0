@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,9 +69,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -412,6 +413,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      58 casiflor_0: 8813845597597660606
+      58 casiflor_9: -3420245267121928713
+      58 casiflor_6: 5308882725608749614
+      58 casiflor_3: 4781366307481461100
+      58 casiflor_2: 4779274539706353082
+      58 casiflor_7: -8194372588486591227
+      58 casiflor_8: -749539504472093262
+      58 casiflor_1: 5590696854197734509
+      58 casiflor_11: -3840160286440003286
+      58 casiflor_10: -4375216333269158669
+      58 casiflor_5: -5991556613036167702
+      58 casiflor_4: 5085986207897805648
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
