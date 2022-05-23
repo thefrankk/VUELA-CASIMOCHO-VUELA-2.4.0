@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: ca04b331002f23b44bfa8bf26aec24f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8247441048375191301
+    second: huevos ams separadados_0
+  - first:
+      213: -6039078417108794031
+    second: huevos ams separadados_1
+  - first:
+      213: 1761042857403234709
+    second: huevos ams separadados_2
+  - first:
+      213: -6519625345908791399
+    second: huevos ams separadados_3
+  - first:
+      213: 8905597515128994822
+    second: huevos ams separadados_4
+  - first:
+      213: 1864562019322606370
+    second: huevos ams separadados_5
+  - first:
+      213: 5895562305665540036
+    second: huevos ams separadados_6
+  - first:
+      213: 2974045808154499214
+    second: huevos ams separadados_7
+  - first:
+      213: 7117993541986765973
+    second: huevos ams separadados_8
+  - first:
+      213: 6243780106114042568
+    second: huevos ams separadados_9
+  - first:
+      213: -4112233381967728082
+    second: huevos ams separadados_10
+  - first:
+      213: 1801575036727267412
+    second: huevos ams separadados_11
+  - first:
+      213: -4136963490663680375
+    second: huevos ams separadados_12
+  - first:
+      213: 5192757463837279747
+    second: huevos ams separadados_13
+  - first:
+      213: 4675996619515160943
+    second: huevos ams separadados_14
+  - first:
+      213: -6086039745732145082
+    second: huevos ams separadados_15
+  - first:
+      213: 4849624686759477922
+    second: huevos ams separadados_16
+  - first:
+      213: 6153286796723942230
+    second: huevos ams separadados_17
+  - first:
+      213: -2042902427600585655
+    second: huevos ams separadados_18
+  - first:
+      213: -3605863309709693128
+    second: huevos ams separadados_19
+  - first:
+      213: -8403622515094173641
+    second: huevos ams separadados_20
+  - first:
+      213: 1711698423303968583
+    second: huevos ams separadados_21
+  - first:
+      213: 9162541485834407591
+    second: huevos ams separadados_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: huevos ams separadados_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 754
+        width: 199
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf81f9530143b8d80800000000000000
+      internalID: -8247441048375191301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_1
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 755
+        width: 201
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15580811d22e03ca0800000000000000
+      internalID: -6039078417108794031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_2
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 756
+        width: 202
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59932cdf52b707810800000000000000
+      internalID: 1761042857403234709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_3
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 750
+        width: 200
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99729745a43a585a0800000000000000
+      internalID: -6519625345908791399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_4
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 750
+        width: 200
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c7dd191c9079b70800000000000000
+      internalID: 8905597515128994822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_5
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 741
+        width: 202
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223b867174140e910800000000000000
+      internalID: 1864562019322606370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_6
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 392
+        width: 200
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf90645eae31d150800000000000000
+      internalID: 5895562305665540036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_7
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 407
+        width: 201
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88d9c4c7eee54920800000000000000
+      internalID: 2974045808154499214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_8
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 399
+        width: 71
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c45a7e96138c260800000000000000
+      internalID: 7117993541986765973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_9
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 399
+        width: 212
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca0490fcec56a650800000000000000
+      internalID: 6243780106114042568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_10
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 402
+        width: 57
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e227f42d6896ee6c0800000000000000
+      internalID: -4112233381967728082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_11
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 405
+        width: 199
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450175463fa700910800000000000000
+      internalID: 1801575036727267412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_12
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 399
+        width: 69
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9863b32bf9d8696c0800000000000000
+      internalID: -4136963490663680375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_13
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 398
+        width: 200
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30687c4a661601840800000000000000
+      internalID: 5192757463837279747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_14
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 407
+        width: 201
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69e025a62a74e040800000000000000
+      internalID: 4675996619515160943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_15
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 399
+        width: 57
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6401ab2b81b0a8ba0800000000000000
+      internalID: -6086039745732145082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_16
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 391
+        width: 57
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2834c45f35d4340800000000000000
+      internalID: 4849624686759477922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_17
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 3
+        width: 215
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653f4d77dbdd46550800000000000000
+      internalID: 6153286796723942230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_18
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 6
+        width: 228
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c751cd01726a3e0800000000000000
+      internalID: -2042902427600585655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_19
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 18
+        width: 213
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fa32cac6665fdc0800000000000000
+      internalID: -3605863309709693128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_20
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 21
+        width: 216
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7384659c8d5506b80800000000000000
+      internalID: -8403622515094173641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_21
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 19
+        width: 222
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74711a3a5ac21c710800000000000000
+      internalID: 1711698423303968583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos ams separadados_22
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 19
+        width: 215
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae80f6afe2e72f70800000000000000
+      internalID: 9162541485834407591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

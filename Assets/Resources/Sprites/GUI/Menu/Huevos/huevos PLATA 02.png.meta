@@ -1,0 +1,1116 @@
+fileFormatVersion: 2
+guid: 47f78f5f66482eb4992e5a84e1578d69
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6224572197045777074
+    second: huevos PLATA 02_32
+  - first:
+      213: 8394605766639042098
+    second: huevos PLATA 02_33
+  - first:
+      213: 5161392413967202285
+    second: huevos PLATA 02_34
+  - first:
+      213: 2683576939542708338
+    second: huevos PLATA 02_35
+  - first:
+      213: -2981186164213609352
+    second: huevos PLATA 02_36
+  - first:
+      213: 523154528006401677
+    second: huevos PLATA 02_37
+  - first:
+      213: -5507622596904367831
+    second: huevos PLATA 02_38
+  - first:
+      213: 7055986228971621694
+    second: huevos PLATA 02_39
+  - first:
+      213: -5861993403988049214
+    second: huevos PLATA 02_40
+  - first:
+      213: -443962420574834060
+    second: huevos PLATA 02_1
+  - first:
+      213: 4754807004777045257
+    second: huevos PLATA 02_2
+  - first:
+      213: -7170924382701622163
+    second: huevos PLATA 02_3
+  - first:
+      213: 1274168646616412008
+    second: huevos PLATA 02_4
+  - first:
+      213: -3761520468876879405
+    second: huevos PLATA 02_6
+  - first:
+      213: -6820673934926824566
+    second: huevos PLATA 02_7
+  - first:
+      213: 1284500236323630292
+    second: huevos PLATA 02_8
+  - first:
+      213: -7330417267670556523
+    second: huevos PLATA 02_9
+  - first:
+      213: 6882534437048793129
+    second: huevos PLATA 02_10
+  - first:
+      213: -2594096723603995516
+    second: huevos PLATA 02_11
+  - first:
+      213: -8066633491010686887
+    second: huevos PLATA 02_12
+  - first:
+      213: -5557858189756030503
+    second: huevos PLATA 02_13
+  - first:
+      213: -8508875970459854561
+    second: huevos PLATA 02_14
+  - first:
+      213: 3484175064044864285
+    second: huevos PLATA 02_15
+  - first:
+      213: 9168482034630778514
+    second: huevos PLATA 02_16
+  - first:
+      213: -4310857989412595080
+    second: huevos PLATA 02_17
+  - first:
+      213: -5596110339594534401
+    second: huevos PLATA 02_18
+  - first:
+      213: -7600524644603911290
+    second: huevos PLATA 02_19
+  - first:
+      213: 2761013629169606362
+    second: huevos PLATA 02_25
+  - first:
+      213: -5770397250296861575
+    second: huevos PLATA 02_26
+  - first:
+      213: 345386228655658883
+    second: huevos PLATA 02_27
+  - first:
+      213: -4219983351561442423
+    second: huevos PLATA 02_28
+  - first:
+      213: 1010037861572973323
+    second: huevos PLATA 02_29
+  - first:
+      213: -920983058848446341
+    second: huevos PLATA 02_0
+  - first:
+      213: 5439231730717516326
+    second: huevos PLATA 02_5
+  - first:
+      213: -8977074976825928375
+    second: huevos PLATA 02_20
+  - first:
+      213: -6101367689986915462
+    second: huevos PLATA 02_30
+  - first:
+      213: -7346926135140114165
+    second: huevos PLATA 02_31
+  - first:
+      213: -3821866320086274073
+    second: huevos PLATA 02_21
+  - first:
+      213: -6894466603387198713
+    second: huevos PLATA 02_22
+  - first:
+      213: 9050048637615401818
+    second: huevos PLATA 02_23
+  - first:
+      213: 3581449340662725914
+    second: huevos PLATA 02_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: huevos PLATA 02_0
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 4139
+        width: 689
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b788f2d99c20833f0800000000000000
+      internalID: -920983058848446341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_1
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 4120
+        width: 689
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472b30cd78ab6d9f0800000000000000
+      internalID: -443962420574834060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_2
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 4115
+        width: 688
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d564f57c77cf140800000000000000
+      internalID: 4754807004777045257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_3
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 4120
+        width: 689
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ce1e16442cb7c90800000000000000
+      internalID: -7170924382701622163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_4
+      rect:
+        serializedVersion: 2
+        x: 3071
+        y: 4121
+        width: 697
+        height: 714
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fe28d12a1cea110800000000000000
+      internalID: 1274168646616412008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 3490
+        width: 689
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d99b3d10156ccbc0800000000000000
+      internalID: -3761520468876879405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_7
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 3500
+        width: 689
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bbbe391391851a0800000000000000
+      internalID: -6820673934926824566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_8
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 3500
+        width: 688
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dca9fbc82673d110800000000000000
+      internalID: 1284500236323630292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_9
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 3500
+        width: 688
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5906b115550254a90800000000000000
+      internalID: -7330417267670556523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_10
+      rect:
+        serializedVersion: 2
+        x: 3071
+        y: 3456
+        width: 688
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928bfa2fa9ca38f50800000000000000
+      internalID: 6882534437048793129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_11
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 3009
+        width: 689
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484449426caeffbd0800000000000000
+      internalID: -2594096723603995516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_12
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 3019
+        width: 689
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950f90b249f8d0090800000000000000
+      internalID: -8066633491010686887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_13
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 3019
+        width: 688
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1a8975c658ed2b0800000000000000
+      internalID: -5557858189756030503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_14
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 3019
+        width: 689
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1912e603666ae980800000000000000
+      internalID: -8508875970459854561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_15
+      rect:
+        serializedVersion: 2
+        x: 3071
+        y: 3019
+        width: 688
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d130ba3c2c64a5030800000000000000
+      internalID: 3484175064044864285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2526
+        width: 689
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ed7b375ddfc3f70800000000000000
+      internalID: 9168482034630778514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_17
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 2536
+        width: 689
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a58ef9f71cc24c0800000000000000
+      internalID: -4310857989412595080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_18
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 2538
+        width: 688
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1c39cab4f9652b0800000000000000
+      internalID: -5596110339594534401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_19
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 2509
+        width: 689
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68328c3ea13858690800000000000000
+      internalID: -7600524644603911290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_20
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 1957
+        width: 710
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9451e340fd50b6380800000000000000
+      internalID: -8977074976825928375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_21
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1966
+        width: 697
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef6a3cb4d006fac0800000000000000
+      internalID: -3821866320086274073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_22
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1415
+        width: 705
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703ef45172fe150a0800000000000000
+      internalID: -6894466603387198713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 869
+        width: 705
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5be215694b389d70800000000000000
+      internalID: 9050048637615401818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_24
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 873
+        width: 705
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d3243333dd3b130800000000000000
+      internalID: 3581449340662725914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_25
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 287
+        width: 689
+        height: 578
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade9aaa6447115620800000000000000
+      internalID: 2761013629169606362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_26
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 238
+        width: 689
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c2a23164e6befa0800000000000000
+      internalID: -5770397250296861575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_27
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 243
+        width: 688
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387155de1fe0bc400800000000000000
+      internalID: 345386228655658883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_28
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 245
+        width: 689
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b2e1c008b9f65c0800000000000000
+      internalID: -4219983351561442423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_29
+      rect:
+        serializedVersion: 2
+        x: 3071
+        y: 250
+        width: 688
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0390cc6510640e00800000000000000
+      internalID: 1010037861572973323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_30
+      rect:
+        serializedVersion: 2
+        x: 3058
+        y: 1415
+        width: 710
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73c8429966935ba0800000000000000
+      internalID: -6101367689986915462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_31
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 881
+        width: 733
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01a0f31b997a0a90800000000000000
+      internalID: -7346926135140114165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_32
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1411
+        width: 705
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d4054e090ed99a0800000000000000
+      internalID: -6224572197045777074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_33
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1957
+        width: 705
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e37fdd771af7470800000000000000
+      internalID: 8394605766639042098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_34
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1953
+        width: 705
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de739e4ed03f0a740800000000000000
+      internalID: 5161392413967202285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_35
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1423
+        width: 705
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2708fd0220bfd3520800000000000000
+      internalID: 2683576939542708338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_36
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 872
+        width: 705
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c0db88af2b0a6d0800000000000000
+      internalID: -2981186164213609352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_37
+      rect:
+        serializedVersion: 2
+        x: 2339
+        y: 868
+        width: 705
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e657c754e924700800000000000000
+      internalID: 523154528006401677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_38
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 1423
+        width: 705
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929c992cd6ef093b0800000000000000
+      internalID: -5507622596904367831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_39
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 1948
+        width: 705
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dc6ed4716ebe160800000000000000
+      internalID: 7055986228971621694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_40
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 1948
+        width: 705
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c20c97ae0406aea0800000000000000
+      internalID: -5861993403988049214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevos PLATA 02_5
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 2509
+        width: 689
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6226378d0780c7b40800000000000000
+      internalID: 5439231730717516326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

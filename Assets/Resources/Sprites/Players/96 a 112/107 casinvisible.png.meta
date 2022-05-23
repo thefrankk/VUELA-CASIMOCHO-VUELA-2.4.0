@@ -1,0 +1,477 @@
+fileFormatVersion: 2
+guid: 470c0a2478b7819499e6591bc435a8b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6484388279428310913
+    second: 107 casinvisible_0
+  - first:
+      213: 6307275683361779322
+    second: 107 casinvisible_1
+  - first:
+      213: 8013923931663423656
+    second: 107 casinvisible_2
+  - first:
+      213: -6377685208256526233
+    second: 107 casinvisible_3
+  - first:
+      213: -7499883427537108042
+    second: 107 casinvisible_4
+  - first:
+      213: -4083774665719921065
+    second: 107 casinvisible_5
+  - first:
+      213: -1696679875834474238
+    second: 107 casinvisible_6
+  - first:
+      213: 8190026442875380022
+    second: 107 casinvisible_7
+  - first:
+      213: -1301368491563743019
+    second: 107 casinvisible_8
+  - first:
+      213: 4379411229688147636
+    second: 107 casinvisible_9
+  - first:
+      213: -8524996320249203440
+    second: 107 casinvisible_10
+  - first:
+      213: 5030459643600297548
+    second: 107 casinvisible_11
+  - first:
+      213: -1313874837400824886
+    second: 107 casinvisible_12
+  - first:
+      213: 7227435123233565628
+    second: 107 casinvisible_13
+  - first:
+      213: 6038023043596732355
+    second: 107 casinvisible_14
+  - first:
+      213: -3264800556022139481
+    second: 107 casinvisible_15
+  - first:
+      213: -6005799834281819979
+    second: 107 casinvisible_16
+  - first:
+      213: 2628744535605794780
+    second: 107 casinvisible_17
+  - first:
+      213: -4862185838567653965
+    second: 107 casinvisible_18
+  - first:
+      213: -8496468072121208132
+    second: 107 casinvisible_19
+  - first:
+      213: 195857068528314368
+    second: 107 casinvisible_20
+  - first:
+      213: -6459358949744965789
+    second: 107 casinvisible_21
+  - first:
+      213: 2465531596601727263
+    second: 107 casinvisible_22
+  - first:
+      213: 2643340171027193620
+    second: 107 casinvisible_23
+  - first:
+      213: 7733023177221270555
+    second: 107 casinvisible_24
+  - first:
+      213: -5598329688216700613
+    second: 107 casinvisible_25
+  - first:
+      213: -2374635323959744876
+    second: 107 casinvisible_26
+  - first:
+      213: 6715223186977684989
+    second: 107 casinvisible_27
+  - first:
+      213: -6112697581222960731
+    second: 107 casinvisible_28
+  - first:
+      213: 895540379638858094
+    second: 107 casinvisible_29
+  - first:
+      213: -3792888753816689926
+    second: 107 casinvisible_30
+  - first:
+      213: -1497595018296989576
+    second: 107 casinvisible_31
+  - first:
+      213: -7587290630657422678
+    second: 107 casinvisible_32
+  - first:
+      213: 3958348988880868533
+    second: 107 casinvisible_33
+  - first:
+      213: -6346868092178840220
+    second: 107 casinvisible_34
+  - first:
+      213: 1796313363689797348
+    second: 107 casinvisible_35
+  - first:
+      213: -3456782202253134799
+    second: 107 casinvisible_36
+  - first:
+      213: 681265522810242634
+    second: 107 casinvisible_37
+  - first:
+      213: -3504741988925155220
+    second: 107 casinvisible_38
+  - first:
+      213: -5634166609941708333
+    second: 107 casinvisible_39
+  - first:
+      213: -1801846319447081132
+    second: 107 casinvisible_40
+  - first:
+      213: -4172136587554821671
+    second: 107 casinvisible_41
+  - first:
+      213: -2477995981838731920
+    second: 107 casinvisible_42
+  - first:
+      213: -2347645612090598687
+    second: 107 casinvisible_43
+  - first:
+      213: -4294785160868835535
+    second: 107 casinvisible_44
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 107 casinvisible_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 490
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187e70dc8cc2df950800000000000000
+      internalID: 6484388279428310913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107 casinvisible_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 490
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7eec3f01d1f78750800000000000000
+      internalID: 6307275683361779322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107 casinvisible_2
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 490
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a8dcc33b5d273f60800000000000000
+      internalID: 8013923931663423656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107 casinvisible_3
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 490
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7684b90f719ed77a0800000000000000
+      internalID: -6377685208256526233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107 casinvisible_4
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 490
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3cfcc32cf0be790800000000000000
+      internalID: -7499883427537108042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107 casinvisible_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 254
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756460b04948357c0800000000000000
+      internalID: -4083774665719921065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107 casinvisible_6
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 254
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201155f64ae2478e0800000000000000
+      internalID: -1696679875834474238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107 casinvisible_7
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 254
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631a4ac38a1d8a170800000000000000
+      internalID: 8190026442875380022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107 casinvisible_8
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 254
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8057a704c90fde0800000000000000
+      internalID: -1301368491563743019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 107 casinvisible_9
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 254
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be2bee6f4bc6cc30800000000000000
+      internalID: 4379411229688147636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

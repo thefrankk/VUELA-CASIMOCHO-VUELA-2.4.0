@@ -1,0 +1,660 @@
+fileFormatVersion: 2
+guid: 44b63dcd6abd1444884533556e07dae4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8958338902691424677
+    second: TODOMOCHO VUELA_0
+  - first:
+      213: 287711482580764800
+    second: TODOMOCHO VUELA_1
+  - first:
+      213: -5041363217110255137
+    second: TODOMOCHO VUELA_2
+  - first:
+      213: 3818804087073042452
+    second: TODOMOCHO VUELA_3
+  - first:
+      213: 2915094332641052704
+    second: TODOMOCHO VUELA_4
+  - first:
+      213: 4791376835030937009
+    second: TODOMOCHO VUELA_5
+  - first:
+      213: -170616999063532868
+    second: TODOMOCHO VUELA_6
+  - first:
+      213: 336070232926364192
+    second: TODOMOCHO VUELA_7
+  - first:
+      213: -3545554449179306903
+    second: TODOMOCHO VUELA_8
+  - first:
+      213: -782492488430316553
+    second: TODOMOCHO VUELA_9
+  - first:
+      213: 3636586259388120080
+    second: TODOMOCHO VUELA_10
+  - first:
+      213: 8572649017329073220
+    second: TODOMOCHO VUELA_11
+  - first:
+      213: -5264686465885618388
+    second: TODOMOCHO VUELA_12
+  - first:
+      213: -5628634985597745221
+    second: TODOMOCHO VUELA_13
+  - first:
+      213: 3714191861657503900
+    second: TODOMOCHO VUELA_14
+  - first:
+      213: -1318606759904328897
+    second: TODOMOCHO VUELA_15
+  - first:
+      213: 8975790683645083766
+    second: TODOMOCHO VUELA_16
+  - first:
+      213: 3779033950324746003
+    second: TODOMOCHO VUELA_17
+  - first:
+      213: 6734705559364386478
+    second: TODOMOCHO VUELA_18
+  - first:
+      213: -1504138461593055887
+    second: TODOMOCHO VUELA_19
+  - first:
+      213: -5610920050187172253
+    second: TODOMOCHO VUELA_20
+  - first:
+      213: -11164048439470997
+    second: TODOMOCHO VUELA_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 503
+        width: 181
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a92c78c4c9625c70800000000000000
+      internalID: 8958338902691424677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 502
+        width: 182
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088070da1182ef300800000000000000
+      internalID: 287711482580764800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_2
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 501
+        width: 182
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd93c644dda790ab0800000000000000
+      internalID: -5041363217110255137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_3
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 501
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4107cc4951e1ff430800000000000000
+      internalID: 3818804087073042452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_4
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 501
+        width: 184
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02803d7c9de747820800000000000000
+      internalID: 2915094332641052704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_5
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 500
+        width: 184
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bded0d78d36e7240800000000000000
+      internalID: 4791376835030937009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 286
+        width: 188
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbacc2a4eb8d1adf0800000000000000
+      internalID: -170616999063532868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_7
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 287
+        width: 185
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022a825a816f9a400800000000000000
+      internalID: 336070232926364192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_8
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 287
+        width: 184
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9649cdc7309abcec0800000000000000
+      internalID: -3545554449179306903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_9
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 287
+        width: 183
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f313b34a370425f0800000000000000
+      internalID: -782492488430316553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_10
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 290
+        width: 182
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c35e97fefb77230800000000000000
+      internalID: 3636586259388120080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_11
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 289
+        width: 182
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c30068cda28f670800000000000000
+      internalID: 8572649017329073220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 45
+        width: 181
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fb4138d8310f6b0800000000000000
+      internalID: -5264686465885618388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_13
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 50
+        width: 181
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb74c196d4213e1b0800000000000000
+      internalID: -5628634985597745221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 43
+        width: 146
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c980ebdc1d57b8330800000000000000
+      internalID: 3714191861657503900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_15
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 54
+        width: 165
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33497d532e53bde0800000000000000
+      internalID: -1318606759904328897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_16
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 136
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6700dec221a609c70800000000000000
+      internalID: 8975790683645083766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_17
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 136
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3176f3b0b53d17430800000000000000
+      internalID: 3779033950324746003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_18
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 132
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae33c4360b767d50800000000000000
+      internalID: 6734705559364386478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_19
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 136
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d4eb7d90a302be0800000000000000
+      internalID: -1504138461593055887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_20
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 32
+        width: 77
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3660a7931f10222b0800000000000000
+      internalID: -5610920050187172253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TODOMOCHO VUELA_21
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 34
+        width: 73
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64928a6b5658dff0800000000000000
+      internalID: -11164048439470997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

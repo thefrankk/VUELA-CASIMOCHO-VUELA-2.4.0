@@ -1,0 +1,436 @@
+fileFormatVersion: 2
+guid: ee9e9d1ccae7e55438774ae79fed311b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6251663498341399788
+    second: casimocho 01_0
+  - first:
+      213: 1375321039201474869
+    second: casimocho 01_1
+  - first:
+      213: -8430560270195247753
+    second: casimocho 01_2
+  - first:
+      213: -3163679545964668865
+    second: casimocho 01_3
+  - first:
+      213: 2630001203846419943
+    second: casimocho 01_4
+  - first:
+      213: 7295704101934388980
+    second: casimocho 01_5
+  - first:
+      213: 6292641852089268669
+    second: casimocho 01_6
+  - first:
+      213: 4291797295443130006
+    second: casimocho 01_7
+  - first:
+      213: 331003232963863481
+    second: casimocho 01_8
+  - first:
+      213: -1743841978877843862
+    second: casimocho 01_9
+  - first:
+      213: -1772782024514731278
+    second: casimocho 01_10
+  - first:
+      213: 1457948266606739842
+    second: casimocho 01_11
+  - first:
+      213: 1245988773875624307
+    second: casimocho 01_12
+  - first:
+      213: 8355857734859560124
+    second: casimocho 01_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 110
+  spriteBorder: {x: 0, y: 495, z: 1045, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: casimocho 01_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 495
+        width: 206
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 94}
+        - {x: -70, y: 68}
+        - {x: -103, y: -13}
+        - {x: -103, y: -83}
+        - {x: -99, y: -94}
+        - {x: 3, y: -94}
+        - {x: 65, y: -63}
+        - {x: 103, y: 20}
+        - {x: 103, y: 55}
+        - {x: 43, y: 94}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec3ae934de52c650800000000000000
+      internalID: 6251663498341399788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casimocho 01_1
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 495
+        width: 207
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53999b9c23f161310800000000000000
+      internalID: 1375321039201474869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casimocho 01_2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 496
+        width: 207
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775bd7de912a00b80800000000000000
+      internalID: -8430560270195247753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casimocho 01_3
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 497
+        width: 206
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f385b9ff63a5814d0800000000000000
+      internalID: -3163679545964668865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casimocho 01_4
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 498
+        width: 205
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e59d1a1924af7420800000000000000
+      internalID: 2630001203846419943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casimocho 01_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 282
+        width: 208
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6d826f93c8f3560800000000000000
+      internalID: 7295704101934388980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casimocho 01_6
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 280
+        width: 206
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db97984bc64f35750800000000000000
+      internalID: 6292641852089268669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casimocho 01_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 279
+        width: 207
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696bedab6e68f8b30800000000000000
+      internalID: 4291797295443130006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casimocho 01_8
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 279
+        width: 207
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b32158cfa5f79400800000000000000
+      internalID: 331003232963863481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casimocho 01_9
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 278
+        width: 207
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a666290a5f0acc7e0800000000000000
+      internalID: -1743841978877843862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casimocho 01_10
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 40
+        width: 124
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f20a9c2420d567e0800000000000000
+      internalID: -1772782024514731278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casimocho 01_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 34
+        width: 163
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281cdf3593cab3410800000000000000
+      internalID: 1457948266606739842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

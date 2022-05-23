@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: 7c392eae49c324b45922683c3b27aa8c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6958621925032525470
+    second: huevo platase rompe_0
+  - first:
+      213: 6599613641877245835
+    second: huevo platase rompe_1
+  - first:
+      213: 6109909745106868653
+    second: huevo platase rompe_2
+  - first:
+      213: 5375621826705536627
+    second: huevo platase rompe_3
+  - first:
+      213: 8985598607796061
+    second: huevo platase rompe_4
+  - first:
+      213: -3461926542527052054
+    second: huevo platase rompe_5
+  - first:
+      213: -4243096332400984884
+    second: huevo platase rompe_6
+  - first:
+      213: -7884196063861799784
+    second: huevo platase rompe_7
+  - first:
+      213: -7368181142848772403
+    second: huevo platase rompe_8
+  - first:
+      213: 1480749371679371561
+    second: huevo platase rompe_9
+  - first:
+      213: 8103794924194051610
+    second: huevo platase rompe_10
+  - first:
+      213: -2601671688372224029
+    second: huevo platase rompe_11
+  - first:
+      213: -7509280068730447632
+    second: huevo platase rompe_12
+  - first:
+      213: 4382867909869850972
+    second: huevo platase rompe_13
+  - first:
+      213: -4694778149462330900
+    second: huevo platase rompe_14
+  - first:
+      213: -8866084467356249989
+    second: huevo platase rompe_15
+  - first:
+      213: -8923656800809059084
+    second: huevo platase rompe_16
+  - first:
+      213: -487931231122626250
+    second: huevo platase rompe_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: huevo platase rompe_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 678
+        width: 199
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9efecfb5cdf19060800000000000000
+      internalID: 6958621925032525470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevo platase rompe_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 678
+        width: 201
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f4aea14a9869b50800000000000000
+      internalID: 6599613641877245835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevo platase rompe_2
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 678
+        width: 202
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9dace9a82cac450800000000000000
+      internalID: 6109909745106868653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevo platase rompe_3
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 678
+        width: 200
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376be93f19b0a9a40800000000000000
+      internalID: 5375621826705536627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevo platase rompe_4
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 678
+        width: 200
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57ac15ba5cef1000800000000000000
+      internalID: 8985598607796061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevo platase rompe_5
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 678
+        width: 202
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6cd22d624c4ffc0800000000000000
+      internalID: -3461926542527052054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevo platase rompe_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 344
+        width: 200
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccf977dd5e7d15c0800000000000000
+      internalID: -4243096332400984884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevo platase rompe_7
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 344
+        width: 201
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8940cf1c375b59290800000000000000
+      internalID: -7884196063861799784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevo platase rompe_8
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 344
+        width: 202
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc664c3f946feb990800000000000000
+      internalID: -7368181142848772403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevo platase rompe_9
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 344
+        width: 199
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921f45c45bdac8410800000000000000
+      internalID: 1480749371679371561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevo platase rompe_10
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 344
+        width: 200
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16333d3c86767070800000000000000
+      internalID: 8103794924194051610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevo platase rompe_11
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 344
+        width: 201
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eff168326105ebd0800000000000000
+      internalID: -2601671688372224029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevo platase rompe_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 212
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f89668309da9c790800000000000000
+      internalID: -7509280068730447632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevo platase rompe_13
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 221
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c515041842313dc30800000000000000
+      internalID: 4382867909869850972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevo platase rompe_14
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 0
+        width: 212
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce13806a52cc8deb0800000000000000
+      internalID: -4694778149462330900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevo platase rompe_15
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 0
+        width: 212
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b705f96c62755f480800000000000000
+      internalID: -8866084467356249989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevo platase rompe_16
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 0
+        width: 219
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcf6425b6dc82480800000000000000
+      internalID: -8923656800809059084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: huevo platase rompe_17
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 0
+        width: 226
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639ed1661258a39f0800000000000000
+      internalID: -487931231122626250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

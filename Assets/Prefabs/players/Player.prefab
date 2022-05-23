@@ -1,0 +1,509 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9051707950265888547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9051707950265888550}
+  - component: {fileID: 9051707950265888549}
+  - component: {fileID: 9051707950265888548}
+  - component: {fileID: 9051707950265888568}
+  - component: {fileID: 9051707950265888551}
+  - component: {fileID: 9051707950265888569}
+  - component: {fileID: 6822698773095740109}
+  - component: {fileID: 4593890455256778307}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9051707950265888550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9051707950265888547}
+  m_LocalRotation: {x: -0, y: -0, z: 0.22040868, w: 0.97540766}
+  m_LocalPosition: {x: 10.32, y: 0.14, z: -6}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 25.466}
+--- !u!95 &9051707950265888549
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9051707950265888547}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3103892f3b026ae459ef5fe84a315b01, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!212 &9051707950265888548
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9051707950265888547}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 6251663498341399788, guid: ee9e9d1ccae7e55438774ae79fed311b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.85, y: 1.85}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &9051707950265888568
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9051707950265888547}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.010960102, y: -0.06287858}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.8727273, y: 1.709091}
+    newSize: {x: 1.85, y: 1.85}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.71281147, y: 1.2671826}
+  m_EdgeRadius: 0
+--- !u!50 &9051707950265888551
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9051707950265888547}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 20
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 2
+  m_Material: {fileID: 0}
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &9051707950265888569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9051707950265888547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c040a9c12ae2bd2498c40828b6c48277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleJump: {fileID: 8708909771727747554, guid: a2d5fa95c3dcf8947aa089532e0f9130, type: 3}
+  particleLoose: {fileID: 9147734306898432792, guid: e4b0dd35eb89e1c4091f6b3f97214c9c, type: 3}
+  particleWin: {fileID: 4579006263803248508, guid: 4e98762def5312e4d843e125d878db66, type: 3}
+  audioSource: {fileID: 4593890455256778307}
+  jumpSound: {fileID: 8300000, guid: 2c5292ba5cf254919a6b9e2b18e04f49, type: 3}
+  casimocho: {fileID: 6251663498341399788, guid: ee9e9d1ccae7e55438774ae79fed311b, type: 3}
+  messimocho: {fileID: 3687230974795241393, guid: 0c12f1b25309afd4ea630e29c10786e8, type: 3}
+  casifriend: {fileID: 8821847156246896632, guid: eb25b6c309b084b4fbb786bace07b1be, type: 3}
+  casiduerme: {fileID: 7426751941885071181, guid: 6406ef7381b89f7469e6fa588cf044f6, type: 3}
+  casiboxeador: {fileID: 8089236730949463000, guid: 506bec212d14cd340a060915c0c7b4e8, type: 3}
+  todomocho: {fileID: 4480905748341958229, guid: b8792fb0570374246b95a89792a5611e, type: 3}
+  zombimocho: {fileID: 2750878689435297989, guid: 92ad4db9d38c1504c9933f6eb0ab6f5d, type: 3}
+  constructor: {fileID: -2836619251242675714, guid: 0e9e5b6de7d52a14ab21334fbbf30f51, type: 3}
+  amungocho: {fileID: 1923628938859963518, guid: 31447724cbc979e498cbceae3fda0450, type: 3}
+  casimike: {fileID: 1456950062036435137, guid: 451b55dd52bc4244d8c5a310323389ac, type: 3}
+  casimochoEXE: {fileID: -8889838796088496827, guid: 4eda130e812fcab4a8d1884020825e3d, type: 3}
+  casirojo: {fileID: 4930638513344216987, guid: 060e16fba16e1304ca4ced66f9e0a4e3, type: 3}
+  timbamocho: {fileID: 5132454831838196260, guid: 0bc71bfc65de45b4ab81d544afc841b5, type: 3}
+  trollmocho: {fileID: -5970918970946446116, guid: b7ec80ef89e7d8e4fb1ad52cc2622d11, type: 3}
+  spartamocho: {fileID: -8734837401538224987, guid: 733c4971e94b9264395add252d03ae39, type: 3}
+  minimocho: {fileID: -1517496275295660754, guid: db94e01301c74b14eba845bc61aa5eee, type: 3}
+  marinomocho: {fileID: -5811047839485986607, guid: 4be98f80580a2f64a954dfb5d1193a0c, type: 3}
+  chuckymocho: {fileID: -8843651825127778076, guid: d8c7210b7d2c06340b657765274224ab, type: 3}
+  casiviejo: {fileID: 5291442786054920843, guid: 379359cd6c67502408f3248bb1f550c7, type: 3}
+  casitortufan: {fileID: -6505881899936765001, guid: 32c572f661b086c4496a688bc5da911d, type: 3}
+  casitor: {fileID: -1615666328575376804, guid: 4166e4d75175fac4bbc1880a0b5797b2, type: 3}
+  casiprincesa: {fileID: -5209711547194358636, guid: 5c0630a500ef4804b89d93099d428c47, type: 3}
+  payamocho: {fileID: -8149582372190527783, guid: 5cf220c0186de2e44b3014d36281c09b, type: 3}
+  casirobot: {fileID: 2085584330739826524, guid: fc34119bc7be355459d5ef631b7d8e58, type: 3}
+  mayomocho: {fileID: 2794590227151338266, guid: c8cbb65237eca2b44ad4c44ab8c4d666, type: 3}
+  casirius: {fileID: -4799639966536487402, guid: 974dbb08f8a595549aac0a572f7bfa9c, type: 3}
+  casictor: {fileID: 4267282241612916897, guid: 5cf6e7f70b8d72a499dfadac1c5dbbe6, type: 3}
+  casinix: {fileID: 1781600100941453612, guid: 8ef832a7d056f7a4e953ba55ef64e276, type: 3}
+  casidongo: {fileID: -4831800492497631911, guid: 89fd6a0d59379db4180e4b0f2529ca60, type: 3}
+  supermocho: {fileID: 6734066330811042273, guid: 4208e13cf2c4a754aaa637a93a05d79e, type: 3}
+  batmocho: {fileID: 5217704191933958272, guid: 39a819317dec411428a442363d80b37c, type: 3}
+  ironmocho: {fileID: 2846963333742018149, guid: 99acb4df33db9b0418e37e87d29f39ce, type: 3}
+  casihulk: {fileID: 1112501225915904219, guid: 77370ef0bff4f6f479f58575cd09981e, type: 3}
+  wolmocho: {fileID: 3098516699540184843, guid: d74b4be721b53194096160699f65f8a9, type: 3}
+  spidermocho: {fileID: -2438079054367172048, guid: 3aae5db9180d1814cacd52e684215c8d, type: 3}
+  mikimocho: {fileID: 4182722165168855692, guid: 7b59770cfdb866b419e948e9f4fec9f8, type: 3}
+  casiesponja: {fileID: -3246857654325556133, guid: 0f48535dbcf6a42418a2d58f43133238, type: 3}
+  casisonic: {fileID: -470182132573260978, guid: 64a114938af5636459b2e1a9f29ff4c7, type: 3}
+  mochosans: {fileID: -148049220553163957, guid: 503759bf09960854fb12d70244094f54, type: 3}
+  gokumocho: {fileID: 3409470704662437470, guid: 6ac59beb1c42cab408adfcb1ca29c105, type: 3}
+  vegemocho: {fileID: -2791370011438603037, guid: 1d1cd242fd94b1e49a75bebc93289231, type: 3}
+  siremocho: {fileID: 944409126226085947, guid: e75bf764252829447a1085d34121cafe, type: 3}
+  submocho: {fileID: -332175288184093129, guid: 8b121bf80a904234a934442b34defc69, type: 3}
+  casipion: {fileID: -3209096610298669836, guid: 2acf74ae3d5ce0f4389e517cb6e19533, type: 3}
+  pikamocho: {fileID: -1537944377847622154, guid: afd9db08dfa1ef44baba4fb7c6cfb637, type: 3}
+  marimocho: {fileID: -7883099934142914475, guid: 4f065bad5e80c0043b86eda403481fbc, type: 3}
+  casit: {fileID: 5187092484986754615, guid: 70f2bd6681182504e9e5afb373eaa94f, type: 3}
+  casiangel: {fileID: 4672695662522680712, guid: 962ae21f6cb9ebc40b5b64a95ad12fba, type: 3}
+  cactumocho: {fileID: -2219746382676508893, guid: 7e8af6edd8ec90c45a0ac9307e2476b1, type: 3}
+  dracumocho: {fileID: 2094929915175823198, guid: be21e4d6fa2ecab45b2c9e827594b3e0, type: 3}
+  casimomia: {fileID: -1696070818854309365, guid: 5a49f003ab5e30146b3929b0ab7591d7, type: 3}
+  casizombie: {fileID: -7877058094258124372, guid: c55b0a1b186b7374a9eb661ef04da01a, type: 3}
+  casiempanada: {fileID: -1533694266810826791, guid: e0e331fb10c3b7847988fd4f58a94242, type: 3}
+  casigordo: {fileID: 7114101603774430440, guid: f78530116957cae4ea95964d9bbac4b6, type: 3}
+  barmocho: {fileID: -4167472150368306324, guid: 6240b197c4a4aed45bdff4c65dfc8db0, type: 3}
+  bebemocho: {fileID: -4236381616247469940, guid: bda89e33c43e12e4f973d52f3e75fbe2, type: 3}
+  casiflor: {fileID: 8813845597597660606, guid: 9793c061efcb057449561ec0f97ec7f7, type: 3}
+  elegantemocho: {fileID: 3839646263334709983, guid: 1766bf91035565643a0bba5875296b7d, type: 3}
+  rapmocho: {fileID: 7577076019081150688, guid: ab5a9e3617d61b9489b1e4e382770dd7, type: 3}
+  casimago: {fileID: -4560795700571628590, guid: c5ebf6bb3a73ad949a1a617abb489720, type: 3}
+  popomocho: {fileID: -2883264135662056639, guid: 20d2fdffbe27bcf4e8789182fc2bd15c, type: 3}
+  casifreddy: {fileID: 506057131337780913, guid: 900b240a8f214084a824e9f1c67d7101, type: 3}
+  jasonmocho: {fileID: -7996601645405072684, guid: 2465adb3891886e48b67902e5e116f01, type: 3}
+  casiamor: {fileID: -5227314731000597424, guid: 2eda755aa99ac78449b8c499c287a80a, type: 3}
+  casicreper: {fileID: 7362044448334702806, guid: b847aa3d68b27f443b212540dec14647, type: 3}
+  casidr: {fileID: 4613638327521713886, guid: ac4023f3b155349438f367685b3ec1ef, type: 3}
+  casimorado: {fileID: -33331882729698388, guid: c1ce836b5a594e64a8380311cc897437, type: 3}
+  polimocho: {fileID: 7346392327164117134, guid: 388e835dcc9ab0b4684869be780a3c42, type: 3}
+  slendermocho: {fileID: -1819226385282892508, guid: 2549d5cdd8f1d7c48a3410f26e99a27e, type: 3}
+  terminomocho: {fileID: 6487803804370130087, guid: 9d4be96667090d440b736171b36050c6, type: 3}
+  bailamocho: {fileID: -4020120007768097678, guid: 9b3e3310e7749de4d9a04db74cb345ed, type: 3}
+  piruletamocho: {fileID: 6699308695799875634, guid: 5abcbe61ca671374c94ddb1c9fb7e9eb, type: 3}
+  casientrenado: {fileID: 8859015618076318645, guid: 148855972092d664d99d6ffc6120a27d, type: 3}
+  chapumocho: {fileID: 3034494232775584907, guid: 1166e46c98c91a649a90292c57826e46, type: 3}
+  casidiablo: {fileID: 6985344630463900466, guid: 3cdc6a856d1794f4f9b30076314bd5fd, type: 3}
+  casigod: {fileID: -7711528970375734549, guid: 4c5df05ae5b470b45a987e3b4ac8e909, type: 3}
+  casihacker: {fileID: 8624175501531470140, guid: 751b761b194d6c740b57c3fb6b778a86, type: 3}
+  casicerdo: {fileID: 4991467341023212500, guid: fbfc41f991a4e8048a14a1c49c1cbc77, type: 3}
+  armamocho: {fileID: 6817171795407339976, guid: ccba5f1bb72c732439e59c8ff2dd708e, type: 3}
+  tarzamocho: {fileID: 736882581475225055, guid: b6367eeb99c61f04da7d76df10964bf7, type: 3}
+  calamarmocho: {fileID: -4634459722679455549, guid: 9e9dddb8566bf8a499403fc77ca305c3, type: 3}
+  casiloco: {fileID: -7294760940094769515, guid: 12499aa2db16d314ab3a26ac8aa1e173, type: 3}
+  casinoob: {fileID: 2920964388897569236, guid: d875ac113f92d3b4aa69ce0380729c25, type: 3}
+  casimono: {fileID: -936364799406818190, guid: 20df051c3ef6ecb4782489f3a9f9f9c8, type: 3}
+  astromocho: {fileID: -3889802177967767172, guid: ef739b393a0382341aa33d589f707428, type: 3}
+  espantamocho: {fileID: 7436566741901882709, guid: 1bcbdd503bd3b5a4c9bd58869db0e2d1, type: 3}
+  toximocho: {fileID: 4464553099230457609, guid: 0a4fc015862a6934fb6c30fb3ff485c0, type: 3}
+  casipobre: {fileID: -1645819176088567165, guid: d2422d37dabbdb341a072d6ca6f356d6, type: 3}
+  casibombero: {fileID: -3439885553046915479, guid: 0ad906017eddbdc41ad80e19a6589d8d, type: 3}
+  pinomocho: {fileID: 102954503371404800, guid: 5b36f73670491bb499ccd7f7b1719b2b, type: 3}
+  chapulinmocho: {fileID: 3407756369521935075, guid: d95a173411afe2b4aaec123b22fda07a, type: 3}
+  casialien: {fileID: -5549564061833764515, guid: d4360731c4e84ab4eabe9b4e26f20da9, type: 3}
+  casichef: {fileID: -4633033719932175518, guid: 8504ae723f88cc140812243a1be80bdc, type: 3}
+  caperumocho: {fileID: 3629918831501381855, guid: 43e49952fc1f5e44aadc13c9ed2cbd9a, type: 3}
+  wallymocho: {fileID: -727362244258933071, guid: d0719dcec2ef69a409f7fdcb707a5eb9, type: 3}
+  casilyna: {fileID: 3009619276413112768, guid: 9fe0400c045069242887b6ab597d48af, type: 3}
+  ranamocho: {fileID: -8732211070657867394, guid: 88908fab4a03bdb49b813b23b5548430, type: 3}
+  papamocho: {fileID: 6259514337165221272, guid: 22cb254c32b6b7b4496f564605d7d745, type: 3}
+  casilusion: {fileID: 3348361291703745147, guid: 939b8dc797bb58141961b443c7694b18, type: 3}
+  casifuerte: {fileID: 8666426664544470641, guid: a56f0767c0dacbd4bad3299af3ef14df, type: 3}
+  andremocho: {fileID: 5012030986967807071, guid: f8901a3aacb923d46aae1abe1de54d36, type: 3}
+  casisoldado: {fileID: 8646568588626448729, guid: ae796a228fab21f40ac53fea02dc420f, type: 3}
+  gauchomocho: {fileID: -5246434747664768198, guid: ffc710cdeef96a34da0da665776aeabf, type: 3}
+  mimocho: {fileID: -5577638961971422019, guid: 328c1988256b79c43902f00d65874b61, type: 3}
+  casimochoTV: {fileID: -4050554818187575006, guid: 1c288a737db9dbd4ea7fe13721df7d2e, type: 3}
+  casinvisible: {fileID: 6484388279428310913, guid: 470c0a2478b7819499e6591bc435a8b5, type: 3}
+  casimillonario: {fileID: 628306155666498881, guid: 033eab38b196f914d9474de572b231bb, type: 3}
+  casilobo: {fileID: 7194127576211577620, guid: aa73f6accc9020e438dba4825f5102c5, type: 3}
+  casirey: {fileID: -5051900079900643104, guid: c8c1e0fd914bdf245aa95c5eabf85670, type: 3}
+  cavermocho: {fileID: 4244096505642039514, guid: 028b55277cd45cd42a9ef11f1a0bca1a, type: 3}
+  huggymocho: {fileID: -1505084845826544260, guid: 13b85039f5af712488484b14964e2322, type: 3}
+  casichino: {fileID: -5905807661838232222, guid: 6535fbfc329ea9b4aac42023659cf388, type: 3}
+  anim_Casimocho: {fileID: 9100000, guid: 3103892f3b026ae459ef5fe84a315b01, type: 2}
+  anim_Messimocho: {fileID: 9100000, guid: ffc6d1d1d198f804aa263775bf1f5787, type: 2}
+  anim_Casifriend: {fileID: 9100000, guid: fabf6deeffd36e44ab9c54a8dea2b551, type: 2}
+  anim_casiDuerme: {fileID: 9100000, guid: bcc75d035dd176840882270340104218, type: 2}
+  anim_casiboxeador: {fileID: 9100000, guid: b19c48ac730964344822a8978c226a61, type: 2}
+  anim_todomocho: {fileID: 9100000, guid: dec0c5841c7cdb74c9eef2125097ce92, type: 2}
+  anim_zombimocho: {fileID: 9100000, guid: e9e871a0b391e224eb68f07ec242086b, type: 2}
+  anim_constructor: {fileID: 9100000, guid: d86aa573ab6edd1409be701f23c50f2d, type: 2}
+  anim_amungocho: {fileID: 9100000, guid: 063cee4d2cd714648976f748fdc1a320, type: 2}
+  anim_casimike: {fileID: 9100000, guid: adb1e3243125fcd4eb7616b554eb9f9d, type: 2}
+  anim_casimochoEXE: {fileID: 9100000, guid: 536d3958cf2e5194ba644bcd1de5fd03, type: 2}
+  anim_casirojo: {fileID: 9100000, guid: af9c2b5581151a043b699d45c6d0dfb2, type: 2}
+  anim_timbamocho: {fileID: 9100000, guid: 3abde349be3efb248a977f3ab1395df7, type: 2}
+  anim_trollmocho: {fileID: 9100000, guid: 0cef3833b3c21094cb25f1cde335b4f1, type: 2}
+  anim_spartamocho: {fileID: 9100000, guid: 34d602bd926cff349924d8909f960e82, type: 2}
+  anim_minimocho: {fileID: 9100000, guid: 0cdfae5de308d5f459dde86e919139cd, type: 2}
+  anim_marinomocho: {fileID: 9100000, guid: d4bb0783f870ee34a84c4d500704c66c, type: 2}
+  anim_chuckymocho: {fileID: 9100000, guid: b87a979a6e3ecf54ba5b025286353bae, type: 2}
+  anim_casiviejo: {fileID: 9100000, guid: 896b99be441c1564b8d0bb245bd1fb7e, type: 2}
+  anim_casitortufan: {fileID: 9100000, guid: 8816415fc9d9984459ab7bad317b8896, type: 2}
+  anim_casitor: {fileID: 9100000, guid: 1228f7507203008478bbaedd00205bc5, type: 2}
+  anim_casiprincesa: {fileID: 9100000, guid: ab07a85587a2c134a8da511e0a2ef12c, type: 2}
+  anim_payamocho: {fileID: 9100000, guid: a54941ae557b0574ebf6aba4e04d64ce, type: 2}
+  anim_casirobot: {fileID: 9100000, guid: 17a70f8cf7b7b274bb789b24725c9479, type: 2}
+  anim_mayomocho: {fileID: 9100000, guid: 717077484a774e443a49a050ee563d5e, type: 2}
+  anim_casirius: {fileID: 9100000, guid: 00c445bba3b2f7a4c9be515c5874a043, type: 2}
+  anim_casictor: {fileID: 9100000, guid: 63e9bd8171e02c44a92b7ea553075bc6, type: 2}
+  anim_casinix: {fileID: 9100000, guid: c369047a0cb536c4aa2a3d680c6bc0be, type: 2}
+  anim_casidongo: {fileID: 9100000, guid: d131e57e087120d41a3cb1ce7a835a88, type: 2}
+  anim_supermocho: {fileID: 9100000, guid: dbbd3b3500adb9549a88b65a38363562, type: 2}
+  anim_batmocho: {fileID: 9100000, guid: 6dd4df93954c5bf44afed8c7453de6df, type: 2}
+  anim_ironmocho: {fileID: 9100000, guid: 4a736e7baf6983d4b851bf7dac578606, type: 2}
+  anim_casihulk: {fileID: 9100000, guid: a6cdb7b7c5b19094aa1fb0f013688e0f, type: 2}
+  anim_wolmocho: {fileID: 9100000, guid: 1608001ca29265445bb4e0a11d67cf7b, type: 2}
+  anim_spidermocho: {fileID: 9100000, guid: e266f086eb848d24b9664546e315a20e, type: 2}
+  anim_mikimocho: {fileID: 9100000, guid: fdb2af79e9a88ef49841fdb6fc0e0b52, type: 2}
+  anim_casiesponja: {fileID: 9100000, guid: 2bfb05b9b11867b408e309f923099446, type: 2}
+  anim_casisonic: {fileID: 9100000, guid: 7a90f656977b7fa46b6ca5a83bce8e3b, type: 2}
+  anim_mochosans: {fileID: 9100000, guid: 219e68dce91983249904f02d5b9c338c, type: 2}
+  anim_gokumocho: {fileID: 9100000, guid: 9bf2746fa773cb24ab57718ab3cac2c5, type: 2}
+  anim_vegemocho: {fileID: 9100000, guid: 01fe19a2d128db445afe95d37cd62943, type: 2}
+  anim_siremocho: {fileID: 9100000, guid: 512f8972a1f42714499ea74bf47651d9, type: 2}
+  anim_submocho: {fileID: 9100000, guid: 398a6b1f5352e564db3da8b7ae6ebeb8, type: 2}
+  anim_casipion: {fileID: 9100000, guid: 59992fb1b14177d42b8b89c588919338, type: 2}
+  anim_pikamocho: {fileID: 9100000, guid: d3730d5dfaf5d3d48b5abba0c9c0e0a6, type: 2}
+  anim_marimocho: {fileID: 9100000, guid: ef4852c04bea22046a9effd8c753e1df, type: 2}
+  anim_casit: {fileID: 9100000, guid: 5d50a8c7cb569684489f7a16b5e7d0de, type: 2}
+  anim_casiangel: {fileID: 9100000, guid: fec6ab160fe9126429f7d26586f66d9a, type: 2}
+  anim_cactumocho: {fileID: 9100000, guid: 3623889bbea04044cb1092d7dc22bb3e, type: 2}
+  anim_dracumocho: {fileID: 9100000, guid: 42b26d1c6e9bb864bb80b7d63aca37f5, type: 2}
+  anim_casimomia: {fileID: 9100000, guid: 3b91245a97b435343b7e44d2114ecd9d, type: 2}
+  anim_casizombie: {fileID: 9100000, guid: 600fc36daa46aae4c996198e6ef10f99, type: 2}
+  anim_casiempanada: {fileID: 9100000, guid: 7cfbcf9abffd63f4b8b33232f8ff7b36, type: 2}
+  anim_casigordo: {fileID: 9100000, guid: 256b955c63657e14085d535577bbebd3, type: 2}
+  anim_barmocho: {fileID: 9100000, guid: 1d4581dcf0f341348a375123d5adee43, type: 2}
+  anim_bebemocho: {fileID: 9100000, guid: c43ddb02f67e020498eba8ffc56f00a0, type: 2}
+  anim_casiflor: {fileID: 9100000, guid: a1181b8c777b1b740b63d99a721ab881, type: 2}
+  anim_elegantemocho: {fileID: 9100000, guid: e68e58e9948520a479a6e2e5e2bc2e95, type: 2}
+  anim_rapmocho: {fileID: 9100000, guid: 52e5adaf4d29c4245bf4a8ea1061a815, type: 2}
+  anim_casimago: {fileID: 9100000, guid: b2adfa290f83c8f4fa51cd17ef3007a3, type: 2}
+  anim_popomocho: {fileID: 9100000, guid: 3206e33a64380864eaf28c8b41e4857b, type: 2}
+  anim_casifreddy: {fileID: 9100000, guid: a75c38fdd2d03aa4c87862f827738cc2, type: 2}
+  anim_jasonmocho: {fileID: 9100000, guid: cd4b821f18bccff4898dc54126b2b853, type: 2}
+  anim_casiamor: {fileID: 9100000, guid: 6091347d8f0a7a443916c1083dc40837, type: 2}
+  anim_casicreper: {fileID: 9100000, guid: f0e13823ec3d859458ca8749fb43bec9, type: 2}
+  anim_casidr: {fileID: 9100000, guid: a9197f3c766eafa4e858523307747ca4, type: 2}
+  anim_casimorado: {fileID: 9100000, guid: ddbac79fb0ab2384bb761931c63db118, type: 2}
+  anim_polimocho: {fileID: 9100000, guid: 9b42d77ffffd68c4c97a956b13975ca6, type: 2}
+  anim_slendermocho: {fileID: 9100000, guid: fff62acb4ae7ab948b8c720f98a4bee8, type: 2}
+  anim_terminomocho: {fileID: 9100000, guid: eded8d5a45934be468415c691eb29065, type: 2}
+  anim_bailamocho: {fileID: 9100000, guid: e3976ffbae994b74093188c73c4e64e1, type: 2}
+  anim_piruletamocho: {fileID: 9100000, guid: f699f850ded1f914e8f5e6ee2af2e88b, type: 2}
+  anim_casientrenado: {fileID: 9100000, guid: 1990a143f5612b44da9fb61326f76391, type: 2}
+  anim_chapumocho: {fileID: 9100000, guid: d8bb94de27904b74b9939349e6509090, type: 2}
+  anim_casidiablo: {fileID: 9100000, guid: ee88e4299262d474296dc9d79d562a2d, type: 2}
+  anim_casigod: {fileID: 9100000, guid: e0670530a8f4a2346b9c5561692c35f5, type: 2}
+  anim_casihacker: {fileID: 9100000, guid: c56058e2491b9fc40a657a3695224b07, type: 2}
+  anim_casicerdo: {fileID: 9100000, guid: 4a13d71cea4a2074196a2f26a6076183, type: 2}
+  anim_armamocho: {fileID: 9100000, guid: cbee7dc6022226044b9c48e9f906296c, type: 2}
+  anim_tarzamocho: {fileID: 9100000, guid: ef38002861dac134aba42c7a69c444e8, type: 2}
+  anim_calamarmocho: {fileID: 9100000, guid: 66377cd69920aca4eba70a3031cafc30, type: 2}
+  anim_casiloco: {fileID: 9100000, guid: 4696ad71bf0ec4748bf11c8feb2cdeda, type: 2}
+  anim_casinoob: {fileID: 9100000, guid: d5c2fd7024d9bc049abf4c15237761dd, type: 2}
+  anim_casimono: {fileID: 9100000, guid: 68ebe8beb1b0df946912ee5cacc680f7, type: 2}
+  anim_astromocho: {fileID: 9100000, guid: e088bca38db8527468449bf04e1e884d, type: 2}
+  anim_espantamocho: {fileID: 9100000, guid: cdde5253bddde684c80e28555f903b37, type: 2}
+  anim_toximocho: {fileID: 9100000, guid: 4e5736fc4b09c3540ac00fcc04615fd9, type: 2}
+  anim_casipobre: {fileID: 9100000, guid: 0d59639964d710346877e560fac9287c, type: 2}
+  anim_casibombero: {fileID: 9100000, guid: f82a434e71d75a443ac3dc735efbdaa7, type: 2}
+  anim_pinomocho: {fileID: 9100000, guid: ee673ed7bc4861e448f0d2a96f3a9bf3, type: 2}
+  anim_chapulinmocho: {fileID: 9100000, guid: 576a941b1de5864409af130e42695e8d, type: 2}
+  anim_casialien: {fileID: 9100000, guid: e19d23266d2a40b469296c0a3c025fd6, type: 2}
+  anim_casichef: {fileID: 9100000, guid: e4b9f610f6587fb4883113488448eb21, type: 2}
+  anim_caperumocho: {fileID: 9100000, guid: c994e2039f3229846af03a6f30f2e0fe, type: 2}
+  anim_wallymocho: {fileID: 9100000, guid: 43f96c1200e38e948b29a6b3e07c30f8, type: 2}
+  anim_casilyna: {fileID: 9100000, guid: 4ad61a0b39eae4a44aa5209297cb1c1d, type: 2}
+  anim_ranamocho: {fileID: 9100000, guid: ba0c98f4c1f36e84992f5184d5eaaeb4, type: 2}
+  anim_papamocho: {fileID: 9100000, guid: c2f2f370fc0dd474bb534a77d9bd9c48, type: 2}
+  anim_casilusion: {fileID: 9100000, guid: bc7a4b256f6aab54da0d7473cd84f2b1, type: 2}
+  anim_casifuerte: {fileID: 9100000, guid: 4a5a38ff1082e794db2ac865e3017136, type: 2}
+  anim_andremocho: {fileID: 9100000, guid: 492fc6a02c612904c90494aa3bbce6fb, type: 2}
+  anim_casisoldado: {fileID: 9100000, guid: 9f3edcbea1c3aa14bbb78d5546e366f0, type: 2}
+  anim_gauchomocho: {fileID: 9100000, guid: 42f5e725eb645bf4e9475b2712b339c8, type: 2}
+  anim_mimocho: {fileID: 9100000, guid: 8c022f9fba57a6240a0796394a6407b4, type: 2}
+  anim_casimochoTV: {fileID: 9100000, guid: 50f81ebdd88378940ba2c7cb3eedb4a1, type: 2}
+  anim_casinvisible: {fileID: 9100000, guid: 7fc4a01fda70f7f4d81c39a59f62be68, type: 2}
+  anim_casimillonario: {fileID: 9100000, guid: d0689b61484ef364fa33290728b76f3b, type: 2}
+  anim_casilobo: {fileID: 9100000, guid: 3544ae39a666d104a8ed510c82ca936d, type: 2}
+  anim_casirey: {fileID: 9100000, guid: cd75493520a3ced4f92201fa6bb61fa2, type: 2}
+  anim_cavermocho: {fileID: 9100000, guid: 51eca105a42969d419d4e3ea96208fd2, type: 2}
+  anim_huggymocho: {fileID: 9100000, guid: 076d17273edf4b14eaf7d5ac5cf56daf, type: 2}
+  anim_casichino: {fileID: 9100000, guid: 57dd6912370c8c04eade98aaa0cdf879, type: 2}
+--- !u!114 &6822698773095740109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9051707950265888547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8b7701402a31094689d38f70c4a1f34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navePrefab: {fileID: 8639792664672349223, guid: d842fde06f266ed46b6c2634a1cdd50e, type: 3}
+  audioSource: {fileID: 4593890455256778307}
+  jumpSound: {fileID: 8300000, guid: ee819de9384fe8c409d5dbce40709c47, type: 3}
+--- !u!82 &4593890455256778307
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9051707950265888547}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.156
+  m_Pitch: 1.1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 181
+  DopplerLevel: 1
+  MinDistance: 0.8960018
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
