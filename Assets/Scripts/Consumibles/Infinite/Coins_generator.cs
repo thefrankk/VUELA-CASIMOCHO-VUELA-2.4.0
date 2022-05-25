@@ -71,19 +71,15 @@ public class Coins_generator : MonoBehaviour
 
                         if (GameController.gamecontroller.levelType == GameController.typesOfLevels.subLevel)
                         {
-                            Debug.Log("hasd" + time);
-                            Debug.Log("hasd qr" + qr);
-                            Debug.Log("altura definida" + altura);
-                            
-
-                            
+                            Debug.Log("qr timer " + qr);
+                            Debug.Log("altura " + altura);
 
                             if (qr >= 5)
                             {
                                 var t = Random.Range(0, 21);
 
-                                if (t >= 0 && t <= 4)
-                                {
+                                    if (t >= 0 && t <= 4)
+                                    {
                                         altura = 3;
                                     }
                                     else if (t > 4 && t <= 8)

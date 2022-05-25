@@ -205,6 +205,10 @@ public class GameManager_Menu : MonoBehaviour
         currentScene = stateForScene.GameMenu;
         currentEachState = eachStateForGame.MenuPrincipal;
 
+        
+        GameController.gamecontroller.currentLevelInfinite = GameController.WorldsAndsLevels.none;
+        GameController.gamecontroller.levelType = GameController.typesOfLevels.none;
+
         DontDestroyOnLoad(gameObject);
 
         //Singleton method
@@ -609,9 +613,14 @@ public class GameManager_Menu : MonoBehaviour
 
         
         SceneManager.LoadScene(scene, LoadSceneMode.Single);
-        GameManager_Menu.currentEachState = GameManager_Menu.eachStateForGame.MenuPrincipal;
+        
 
-       
+        currentScene = stateForScene.GameMenu;
+        currentEachState = eachStateForGame.MenuPrincipal;
+        GameController.gamecontroller.EscenaCorriendo = currentScene;
+
+        GameController.gamecontroller.currentLevelInfinite = GameController.WorldsAndsLevels.none;
+        GameController.gamecontroller.levelType = GameController.typesOfLevels.none;
 
 
         yield return new WaitForSeconds(0.01f);

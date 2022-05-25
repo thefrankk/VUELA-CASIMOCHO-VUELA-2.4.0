@@ -80,7 +80,7 @@ public class TimeManager : MonoBehaviour
     void Start()
     {
         //  Debug.Log("TimeManager script is Ready.");
-        StartCoroutine("getTime");
+       // StartCoroutine("getTime");
 
     }
 

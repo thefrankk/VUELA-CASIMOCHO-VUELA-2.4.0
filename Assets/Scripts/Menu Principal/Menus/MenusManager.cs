@@ -290,6 +290,10 @@ public class MenusManager : MonoBehaviour
 
         GameManager_Menu.currentEachState = GameManager_Menu.eachStateForGame.MenuPrincipal;
 
+        GameController.gamecontroller.EscenaCorriendo = GameManager_Menu.currentScene;
+        GameController.gamecontroller.currentLevelInfinite = GameController.WorldsAndsLevels.none;
+        GameController.gamecontroller.levelType = GameController.typesOfLevels.none;
+
         StartCoroutine(chargeDaily());
        
     }
@@ -522,9 +526,17 @@ public class MenusManager : MonoBehaviour
         
         GameManager_Menu.gameManagerMenu.FadeIn();
         GameManager_Menu.currentMundoIndex = 1;
+
+
+        //Seteamos donde estamos
+
+        GameController.gamecontroller.levelType = GameController.typesOfLevels.level;
+
         GameController.CurrentInfiniteWorld = GameController.Worlds.World1;
         GameController.gamecontroller.currentLevelInfinite = GameController.WorldsAndsLevels.World1Level1;
-       
+
+        GameManager_Menu.currentEachState = GameManager_Menu.eachStateForGame.GameInfinite;
+        GameManager_Menu.currentScene = GameManager_Menu.stateForScene.GameInfinite;
 
         StartCoroutine(TransicionSceneGameInfinite("Game_Infinite"));
        
@@ -561,14 +573,19 @@ public class MenusManager : MonoBehaviour
         PlayerPrefs.SetInt("gamesPlayed", GameController.gamesPlayed);
 
         GameController.modeInfinite = true;
+
         
-        GameManager_Menu.currentEachState = GameManager_Menu.eachStateForGame.GameInfinite;
 
         yield return new WaitForSeconds(.5f);
         GameManager_Menu.gameManagerMenu.FadeOut();
 
-        GameManager_Menu.currentScene = GameManager_Menu.stateForScene.GameInfinite;
+        
         SceneManager.LoadScene(scene, LoadSceneMode.Single);
+
+        
+
+        Debug.Log("seteando ...");
+
 
         GameController.gamecontroller.StartGame();
 

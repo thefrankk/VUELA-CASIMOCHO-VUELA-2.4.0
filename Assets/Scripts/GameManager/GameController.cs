@@ -51,11 +51,12 @@ public class GameController : MonoBehaviour
     public static bool cantReceiveCoins;
 
     //sublevel and level
-    public  typesOfLevels levelType;
+    public typesOfLevels levelType;
     public enum typesOfLevels
     {
         level,
-        subLevel
+        subLevel,
+        none
     }
 
     //State machine for player states
@@ -334,9 +335,23 @@ public class GameController : MonoBehaviour
         PlayedLevels = new bool[32];
         //Cargamos toda la data:
         LoadData();
-        
-       // 
-        gamecontroller = this;
+
+        // 
+
+
+        DontDestroyOnLoad(gameObject);
+
+        //Singleton method
+        if (gamecontroller == null)
+        {
+            gamecontroller = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+        //gamecontroller = this;
        
 
     }
@@ -422,7 +437,15 @@ public class GameController : MonoBehaviour
 
                 EscenaCorriendo = GameManager_Menu.currentScene;
 
-                if(gStates == GamingStates.pendingAlive)
+               /* levelType = typesOfLevels.level; 
+
+                GameController.CurrentInfiniteWorld = GameController.Worlds.World1;
+                GameController.gamecontroller.currentLevelInfinite = GameController.WorldsAndsLevels.World1Level1;
+
+                GameManager_Menu.currentEachState = GameManager_Menu.eachStateForGame.GameInfinite;
+                GameManager_Menu.currentScene = GameManager_Menu.stateForScene.GameInfinite;*/
+
+                if (gStates == GamingStates.pendingAlive)
                 {
 
                     //Creamos al personaje
@@ -505,7 +528,7 @@ public class GameController : MonoBehaviour
                 
 
                 playerJetPack = true;
-                Debug.Log("Player jetpack activated" + GameController.gamecontroller.playerJetPack);
+                
 
                 SetParameters(true);
                 BonusParameters(true);
@@ -570,7 +593,7 @@ public class GameController : MonoBehaviour
     public void BonusParameters(bool value)
     {
         var speedObjects = 8.5f;
-        var spawnerTime = 0.125f;
+        var spawnerTime = 0.225f;
         var parallaxBackgroundSpeed = 0.08f;
 
         if (value == true)
@@ -688,7 +711,8 @@ public class GameController : MonoBehaviour
 
             case GameManager_Menu.stateForScene.GameInfinite:
 
-                
+               
+
                 //Vaciamos los objetos
                 ObjectPooling.pool.Clear();
                 ObjectPooling.parents.Clear();
@@ -704,7 +728,7 @@ public class GameController : MonoBehaviour
                 subLevelManager.portalIsOnScreen = false;
                 subLevelManager.portalWasActivated = 0;
                 GameController.gamecontroller.playerJetPack = false;
-                Debug.Log("Playerjetpack status " + GameController.gamecontroller.playerJetPack);
+                
                 GameController.playerHabs = GameController.CheckHabilitiesPlayer.outHabilities;
 
 

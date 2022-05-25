@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Threading.Tasks;
 
 public class subLevelManager : MonoBehaviour
 {
@@ -47,13 +48,26 @@ public class subLevelManager : MonoBehaviour
     {
         nextLevelsString();
 
-        GameController.gamecontroller.currentLevelInfinite = levels;
-        GameController.gamecontroller.levelType = typeLevel;
-
+        SetNames();
+        //Set();
 
         RandomNumbers();
 
         instance = this;
+    }
+
+    public async void Set()
+    {
+        await Task.Delay(2);
+        SetNames();
+    }
+
+    private void SetNames()
+    {
+        GameController.gamecontroller.currentLevelInfinite = levels;
+        GameController.gamecontroller.levelType = typeLevel;
+
+        Debug.Log("leveltype" + GameController.gamecontroller.levelType);
     }
 
     private void nextLevelsString()
@@ -72,8 +86,8 @@ public class subLevelManager : MonoBehaviour
     void Update()
     {
 
-       
-       
+       // Debug.Log("leveltype" + GameController.gamecontroller.levelType);
+
 
         if (GameManager_Menu.guiOneTAP)
             return;
@@ -132,7 +146,7 @@ public class subLevelManager : MonoBehaviour
 
     IEnumerator DespawnObject(GameObject go)
     {
-        yield return new WaitForSeconds(8f);
+        yield return new WaitForSeconds(10f);
 
         portalIsOnScreen = false;
         Destroy(go);

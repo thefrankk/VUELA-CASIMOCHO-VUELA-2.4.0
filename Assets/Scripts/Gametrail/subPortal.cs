@@ -40,12 +40,13 @@ public class subPortal : MonoBehaviour
 
         if(onTransition)
         {
+            Debug.Log("counter" + counter);
            
-            if (counter > 1.0f)
+            if (counter >= 1.5f)
             {
                 Loader(subLevelManager.instance.nextLevel);
 
-                    Debug.Log("executing transition;");
+                Debug.Log("executing transition;");
 
 
                     if (GameController.gamecontroller.levelType == GameController.typesOfLevels.level)
@@ -62,6 +63,9 @@ public class subPortal : MonoBehaviour
                     GameManager_Menu.guiOneTAP = true;
                     GameController.gStates = GameController.GamingStates.pendingAlive;
 
+
+
+                    
                     counter = 0;
                     onTransition = false;
               
@@ -97,7 +101,7 @@ public class subPortal : MonoBehaviour
             //desactivamos el portal||11
             subLevelManager.portalIsOnScreen = false;
             subLevelManager.portalWasActivated = 0;
-            //GameController.gamecontroller.playerJetPack = false;
+            GameController.gamecontroller.playerJetPack = false;
 
 
 
@@ -106,6 +110,8 @@ public class subPortal : MonoBehaviour
             // Loader(subLevelManager.instance.nextLevel);
             GameController.gamecontroller.GetParameters();
             onTransition = true;
+
+            Debug.Log("onTransition" + onTransition);
         }
     }
 

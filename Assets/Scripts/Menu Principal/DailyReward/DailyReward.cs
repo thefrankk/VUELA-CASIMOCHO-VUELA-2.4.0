@@ -54,7 +54,7 @@ public class DailyReward : MonoBehaviour
     //startup
     void Start()
     {
-        StartCoroutine(InitializeAll());
+       // StartCoroutine(InitializeAll());
 
     }
     IEnumerator InitializeAll()
@@ -80,7 +80,7 @@ public class DailyReward : MonoBehaviour
         else
         {
             //disableButton();
-            StartCoroutine(CheckTime());
+           // StartCoroutine(CheckTime());
         }
 
 
