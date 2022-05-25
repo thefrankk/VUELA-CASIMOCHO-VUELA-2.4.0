@@ -535,8 +535,7 @@ public class MenusManager : MonoBehaviour
         GameController.CurrentInfiniteWorld = GameController.Worlds.World1;
         GameController.gamecontroller.currentLevelInfinite = GameController.WorldsAndsLevels.World1Level1;
 
-        GameManager_Menu.currentEachState = GameManager_Menu.eachStateForGame.GameInfinite;
-        GameManager_Menu.currentScene = GameManager_Menu.stateForScene.GameInfinite;
+       
 
         StartCoroutine(TransicionSceneGameInfinite("Game_Infinite"));
        
@@ -584,8 +583,8 @@ public class MenusManager : MonoBehaviour
 
         
 
-        Debug.Log("seteando ...");
-
+        GameManager_Menu.currentEachState = GameManager_Menu.eachStateForGame.GameInfinite;
+        GameManager_Menu.currentScene = GameManager_Menu.stateForScene.GameInfinite;
 
         GameController.gamecontroller.StartGame();
 

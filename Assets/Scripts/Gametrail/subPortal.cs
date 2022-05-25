@@ -40,31 +40,27 @@ public class subPortal : MonoBehaviour
 
         if(onTransition)
         {
-            Debug.Log("counter" + counter);
+           
            
             if (counter >= 1.5f)
             {
                 Loader(subLevelManager.instance.nextLevel);
 
-                Debug.Log("executing transition;");
-
+              
 
                     if (GameController.gamecontroller.levelType == GameController.typesOfLevels.level)
                     {
-                    Debug.Log("with habilities;");
-                    GameController.playerHabs = GameController.CheckHabilitiesPlayer.withHabilities;
+                    
+                        GameController.playerHabs = GameController.CheckHabilitiesPlayer.withHabilities;
                     }
                     else
                     {
-                    Debug.Log("NO habilitees;");
-                    GameController.playerHabs = GameController.CheckHabilitiesPlayer.outHabilities;
+                   
+                     GameController.playerHabs = GameController.CheckHabilitiesPlayer.outHabilities;
                     }
 
                     GameManager_Menu.guiOneTAP = true;
                     GameController.gStates = GameController.GamingStates.pendingAlive;
-
-
-
                     
                     counter = 0;
                     onTransition = false;
@@ -123,16 +119,16 @@ public class subPortal : MonoBehaviour
         GameController.gamecontroller.TransicionLevels();
 
     }
-       public IEnumerator TransitionNextLevel(string nextlevel)
+     /*  public IEnumerator TransitionNextLevel(string nextlevel)
         {
             //guardamos configuraciones
             GameController.gamecontroller.GetParameters();
 
-        Debug.Log("Hola me ejecutire primero en la coruotuines");
+        
             yield return new WaitForSeconds(.1f);
 
 
-        Debug.Log("Hola me ejecutire seguundo en la coruotuines");
+      
         //avanzar al siguiente nivel
         SceneManager.LoadScene(nextlevel, LoadSceneMode.Single);
 
@@ -141,7 +137,6 @@ public class subPortal : MonoBehaviour
 
            new WaitForSeconds(0.5f);
 
-        Debug.Log("Hola me ejecutire tercero en la coruotuines");
 
         if (GameController.gamecontroller.levelType == GameController.typesOfLevels.level)
                 {
@@ -154,7 +149,7 @@ public class subPortal : MonoBehaviour
 
                 GameManager_Menu.guiOneTAP = true;
                 GameController.gStates = GameController.GamingStates.pendingAlive;
-        }
+        }*/
 
     
       

@@ -69,7 +69,7 @@ public class Coin_logic : MonoBehaviour
             GameController.coinsOnPlay++;
             gameObject.GetComponent<CircleCollider2D>().enabled = false;
             //Invocamos la funcion para volver todo a la normalidad a los 5s
-            Invoke("BackToState", 5f);
+            Invoke("BackToState", 3f);
         }
 
         if(collision.tag == "Obstaculos_palos")

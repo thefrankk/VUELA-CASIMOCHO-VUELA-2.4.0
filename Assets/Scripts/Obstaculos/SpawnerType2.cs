@@ -61,23 +61,18 @@ public class SpawnerType2 : MonoBehaviour
             var alto = 5.5f;
             var bajo = -5.5f;
 
-           /* if (timer >= maxTime)
+            if (timer >= maxTime)
             {
-               if(isSpace)
-                {
-                    var r = Random.Range(0, 5);
-                    prefab = ObjectPooling.GetObject(meteors[r]);
-                }
-                else
-                {
+               
+                
                     prefab = ObjectPooling.GetObject(Obstaculo);
-                }
+                
 
                 prefab.transform.position = transform.position + new Vector3(0, Random.Range(bajo, alto), -5f);
                 timer = 0;
                 StartCoroutine(DeSpawn(Obstaculo, prefab, 10f));
 
-            }*/
+            }
 
             if (timerMarker >= maxTimeMarker)
             {

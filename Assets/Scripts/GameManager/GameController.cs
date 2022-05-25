@@ -531,7 +531,21 @@ public class GameController : MonoBehaviour
                 
 
                 SetParameters(true);
-                BonusParameters(true);
+
+                switch(currentLevelInfinite)
+                {
+                    case WorldsAndsLevels.World1SubLevel1:
+                        BonusParameters(true, 0, 0, 0);
+                        break;
+                    case WorldsAndsLevels.World1SubLevel2:
+                        BonusParameters(true, 1f, 0.1f, 0.01f);
+                        break;
+                    case WorldsAndsLevels.World1Sublevel3:
+                        BonusParameters(true, 2.5f, 0.2f, 0.02f);
+                        break;
+
+                }
+                
 
                 break;
 
@@ -544,10 +558,10 @@ public class GameController : MonoBehaviour
                 rb2d = player.GetComponent<Rigidbody2D>();
                 rb2d.bodyType = RigidbodyType2D.Static;
 
-                if(GameController.gamecontroller.currentLevelInfinite != GameController.WorldsAndsLevels.World1Level1)
+                if(currentLevelInfinite != WorldsAndsLevels.World1Level1)
                 {
                     SetParameters(false);
-                    BonusParameters(false);
+                    BonusParameters(false, 0, 0, 0);
                 }
                 //
 
@@ -590,11 +604,11 @@ public class GameController : MonoBehaviour
 
     }
 
-    public void BonusParameters(bool value)
+    public void BonusParameters(bool value, float speed, float spawner, float parallax)
     {
-        var speedObjects = 8.5f;
-        var spawnerTime = 0.225f;
-        var parallaxBackgroundSpeed = 0.08f;
+        var speedObjects = 8.5f + speed;
+        var spawnerTime = 0.025f + spawner;
+        var parallaxBackgroundSpeed = 0.075f + parallax;
 
         if (value == true)
         {
