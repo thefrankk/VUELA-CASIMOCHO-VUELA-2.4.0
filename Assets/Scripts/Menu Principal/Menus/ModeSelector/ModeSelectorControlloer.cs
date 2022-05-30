@@ -103,9 +103,9 @@ public class ModeSelectorControlloer : MonoBehaviour
     public void UnlockWorld1()
     {
         MenusManager.MenusManagerInstance.BackSound();
-        if (recordMap >= 60 && GameController.coins >= 300)
+        if (recordMap >= 60 && GameController.diamonds >= 50)
         {
-            GameController.coins -= 300;
+            GameController.diamonds -= 50;
            
             
 
@@ -117,7 +117,7 @@ public class ModeSelectorControlloer : MonoBehaviour
         else
         {
             Requeriments.SetActive(true);
-            RequirementsCoins.text = "300".ToString();
+            RequirementsCoins.text = "50".ToString();
             RequirementsHighscore.text = "60".ToString();
         }
 
@@ -126,9 +126,9 @@ public class ModeSelectorControlloer : MonoBehaviour
     }   public void UnlockWorld2()
     {
         MenusManager.MenusManagerInstance.BackSound();
-        if (recordMap1 >= 130 && GameController.coins >= 500 && map1 == 1)
+        if (recordMap1 >= 130 && GameController.diamonds >= 90 && map1 == 1)
         {
-            GameController.coins -= 500;
+            GameController.diamonds -= 90;
            
 
             map2 = 1;
@@ -139,7 +139,7 @@ public class ModeSelectorControlloer : MonoBehaviour
         else
         {
             Requeriments.SetActive(true);
-            RequirementsCoins.text = "500".ToString();
+            RequirementsCoins.text = "90".ToString();
             RequirementsHighscore.text = "130".ToString();
         }
             
@@ -149,9 +149,9 @@ public class ModeSelectorControlloer : MonoBehaviour
     }   public void UnlockWorld3()
     {
         MenusManager.MenusManagerInstance.BackSound();
-        if (recordMap2 >= 180 && GameController.coins >= 950 && map1 == 1 && map2 == 1)
+        if (recordMap2 >= 180 && GameController.diamonds >= 135 && map1 == 1 && map2 == 1)
         {
-            GameController.coins -= 950;
+            GameController.diamonds -= 135;
            
             
 
@@ -163,7 +163,7 @@ public class ModeSelectorControlloer : MonoBehaviour
         else
         {
             Requeriments.SetActive(true);
-            RequirementsCoins.text = "950".ToString();
+            RequirementsCoins.text = "135".ToString();
             RequirementsHighscore.text = "180".ToString();
         }
 

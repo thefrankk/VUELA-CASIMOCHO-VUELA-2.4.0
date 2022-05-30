@@ -426,6 +426,8 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Debug.Log("current level infinite =" + currentLevelInfinite);
+        //Debug.Log("current level difficluty =" + currentLevelDifficult);
 
         deltaTime += (Time.deltaTime - deltaTime) * 0.1f;
         float fps = 1.0f / deltaTime;
@@ -528,25 +530,26 @@ public class GameController : MonoBehaviour
                 
 
                 playerJetPack = true;
-                
+
+                Debug.Log("maxtime before bonus paramters on jetpack activated" + Coins_generator.maxTime);
 
                 SetParameters(true);
 
                 switch(currentLevelInfinite)
                 {
                     case WorldsAndsLevels.World1SubLevel1:
-                        BonusParameters(true, 0, 0, 0);
+                        BonusParameters(true, 0, 0, 0, 0);
                         break;
                     case WorldsAndsLevels.World1SubLevel2:
-                        BonusParameters(true, 1f, 0.1f, 0.01f);
+                        BonusParameters(true, 1f, 0.1f, 0.01f, 0.4f);
                         break;
                     case WorldsAndsLevels.World1Sublevel3:
-                        BonusParameters(true, 2.5f, 0.2f, 0.02f);
+                        BonusParameters(true, 1f, 0.1f, 0.01f, 0.5f); 
                         break;
 
                 }
-                
 
+                Debug.Log("maxtime after bonus paramters on jetpack activated" + Coins_generator.maxTime);
                 break;
 
 
@@ -558,12 +561,36 @@ public class GameController : MonoBehaviour
                 rb2d = player.GetComponent<Rigidbody2D>();
                 rb2d.bodyType = RigidbodyType2D.Static;
 
-                if(currentLevelInfinite != WorldsAndsLevels.World1Level1)
+
+                Debug.Log("maxtime before bonus paramters" + Coins_generator.maxTime);
+
+
+
+                
+
+                if (currentLevelInfinite != WorldsAndsLevels.World1Level1)
                 {
                     SetParameters(false);
-                    BonusParameters(false, 0, 0, 0);
+
+                    switch (currentLevelInfinite)
+                    {
+                        case WorldsAndsLevels.World1Level2:
+                            BonusParameters(false, 0, 0, 0, 0);
+
+                            break;
+                        case WorldsAndsLevels.World1Level3:
+                            BonusParameters(false, 1f, 0.1f, 0.01f, 0.4f);
+
+                            break;
+                        case WorldsAndsLevels.World1Level4:
+                            BonusParameters(false, 1f, 0.1f, 0.01f, 0.5f);
+
+                            break;
+
+                    }
                 }
                 //
+                Debug.Log("maxtime after bonus paramters" + Coins_generator.maxTime);
 
                 break;
         
@@ -595,7 +622,7 @@ public class GameController : MonoBehaviour
     public void TransicionLevels()
     {
 
-       
+        Debug.Log("Limpieza de pool");
         distance = new int[4];
 
         //Vaciamos los objetos
@@ -604,11 +631,13 @@ public class GameController : MonoBehaviour
 
     }
 
-    public void BonusParameters(bool value, float speed, float spawner, float parallax)
+    public void BonusParameters(bool value, float speed, float spawner, float parallax, float speedConsumables)
     {
         var speedObjects = 8.5f + speed;
         var spawnerTime = 0.025f + spawner;
         var parallaxBackgroundSpeed = 0.075f + parallax;
+
+        var speedConsumablesBonus = 5.5f + speedConsumables;
 
         if (value == true)
         {
@@ -617,7 +646,9 @@ public class GameController : MonoBehaviour
             Coin_logic.speed = _coinSpeed + speedObjects;
             Obstaculos_logica.speed = _obstalesSpeed + speedObjects;
             Parallax_raw.parallaxSpeed = _backgroundSpeed + parallaxBackgroundSpeed;
-            ObjectINFINITE_logic.speedObjects = _speedObjects + speedObjects;
+
+            ObjectINFINITE_logic.speedObjects = _speedObjects + speedConsumablesBonus;
+
             Spawner.maxTime = _timeSpawner - spawnerTime;
             Coins_generator.maxTime = _timeCoins - spawnerTime;
            
@@ -628,7 +659,8 @@ public class GameController : MonoBehaviour
             Coin_logic.speed = _coinSpeed - speedObjects;
             Obstaculos_logica.speed = _obstalesSpeed - speedObjects;
             Parallax_raw.parallaxSpeed = _backgroundSpeed - parallaxBackgroundSpeed;
-            ObjectINFINITE_logic.speedObjects = _speedObjects - speedObjects;
+            ObjectINFINITE_logic.speedObjects = _speedObjects - speedConsumablesBonus;
+
             Spawner.maxTime = _timeSpawner + spawnerTime;
             Coins_generator.maxTime = _timeCoins + spawnerTime;
            
@@ -829,7 +861,7 @@ public class GameController : MonoBehaviour
         }
         else
         {
-            Debug.Log("yelllo");
+            
             var currentWordInfinite = GameController.CurrentInfiniteWorld;
             switch (currentWordInfinite)
             {
@@ -908,11 +940,11 @@ public class GameController : MonoBehaviour
 
         //ObjectsGenerator_INFINITE.maxTime = objects;
 
-        GameController.playerJump = powerJump;
-        GameController.playerGravity = gravity;
+        playerJump = powerJump;
+        playerGravity = gravity;
 
-        GameController.rocketPropulsionU = rocketPU;
-        GameController.rocketPropulsionD = rocketPD;
+        rocketPropulsionU = rocketPU;
+        rocketPropulsionD = rocketPD;
 
     }
 

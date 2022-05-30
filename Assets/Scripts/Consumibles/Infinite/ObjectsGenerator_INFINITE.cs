@@ -29,33 +29,19 @@ public class ObjectsGenerator_INFINITE : MonoBehaviour
         ObjectPooling.PreLoad(objects[1], 10); // diamonds
         ObjectPooling.PreLoad(objects[2], 10); // huevos
 
+        Debug.Log("Objeto instanciado");
 
-
-        switch (GameManager_Menu.currentMundoIndex)
+        if (GameController.gamecontroller.levelType == GameController.typesOfLevels.subLevel)
         {
-            case 1:
-                maxTime = 30f;
-                 value = 49;
-                break;
-            case 2:
-                maxTime = 26f;
-                 value = 59;
-                break;
-            case 3:
-                maxTime = 23f;
-                value = 70;
-                break;
-            case 4:
-                maxTime = 20f;
-                value = 90;
-                break;
-
+            Debug.Log("Select speed");
+            SelectSpeed(15, 50, 10, 60, 7, 70, 5, 100);
+        }
+        else
+        {
+            SelectSpeed(30, 49, 26, 59, 23, 70, 20, 90);
         }
 
-
-
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -66,48 +52,17 @@ public class ObjectsGenerator_INFINITE : MonoBehaviour
             {
                 if (time > maxTime)
                 {
-                    var p = Random.Range(0, 100);
-                    var n = 0;
-                    if (p <= 60)
+                    if (GameController.gamecontroller.levelType == GameController.typesOfLevels.subLevel)
                     {
-                        n = 0;
-                    }
-                    else if (p >= 60 && p <= 85)
-                    {
-                        n = 1;
+                        Debug.Log("Selector d objeto");
+                        ObjectSelector(true);
                     }
                     else
-                        n = 2;
-
-                    if(GameController.distanciaRecorrida >= 45 || GameController.distanciaRecorrida1 >= 55 || GameController.distanciaRecorrida2 >= 40 || GameController.distanciaRecorrida3 >= 45)
                     {
-                        switch (GameManager_Menu.currentMundoIndex)
-                        {
-                            case 1:
-                                //Aparicion de vidas
-                                CreateObject(0, value);
-                                break;
-                            case 2:
-                                var t = Random.Range(0, 2);
-                                //Aparicion de vidas y dmianates
-                                CreateObject(t, value);
-                                break;
-                            case 3:
-                                //Aparicion de todos los objetos
-                                CreateObject(n, value);
-                                break;
-                            case 4:
-                                //Aparicion de todos los objetos
-                                CreateObject(n, value);
-                                break;
-
-                        }
+                        ObjectSelector(false);
                     }
 
-                            
-
-                    
-                   
+                    time = 0;
                 }
 
                 time += Time.deltaTime;
@@ -144,6 +99,80 @@ public class ObjectsGenerator_INFINITE : MonoBehaviour
            
 
        
+    }
+
+
+
+    private void ObjectSelector(bool isSubLevel)
+    {
+        var p = Random.Range(0, 100);
+        var n = 0;
+
+        if (p <= 55)
+        {
+            n = 0;
+        }
+        else if (p >= 55 && p <= 85)
+        {
+            n = 1;
+        }
+        else
+            n = 2;
+
+        if (isSubLevel != true && GameController.distanciaRecorrida >= 45 || GameController.distanciaRecorrida1 >= 55 || GameController.distanciaRecorrida2 >= 40 || GameController.distanciaRecorrida3 >= 45)
+        {
+            switch (GameManager_Menu.currentMundoIndex)
+            {
+                case 1:
+                    //Aparicion de vidas
+                    CreateObject(0, value);
+                    break;
+                case 2:
+                    var t = Random.Range(0, 2);
+                    //Aparicion de vidas y dmianates
+                    CreateObject(t, value);
+                    break;
+                case 3:
+                    //Aparicion de todos los objetos
+                    CreateObject(n, value);
+                    break;
+                case 4:
+                    //Aparicion de todos los objetos
+                    CreateObject(n, value);
+                    break;
+
+            }
+        }
+        else
+        {
+            Debug.Log("CREATE OBJECT");
+            CreateObject(n, 100);
+        }
+    }
+
+    private void SelectSpeed(float a, int a1, float b, int b2, float c, int c2, float d, int d2)
+    {
+        Debug.Log("CREATE OBJECT");
+        switch (GameManager_Menu.currentMundoIndex)
+        {
+            case 1:
+                maxTime = a;
+                value = a1;
+                break;
+            case 2:
+                maxTime = b;
+                value = b2;
+                break;
+            case 3:
+                maxTime = c;
+                value = c2;
+                break;
+            case 4:
+                maxTime = d;
+                value = d2;
+                break;
+
+        }
     }
 
 }

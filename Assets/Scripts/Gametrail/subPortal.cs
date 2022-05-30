@@ -104,8 +104,10 @@ public class subPortal : MonoBehaviour
             //avanzar al siguiente nivel
             //StartCoroutine(TransitionNextLevel(subLevelManager.instance.nextLevel));
             // Loader(subLevelManager.instance.nextLevel);
+            Debug.Log("maxtime before get parameters" +Coins_generator.maxTime);
             GameController.gamecontroller.GetParameters();
             onTransition = true;
+            Debug.Log("maxtime after get parameters" + Coins_generator.maxTime);
 
             Debug.Log("onTransition" + onTransition);
         }

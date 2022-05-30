@@ -82,9 +82,9 @@ public class DifficultSelector : MonoBehaviour
         MenusManager.MenusManagerInstance.BackSound();
 
 
-        if (GameController.globalDistanciaRecorrida2 >= 65 && GameController.diamonds >= 10)
+        if (GameController.globalDistanciaRecorrida2 >= 65 && GameController.diamonds >= 25)
         {
-            GameController.diamonds -= 10;
+            GameController.diamonds -= 25;
 
             LEVEL_INTERMEDIO = 1;
             Manager.sharedInstance.SaveData();
@@ -94,7 +94,7 @@ public class DifficultSelector : MonoBehaviour
         else
         {
             Requeriments.SetActive(true);
-            RequirementsDiamonds.text = "10".ToString();
+            RequirementsDiamonds.text = "25".ToString();
             RequirementsHighscore.text = "65".ToString();
         }
 
@@ -105,9 +105,9 @@ public class DifficultSelector : MonoBehaviour
     {
         MenusManager.MenusManagerInstance.BackSound();
 
-        if (GameController.globalDistanciaRecorrida2 >= 160 && GameController.diamonds >= 40 && LEVEL_INTERMEDIO == 1)
+        if (GameController.globalDistanciaRecorrida2 >= 160 && GameController.diamonds >= 55 && LEVEL_INTERMEDIO == 1)
         {
-            GameController.diamonds -= 40;
+            GameController.diamonds -= 55;
 
 
             LEVEL_CASIPRO = 1;
@@ -118,7 +118,7 @@ public class DifficultSelector : MonoBehaviour
         else
         {
             Requeriments.SetActive(true);
-            RequirementsDiamonds.text = "40".ToString();
+            RequirementsDiamonds.text = "55".ToString();
             RequirementsHighscore.text = "160".ToString();
         }
 
@@ -129,9 +129,9 @@ public class DifficultSelector : MonoBehaviour
     public void UnlockCASIGOD()
     {
         MenusManager.MenusManagerInstance.BackSound();
-        if (GameController.globalDistanciaRecorrida2 >= 240 && GameController.diamonds >= 65 && LEVEL_INTERMEDIO == 1 && LEVEL_CASIPRO == 1)
+        if (GameController.globalDistanciaRecorrida2 >= 240 && GameController.diamonds >= 100 && LEVEL_INTERMEDIO == 1 && LEVEL_CASIPRO == 1)
         {
-            GameController.diamonds -= 65;
+            GameController.diamonds -= 100;
 
 
 
@@ -143,7 +143,7 @@ public class DifficultSelector : MonoBehaviour
         else
         {
             Requeriments.SetActive(true);
-            RequirementsDiamonds.text = "65".ToString();
+            RequirementsDiamonds.text = "100".ToString();
             RequirementsHighscore.text = "240".ToString();
         }
 

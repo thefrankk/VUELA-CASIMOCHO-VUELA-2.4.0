@@ -118,12 +118,12 @@ public class subLevelManager : MonoBehaviour
         var z = 14f;
 
         portalPrefab = (GameObject)Instantiate(PrefabToBuild());
-        portalPrefab.transform.position = new Vector3(x, y, z);
+        portalPrefab.transform.position = new Vector3(transform.position.x, y, z);
 
         if(GameController.gamecontroller.levelType == GameController.typesOfLevels.subLevel)
         {
             portalPrefab.transform.localScale = new Vector3(4.83f, 4.09f, 1);
-            portalPrefab.transform.position = new Vector3(x, -0.14f, z);
+            portalPrefab.transform.position = new Vector3(transform.position.x, -0.14f, z);
         }
         
 
@@ -154,12 +154,12 @@ public class subLevelManager : MonoBehaviour
 
    void RandomNumbers()
     {
-         a = Random.Range(5, 5); //nivel 1  40 - 55
-         b = Random.Range(5, 5); //sub 1 60 - 70 
-        c = Random.Range(5, 5); //n 2 85 - 105
-        d = Random.Range(5, 5); //s 2 110 - 120  
-        e = Random.Range(5, 5);//n 3 135 - 145
-        f = Random.Range(5, 5); // s 3 160 - 175
+        a = Random.Range(8, 10); //nivel 1  30 - 50
+        b = Random.Range(15, 25); //sub 1 60 - 65 
+        c = Random.Range(35, 40); //n 2 85 - 105
+        d = Random.Range(45, 50); //s 2 110 - 120  
+        e = Random.Range(60, 75);//n 3 135 - 145
+        f = Random.Range(80, 90); // s 3 160 - 175
 
     }
 

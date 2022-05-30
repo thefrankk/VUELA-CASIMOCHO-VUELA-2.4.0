@@ -5,7 +5,7 @@ using UnityEngine;
 public class DistanceMarker : MonoBehaviour
 {
 
-    public static float speed = 5f;
+    public static float speed = 10f;
 
     // Start is called before the first frame update
     void Start()

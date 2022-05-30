@@ -25,6 +25,17 @@ public class Coin_logic : MonoBehaviour
     void Start()
     {
         rend = GetComponent<SpriteRenderer>();
+
+        
+    }
+
+    private void OnEnable()
+    {
+        if (subLevelManager.portalIsOnScreen)
+        {
+            Destroy(this);
+        }
+       
     }
 
 

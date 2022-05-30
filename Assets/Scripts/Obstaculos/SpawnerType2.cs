@@ -8,7 +8,7 @@ public class SpawnerType2 : MonoBehaviour
     public float maxTime = .9f; 
     float timer = 0f;
 
-    private float maxTimeMarker = 3f;
+    private float maxTimeMarker = 1.5f;
     float timerMarker = 0f;
     
     
@@ -21,29 +21,31 @@ public class SpawnerType2 : MonoBehaviour
     public GameObject distanceMarker;
 
     public bool isSpace;
-    public GameObject[] meteors;
+    //public GameObject[] meteors;
 
 
 
-    private GameObject prefab;
-
+    //private GameObject prefab;
+    
     // Start is called before the first frame update
     void Start()
     {
         spawnerInstance = this;
-       // ObjectPooling.PreLoad(Obstaculo, 25);
 
-       /* if (isSpace)
-        {
-            ObjectPooling.PreLoad(meteors[0], 5);
-            ObjectPooling.PreLoad(meteors[1], 5);
-            ObjectPooling.PreLoad(meteors[2], 5);
-            ObjectPooling.PreLoad(meteors[3], 5);
-            ObjectPooling.PreLoad(meteors[4], 5);
-        }*/
-       
-
+        Debug.Log("Loading obstacles..");
         ObjectPooling.PreLoad(distanceMarker, 3);
+        ObjectPooling.PreLoad(Obstaculo, 25);
+        /* if (isSpace)
+         {
+             ObjectPooling.PreLoad(meteors[0], 5);
+             ObjectPooling.PreLoad(meteors[1], 5);
+             ObjectPooling.PreLoad(meteors[2], 5);
+             ObjectPooling.PreLoad(meteors[3], 5);
+             ObjectPooling.PreLoad(meteors[4], 5);
+         }*/
+
+
+
 
     }
 
@@ -61,16 +63,22 @@ public class SpawnerType2 : MonoBehaviour
             var alto = 5.5f;
             var bajo = -5.5f;
 
-            if (timer >= maxTime)
+            //GameController.gamecontroller.currentLevelInfinite = GameController.WorldsAndsLevels.World1Level1
+            if(GameController.gamecontroller.currentLevelInfinite == GameController.WorldsAndsLevels.World1Level3)
             {
-               
-                
-                    prefab = ObjectPooling.GetObject(Obstaculo);
-                
 
-                prefab.transform.position = transform.position + new Vector3(0, Random.Range(bajo, alto), -5f);
-                timer = 0;
-                StartCoroutine(DeSpawn(Obstaculo, prefab, 10f));
+                if (timer >= maxTime)
+                {
+
+
+                    GameObject prefab = ObjectPooling.GetObject(Obstaculo);
+
+
+                    prefab.transform.position = transform.position + new Vector3(0, Random.Range(bajo, alto), -5f);
+                    timer = 0;
+                    StartCoroutine(DeSpawn(Obstaculo, prefab, 10f));
+
+                }
 
             }
 
