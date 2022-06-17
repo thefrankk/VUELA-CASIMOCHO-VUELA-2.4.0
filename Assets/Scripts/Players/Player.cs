@@ -25,6 +25,7 @@ public class Player : MonoBehaviour
 
     //Variable de vidas del player
     public static int vidas = 3;
+    public static int vidasRevivir = 2;
     public static int lifeSumador = 3;
     //Poder de salto  
     //SALTO EN 14 Y GRAVEDAD 5 
@@ -171,6 +172,7 @@ public class Player : MonoBehaviour
     public Sprite cavermocho;
     public Sprite huggymocho;
     public Sprite casichino;
+    public Sprite mommy;
     #endregion
     #region animaciones
     [Header("Animaciones por personaje")]
@@ -288,6 +290,7 @@ public class Player : MonoBehaviour
     public RuntimeAnimatorController anim_cavermocho;
     public RuntimeAnimatorController anim_huggymocho;
     public RuntimeAnimatorController anim_casichino;
+    public RuntimeAnimatorController anim_mommy;
 
 
     #endregion 
@@ -1025,6 +1028,12 @@ public class Player : MonoBehaviour
 
                 break;
 
+            case GameController.playersToPlay.mommy:
+
+                this.sp = mommy;
+                this.anim.runtimeAnimatorController = anim_mommy;
+
+                break;
 
         }
 
@@ -1104,7 +1113,7 @@ public class Player : MonoBehaviour
                 break;
 
             case GameManager_Menu.stateForScene.GameLevel:
-                
+               
 
                 if (Input.GetMouseButtonDown(0) && jump)
                 {
@@ -1131,6 +1140,7 @@ public class Player : MonoBehaviour
 
                                if(GameController.gStates == GameController.GamingStates.alive)
                                 {
+
                                     Instantiate(particleJump, new Vector3(transform.position.x - 0.3f, transform.position.y - 0.35f, transform.position.z + 10f), Quaternion.identity);
 
                                     rb2d.velocity = new Vector2(0, powerJump);
@@ -1243,7 +1253,6 @@ public class Player : MonoBehaviour
         if (GameController.gStates == GameController.GamingStates.transition)
             return;
 
-        Debug.Log("yellow" + subLevelManager.portalIsOnScreen);
 
         //Portales
         subLevelManager.portalIsOnScreen = false;
@@ -1539,13 +1548,13 @@ public class Player : MonoBehaviour
 
                 //----------------------DISTANCIA GLOBAL-----------------------------
 
-                if (GameController.distanciaRecorrida > GameController.globalDistanciaRecorrida2)
+                if (GameController.distanciaRecorrida > GameController.globalDistanciaRecorrida3)
                 {
-                    GameController.globalDistanciaRecorrida2 = GameController.distanciaRecorrida;
+                    GameController.globalDistanciaRecorrida3 = GameController.distanciaRecorrida;
 
                     if (GameController.isConnectedToGooglePlayServices)
                     {
-                        Social.ReportScore(GameController.globalDistanciaRecorrida2, GPGSIds.leaderboard_los_mejores_jugadores, (succes) =>
+                        Social.ReportScore(GameController.globalDistanciaRecorrida3, GPGSIds.leaderboard_los_mejores_jugadores, (succes) =>
                         {
                             if (!succes)
                                 Debug.Log("unable to set highscore");
@@ -1573,13 +1582,13 @@ public class Player : MonoBehaviour
 
                 //----------------------DISTANCIA GLOBAL-----------------------------
 
-                if (GameController.distanciaRecorrida1 > GameController.globalDistanciaRecorrida2)
+                if (GameController.distanciaRecorrida1 > GameController.globalDistanciaRecorrida3)
                 {
-                    GameController.globalDistanciaRecorrida2 = GameController.distanciaRecorrida1;
+                    GameController.globalDistanciaRecorrida3 = GameController.distanciaRecorrida1;
 
                     if (GameController.isConnectedToGooglePlayServices)
                     {
-                        Social.ReportScore(GameController.globalDistanciaRecorrida2, GPGSIds.leaderboard_los_mejores_jugadores, (succes) =>
+                        Social.ReportScore(GameController.globalDistanciaRecorrida3, GPGSIds.leaderboard_los_mejores_jugadores, (succes) =>
                         {
                             if (!succes)
                              Debug.Log("unable to set highscore");
@@ -1601,13 +1610,13 @@ public class Player : MonoBehaviour
                 }
 
                 //----------------------DISTANCIA GLOBAL-----------------------------
-                if (GameController.distanciaRecorrida2 > GameController.globalDistanciaRecorrida2)
+                if (GameController.distanciaRecorrida2 > GameController.globalDistanciaRecorrida3)
                 {
-                    GameController.globalDistanciaRecorrida2 = GameController.distanciaRecorrida2;
+                    GameController.globalDistanciaRecorrida3 = GameController.distanciaRecorrida2;
 
                     if (GameController.isConnectedToGooglePlayServices)
                     {
-                        Social.ReportScore(GameController.globalDistanciaRecorrida2, GPGSIds.leaderboard_los_mejores_jugadores, (succes) =>
+                        Social.ReportScore(GameController.globalDistanciaRecorrida3, GPGSIds.leaderboard_los_mejores_jugadores, (succes) =>
                         {
                             if (!succes)
                              Debug.Log("unable to set highscore");
@@ -1632,12 +1641,12 @@ public class Player : MonoBehaviour
 
                 //----------------------DISTANCIA GLOBAL-----------------------------
 
-                if (GameController.distanciaRecorrida3 > GameController.globalDistanciaRecorrida2)
+                if (GameController.distanciaRecorrida3 > GameController.globalDistanciaRecorrida3)
                 {
-                    GameController.globalDistanciaRecorrida2 = GameController.distanciaRecorrida3;
+                    GameController.globalDistanciaRecorrida3 = GameController.distanciaRecorrida3;
                     if (GameController.isConnectedToGooglePlayServices)
                     {
-                        Social.ReportScore(GameController.globalDistanciaRecorrida2, GPGSIds.leaderboard_los_mejores_jugadores, (succes) =>
+                        Social.ReportScore(GameController.globalDistanciaRecorrida3, GPGSIds.leaderboard_los_mejores_jugadores, (succes) =>
                         {
                             if (!succes)
                                 Debug.Log("unable to set highscore");

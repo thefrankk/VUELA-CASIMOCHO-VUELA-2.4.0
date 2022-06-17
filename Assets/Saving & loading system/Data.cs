@@ -11,22 +11,26 @@ using System.Runtime.Serialization.Formatters.Binary;
 public static class Data 
 {
 
+  
 
 
 
-    
 }
 
 
 [Serializable]
 class DataSave
 {
+
+   
+   
     public int stars;
     public int coins;
     public int diamonds;
     public int highscore;
     public int highscore1;
     public int highscore2;
+    public int highscore3;
     public int eggSavings;
     public int LevelReached;
 
@@ -42,6 +46,7 @@ class DataSave
     public int level_INTERMEDIO;
     public int level_CASIPRO;
     public int level_CASIGOD;
+
 
     //mejoras
     public int portal_word0;

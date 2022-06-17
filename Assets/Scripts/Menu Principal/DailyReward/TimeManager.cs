@@ -15,7 +15,7 @@ public class TimeManager : MonoBehaviour
 
 
     //make sure there is only one instance of this always.
-    void Awake()
+   /* void Awake()
     {
         if (sharedInstance == null)
         {
@@ -30,7 +30,7 @@ public class TimeManager : MonoBehaviour
         
 
 
-    }
+    }*/
 
 
     //time fether coroutine

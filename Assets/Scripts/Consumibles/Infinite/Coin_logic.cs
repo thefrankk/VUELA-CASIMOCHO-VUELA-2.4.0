@@ -43,15 +43,6 @@ public class Coin_logic : MonoBehaviour
     void Update()
     {
 
-        if (GameManager_Menu.currentScene != GameManager_Menu.stateForScene.GameOver)
-        {
-           
-           
-            
-        }
-
-
-
         //Movement 
         if (!GameManager_Menu.guiOneTAP)
         {
@@ -80,7 +71,7 @@ public class Coin_logic : MonoBehaviour
             GameController.coinsOnPlay++;
             gameObject.GetComponent<CircleCollider2D>().enabled = false;
             //Invocamos la funcion para volver todo a la normalidad a los 5s
-            Invoke("BackToState", 3f);
+            Invoke("BackToState", 2f);
         }
 
         if(collision.tag == "Obstaculos_palos")

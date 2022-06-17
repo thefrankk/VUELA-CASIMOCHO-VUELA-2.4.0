@@ -65,15 +65,9 @@ public class MenusManager : MonoBehaviour
         {
             audioSource.PlayOneShot(MusicMenu);
         }
-
-        
-
-        DeactivateScene();
-
-        
+        DeactivateScene();      
 
         GUI_PRINCIPAL.SetActive(true);
-
        
     }
 
@@ -84,6 +78,8 @@ public class MenusManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
         if (GameManager_Menu.currentEachState != GameManager_Menu.eachStateForGame.MenuPrincipal)
         {
             enter = false;
@@ -294,17 +290,17 @@ public class MenusManager : MonoBehaviour
         GameController.gamecontroller.currentLevelInfinite = GameController.WorldsAndsLevels.none;
         GameController.gamecontroller.levelType = GameController.typesOfLevels.none;
 
-        StartCoroutine(chargeDaily());
+       // StartCoroutine(chargeDaily());
        
     }
 
-    IEnumerator chargeDaily()
+   /* IEnumerator chargeDaily()
     {
         yield return new WaitForSeconds(0.1f);
         
         dailyReward.InitializeThings();
 
-    }
+    }*/
 
     //Level selector
     public void LEVEL_SELECTOR()
@@ -546,6 +542,10 @@ public class MenusManager : MonoBehaviour
 
         GameManager_Menu.gameManagerMenu.FadeIn();
         GameManager_Menu.currentMundoIndex = 2;
+
+        GameController.CurrentInfiniteWorld = GameController.Worlds.World2;
+        GameController.gamecontroller.currentLevelInfinite = GameController.WorldsAndsLevels.none;
+
         StartCoroutine(TransicionSceneGameInfinite("Game_Infinite2"));
     }
 
@@ -555,6 +555,10 @@ public class MenusManager : MonoBehaviour
         BackSound();
         GameManager_Menu.currentMundoIndex = 3;
         GameManager_Menu.gameManagerMenu.FadeIn();
+
+        GameController.CurrentInfiniteWorld = GameController.Worlds.World3;
+        GameController.gamecontroller.currentLevelInfinite = GameController.WorldsAndsLevels.none;
+
         StartCoroutine(TransicionSceneGameInfinite("Game_Infinite3"));
     }
     public void SceneGameInfinite4()
@@ -563,6 +567,10 @@ public class MenusManager : MonoBehaviour
         BackSound();
         GameManager_Menu.currentMundoIndex = 4;
         GameManager_Menu.gameManagerMenu.FadeIn();
+
+        GameController.CurrentInfiniteWorld = GameController.Worlds.World4;
+        GameController.gamecontroller.currentLevelInfinite = GameController.WorldsAndsLevels.none;
+
         StartCoroutine(TransicionSceneGameInfinite("Game_Infinite4"));
   
     }

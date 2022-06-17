@@ -6,6 +6,10 @@ using UnityEngine.UI;
 using GooglePlayGames.BasicApi;
 using UnityEngine.SocialPlatforms;
 using GooglePlayGames;
+using System.Collections.Generic;
+
+
+
 
 public class GameController : MonoBehaviour
 {
@@ -29,6 +33,8 @@ public class GameController : MonoBehaviour
     public static float rocketPropulsionU;
     public static float rocketPropulsionD;
 
+   
+
     //Sector estadisticas:
     public static int recolectedCoins;
     public static int exchangedDiamonds;
@@ -43,7 +49,7 @@ public class GameController : MonoBehaviour
     public static int gamesLosed;
 
     //stop controller game -- for revive menu -- REVIVE CONTROLLER
-    public static bool isTryingToRevive;
+    public static bool isTryingToRevive; 
     public static int revivesForGame = 1; //1
     public static int revivesCounter = revivesForGame;
 
@@ -121,6 +127,7 @@ public class GameController : MonoBehaviour
     public static int globalDistanciaRecorrida = 0; // ene
     public static int globalDistanciaRecorrida1 = 0; // feb
     public static int globalDistanciaRecorrida2 = 0; // marzo
+    public static int globalDistanciaRecorrida3 = 0; // junio
    
     //Nivel maximo alcanzado record
     public static int levelMax = 0;
@@ -299,6 +306,7 @@ public class GameController : MonoBehaviour
         cavermocho,
         huggymocho,
         casichino,
+        mommy
        
     }
     public static playersToPlay player; 
@@ -313,6 +321,8 @@ public class GameController : MonoBehaviour
     public static CheckHabilitiesPlayer playerHabs;
 
 
+    public static giftClass giftclass = new giftClass(2); //cantidad de regalos a crear, 0 = 1, 1 = 2
+    public static saveCards saveCard = new saveCards();
 
 
     private void Awake()
@@ -324,8 +334,8 @@ public class GameController : MonoBehaviour
 
         Application.targetFrameRate = 144;
 
-        //PlayGamesPlatform.DebugLogEnabled = true;
-        //PlayGamesPlatform.Activate();
+        PlayGamesPlatform.DebugLogEnabled = true;
+        PlayGamesPlatform.Activate();
 
 
 
@@ -358,13 +368,19 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-       // SingInToGooglePlayServices();
+        SingInToGooglePlayServices();
 
+        
+         saveCards.Load();
+         giftclass.checkGifts();
+
+        Time.timeScale = 1;
     }
 
-    /*public void SingInToGooglePlayServices()
+
+    public void SingInToGooglePlayServices()
     {
-        //PlayGamesPlatform.Instance.Authenticate(SignInInteractivity.CanPromptOnce, (result) =>
+        PlayGamesPlatform.Instance.Authenticate(SignInInteractivity.CanPromptOnce, (result) =>
         {
             switch (result)
             {
@@ -377,7 +393,7 @@ public class GameController : MonoBehaviour
             }
         });
     }
-    */
+    
     public void LoadData()
     {
         //Estadisticas
@@ -413,8 +429,6 @@ public class GameController : MonoBehaviour
         for (int i = 0; i < GameManager_Menu.levelReached; i++)
         {
              GameController.PlayedLevels[i] = Convert.ToBoolean(PlayerPrefs.GetInt("playedLevels" + i, 0));
-            
-           
 
         }
 
@@ -428,7 +442,7 @@ public class GameController : MonoBehaviour
     {
         //Debug.Log("current level infinite =" + currentLevelInfinite);
         //Debug.Log("current level difficluty =" + currentLevelDifficult);
-
+        
         deltaTime += (Time.deltaTime - deltaTime) * 0.1f;
         float fps = 1.0f / deltaTime;
 
@@ -531,29 +545,28 @@ public class GameController : MonoBehaviour
 
                 playerJetPack = true;
 
-                Debug.Log("maxtime before bonus paramters on jetpack activated" + Coins_generator.maxTime);
 
                 SetParameters(true);
 
                 switch(currentLevelInfinite)
                 {
                     case WorldsAndsLevels.World1SubLevel1:
-                        BonusParameters(true, 0, 0, 0, 0);
+                        BonusParameters(true, 0,  0, 0);
                         break;
                     case WorldsAndsLevels.World1SubLevel2:
-                        BonusParameters(true, 1f, 0.1f, 0.01f, 0.4f);
+                        BonusParameters(true, 1f,  0.01f, 0.4f);
                         break;
                     case WorldsAndsLevels.World1Sublevel3:
-                        BonusParameters(true, 1f, 0.1f, 0.01f, 0.5f); 
+                        BonusParameters(true, 1f,  0.01f, 0.5f); 
                         break;
 
                 }
 
-                Debug.Log("maxtime after bonus paramters on jetpack activated" + Coins_generator.maxTime);
                 break;
 
 
             case CheckHabilitiesPlayer.outHabilities:
+
                 player = (GameObject)Instantiate(PlayerPrefab);
                 player.transform.position = new Vector3(-3.1f, -4f, -20f);
                 
@@ -561,42 +574,38 @@ public class GameController : MonoBehaviour
                 rb2d = player.GetComponent<Rigidbody2D>();
                 rb2d.bodyType = RigidbodyType2D.Static;
 
+                if (GameManager_Menu.currentScene == GameManager_Menu.stateForScene.GameLevel)
+                    return;
 
-                Debug.Log("maxtime before bonus paramters" + Coins_generator.maxTime);
-
-
-
-                
-
-                if (currentLevelInfinite != WorldsAndsLevels.World1Level1)
+                if (CurrentInfiniteWorld == Worlds.World1 && currentLevelInfinite != WorldsAndsLevels.World1Level1 )
                 {
                     SetParameters(false);
 
                     switch (currentLevelInfinite)
                     {
                         case WorldsAndsLevels.World1Level2:
-                            BonusParameters(false, 0, 0, 0, 0);
-
+                            BonusParameters(false, 0, 0, 0);
                             break;
+
                         case WorldsAndsLevels.World1Level3:
-                            BonusParameters(false, 1f, 0.1f, 0.01f, 0.4f);
+                            BonusParameters(false, 1f, 0.015f, 0.5f);
 
                             break;
                         case WorldsAndsLevels.World1Level4:
-                            BonusParameters(false, 1f, 0.1f, 0.01f, 0.5f);
-
+                            BonusParameters(false, 1f, 0.03f, 1f);
                             break;
 
+                        default:
+                            BonusParameters(false, 0, 0, 0);
+                            break;
                     }
                 }
-                //
-                Debug.Log("maxtime after bonus paramters" + Coins_generator.maxTime);
 
                 break;
-        
+
+
         }
-        
-        
+
     }
 
     #region //Dedicado a transiciones 
@@ -622,7 +631,6 @@ public class GameController : MonoBehaviour
     public void TransicionLevels()
     {
 
-        Debug.Log("Limpieza de pool");
         distance = new int[4];
 
         //Vaciamos los objetos
@@ -631,18 +639,16 @@ public class GameController : MonoBehaviour
 
     }
 
-    public void BonusParameters(bool value, float speed, float spawner, float parallax, float speedConsumables)
+    public void BonusParameters(bool value, float speed, float parallax, float speedConsumables)
     {
         var speedObjects = 8.5f + speed;
-        var spawnerTime = 0.025f + spawner;
+        var spawnerTime = 0.025f;
         var parallaxBackgroundSpeed = 0.075f + parallax;
 
-        var speedConsumablesBonus = 5.5f + speedConsumables;
+        var speedConsumablesBonus = 7.5f + speedConsumables;
 
         if (value == true)
         {
-            
-
             Coin_logic.speed = _coinSpeed + speedObjects;
             Obstaculos_logica.speed = _obstalesSpeed + speedObjects;
             Parallax_raw.parallaxSpeed = _backgroundSpeed + parallaxBackgroundSpeed;
@@ -665,7 +671,6 @@ public class GameController : MonoBehaviour
             Coins_generator.maxTime = _timeCoins + spawnerTime;
            
         }
-       
        
     }
 
@@ -785,6 +790,8 @@ public class GameController : MonoBehaviour
         GLOBALsuperatedObstacles = 0;
         GLOBALjumpsMaked = 0;
         GLOBALloosedLifesObstacles = 0;
+
+
     }
 
     public void Restart()
@@ -832,8 +839,6 @@ public class GameController : MonoBehaviour
 
         if (GameController.gamecontroller.EscenaCorriendo == GameManager_Menu.stateForScene.GameInfinite)
         {
-            
-            
 
             var currentWordInfinite = GameController.CurrentInfiniteWorld;
             switch (currentWordInfinite)
@@ -854,33 +859,10 @@ public class GameController : MonoBehaviour
                     SceneManager.LoadScene("Game_Infinite4", LoadSceneMode.Single);
                     break;
             }
-
-
-
-
         }
         else
         {
-            
-            var currentWordInfinite = GameController.CurrentInfiniteWorld;
-            switch (currentWordInfinite)
-            {
-                case GameController.Worlds.World1:
-                    SceneManager.LoadScene("Game_Infinite", LoadSceneMode.Single);
-                    break;
-
-                case GameController.Worlds.World2:
-                    SceneManager.LoadScene("Game_Infinite2", LoadSceneMode.Single);
-                    break;
-
-                case GameController.Worlds.World3:
-                    SceneManager.LoadScene("Game_Infinite3", LoadSceneMode.Single);
-                    break;
-
-                case GameController.Worlds.World4:
-                    SceneManager.LoadScene("Game_Infinite4", LoadSceneMode.Single);
-                    break;
-            }
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
         }
 
 
@@ -893,22 +875,21 @@ public class GameController : MonoBehaviour
 
     public void RestartDifficult()
     {
-
         switch (levelDifficultIndex)
         {
             case 0:
                 //DifficultLevels(0, 3f, 0.02f, 1.7f, 1f, 8f, 2f);
-                           
-                DifficultLevels(0, 3.3f, 0.0210f, 1.6f, 8.4f, 2.2f, 12f, 11.5f);
+                           //3.3
+                DifficultLevels(0, 3.3f, 0.025f, 1.6f, 8.4f, 2.2f, 12f, 11.5f);
                 break;
             case 1:
-                DifficultLevels(4, 4.5f, 0.0290f, 1.4f, 10.24f, 3.12f, /*rocket*/ 13f, 12.5f);
+                DifficultLevels(4, 4.5f, 0.040f, 1.4f, 10.24f, 3.12f, /*rocket*/ 13f, 12.5f);
                 break;
             case 2:
-                DifficultLevels(7, 5.4f, 0.035f, 1.25f, 11.62f, 3.81f, /*rocket*/ 14f, 13.5f);
+                DifficultLevels(7, 5.4f, 0.050f, 1.25f, 11.62f, 3.81f, /*rocket*/ 14f, 13.5f);
                 break;
             case 3:
-                DifficultLevels(12, 6.9f, 0.045f, 1f, 13.92f, 4.96f, /*rocket*/ 15f, 14.5f);
+                DifficultLevels(12, 6.2f, 0.060f, 1f, 13.92f, 4.96f, /*rocket*/ 15f, 14.5f);
                 break;
 
         }
@@ -922,6 +903,9 @@ public class GameController : MonoBehaviour
         GameController.currentLevelDifficult = a;
         //Agregamos velocidad a las monedas
         Coin_logic.speed = b;
+
+        //Velocidad de las monedas de la aparicion
+       
 
 
         //Agregamos velocidad a los obstaculos
@@ -948,7 +932,40 @@ public class GameController : MonoBehaviour
 
     }
 
+    /* public void BonusParameters(bool value, float speed, float spawner, float parallax, float speedConsumables)
+    {
+        var speedObjects = 8.5f + speed;
+        var spawnerTime = 0.025f + spawner;
+        var parallaxBackgroundSpeed = 0.075f + parallax;
 
+        var speedConsumablesBonus = 7.5f + speedConsumables;
+
+        if (value == true)
+        {
+            Coin_logic.speed = _coinSpeed + speedObjects;
+            Obstaculos_logica.speed = _obstalesSpeed + speedObjects;
+            Parallax_raw.parallaxSpeed = _backgroundSpeed + parallaxBackgroundSpeed;
+
+            ObjectINFINITE_logic.speedObjects = _speedObjects + speedConsumablesBonus;
+
+            Spawner.maxTime = _timeSpawner - spawnerTime;
+            Coins_generator.maxTime = _timeCoins - spawnerTime;
+           
+        }
+        else
+        {
+
+            Coin_logic.speed = _coinSpeed - speedObjects;
+            Obstaculos_logica.speed = _obstalesSpeed - speedObjects;
+            Parallax_raw.parallaxSpeed = _backgroundSpeed - parallaxBackgroundSpeed;
+            ObjectINFINITE_logic.speedObjects = _speedObjects - speedConsumablesBonus;
+
+            Spawner.maxTime = _timeSpawner + spawnerTime;
+            Coins_generator.maxTime = _timeCoins + spawnerTime;
+           
+        }
+       
+    }*/
    
 
 
@@ -1101,7 +1118,6 @@ public class GameController : MonoBehaviour
        
         //Le sacamos el jetpack
         GameController.gamecontroller.playerJetPack = false;
-        Debug.Log("Playerjetpack status " + GameController.gamecontroller.playerJetPack);
         GameController.playerHabs = GameController.CheckHabilitiesPlayer.outHabilities;
 
 

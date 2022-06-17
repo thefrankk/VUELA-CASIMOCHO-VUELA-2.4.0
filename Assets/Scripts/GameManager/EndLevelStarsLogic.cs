@@ -80,7 +80,7 @@ public class EndLevelStarsLogic : MonoBehaviour
                     if (GameManager_Menu.CountingStarsPerLevel[i] == 0)
                     {
 
-                        Debug.Log("sin estrellas, sumamos las correspondientes" + Player.CountingStars);
+                      //  Debug.Log("sin estrellas, sumamos las correspondientes" + Player.CountingStars);
 
                         GameManager_Menu.CountingStarsPerLevel[i] = Player.CountingStars;
                         
@@ -91,7 +91,7 @@ public class EndLevelStarsLogic : MonoBehaviour
                     }
                     else if (GameManager_Menu.CountingStarsPerLevel[i] <= Player.CountingStars)
                     {
-                        Debug.Log("Tenemos mas estrellas q la partida anterior" + Player.CountingStars);
+                      //  Debug.Log("Tenemos mas estrellas q la partida anterior" + Player.CountingStars);
 
                         GameManager_Menu.CountingStarsPerLevel[i] = Player.CountingStars;
 
@@ -103,7 +103,7 @@ public class EndLevelStarsLogic : MonoBehaviour
                     {
                         GameManager_Menu.CountingStarsPerLevel[i] = 3;
 
-                        Debug.Log("Conseguimos todas las estrellas" + Player.CountingStars);
+                        //Debug.Log("Conseguimos todas las estrellas" + Player.CountingStars);
 
                         PlayerPrefs.SetInt("starsGainPerLevel" + i, GameManager_Menu.CountingStarsPerLevel[i]);
                         

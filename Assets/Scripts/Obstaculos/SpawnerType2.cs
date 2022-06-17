@@ -32,7 +32,6 @@ public class SpawnerType2 : MonoBehaviour
     {
         spawnerInstance = this;
 
-        Debug.Log("Loading obstacles..");
         ObjectPooling.PreLoad(distanceMarker, 3);
         ObjectPooling.PreLoad(Obstaculo, 25);
         /* if (isSpace)

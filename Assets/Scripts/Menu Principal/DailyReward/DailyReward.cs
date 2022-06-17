@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class DailyReward : MonoBehaviour
 {
 
-
+/*
 
     //UI
     public Text timeLabel; //only use if your timer uses a label
@@ -52,7 +52,7 @@ public class DailyReward : MonoBehaviour
 
 
     //startup
-    void Start()
+    //void Start()
     {
        // StartCoroutine(InitializeAll());
 
@@ -60,7 +60,7 @@ public class DailyReward : MonoBehaviour
     IEnumerator InitializeAll()
     {
         yield return new WaitForSeconds(1f);
-        InitializeThings();
+     //   InitializeThings();
     }
     public void InitializeThings()
     {
@@ -87,7 +87,7 @@ public class DailyReward : MonoBehaviour
     }
 
     //update method to make the progress tick
-    void Update()
+    /*void Update()
     {
 
         if (_timerIsReady)
@@ -111,9 +111,9 @@ public class DailyReward : MonoBehaviour
 
 
         }
-    }
+    }*/
 
-
+/*
 
     //update the time information with what we got some the internet
     private void updateTime()
@@ -386,5 +386,5 @@ public class DailyReward : MonoBehaviour
         amountText.text = "+" + rewardAmount[nextRewardIndex].ToString();
 
     }
-
+    */
 }

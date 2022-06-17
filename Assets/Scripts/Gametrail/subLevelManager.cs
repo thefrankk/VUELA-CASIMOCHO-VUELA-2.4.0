@@ -67,7 +67,6 @@ public class subLevelManager : MonoBehaviour
         GameController.gamecontroller.currentLevelInfinite = levels;
         GameController.gamecontroller.levelType = typeLevel;
 
-        Debug.Log("leveltype" + GameController.gamecontroller.levelType);
     }
 
     private void nextLevelsString()
@@ -135,8 +134,6 @@ public class subLevelManager : MonoBehaviour
         for (int i = 0; i < portalWasActivated; i++)
         {
             maxTime += 10;
-
-            Debug.Log("maxtime" + maxTime);
         }
         
 
@@ -154,12 +151,12 @@ public class subLevelManager : MonoBehaviour
 
    void RandomNumbers()
     {
-        a = Random.Range(8, 10); //nivel 1  30 - 50
-        b = Random.Range(15, 25); //sub 1 60 - 65 
-        c = Random.Range(35, 40); //n 2 85 - 105
-        d = Random.Range(45, 50); //s 2 110 - 120  
-        e = Random.Range(60, 75);//n 3 135 - 145
-        f = Random.Range(80, 90); // s 3 160 - 175
+        a = Random.Range(45, 50); //nivel 1  30 - 50
+        b = Random.Range(49, 55); //sub 1 60 - 65 
+        c = Random.Range(75, 95); //n 2 85 - 105
+        d = Random.Range(94, 115); //s 2 110 - 120  
+        e = Random.Range(138, 155);//n 3 135 - 145
+        f = Random.Range(155, 167); // s 3 160 - 175
 
     }
 

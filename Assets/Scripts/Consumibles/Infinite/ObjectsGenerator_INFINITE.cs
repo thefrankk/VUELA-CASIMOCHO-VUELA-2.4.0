@@ -29,11 +29,8 @@ public class ObjectsGenerator_INFINITE : MonoBehaviour
         ObjectPooling.PreLoad(objects[1], 10); // diamonds
         ObjectPooling.PreLoad(objects[2], 10); // huevos
 
-        Debug.Log("Objeto instanciado");
-
         if (GameController.gamecontroller.levelType == GameController.typesOfLevels.subLevel)
         {
-            Debug.Log("Select speed");
             SelectSpeed(15, 50, 10, 60, 7, 70, 5, 100);
         }
         else
@@ -54,7 +51,6 @@ public class ObjectsGenerator_INFINITE : MonoBehaviour
                 {
                     if (GameController.gamecontroller.levelType == GameController.typesOfLevels.subLevel)
                     {
-                        Debug.Log("Selector d objeto");
                         ObjectSelector(true);
                     }
                     else
@@ -80,7 +76,6 @@ public class ObjectsGenerator_INFINITE : MonoBehaviour
 
     public void CreateObject(int d, int value)
     {
-        //Debug.Log("CREATE OBJECT");
         var t = Random.Range(0, 120);
         
         if(t <= value)
@@ -94,7 +89,6 @@ public class ObjectsGenerator_INFINITE : MonoBehaviour
         else
         {
             time = 0f;
-           //Debug.Log("no hay objeto para tirar");
         }
            
 
@@ -145,14 +139,12 @@ public class ObjectsGenerator_INFINITE : MonoBehaviour
         }
         else
         {
-            Debug.Log("CREATE OBJECT");
             CreateObject(n, 100);
         }
     }
 
     private void SelectSpeed(float a, int a1, float b, int b2, float c, int c2, float d, int d2)
     {
-        Debug.Log("CREATE OBJECT");
         switch (GameManager_Menu.currentMundoIndex)
         {
             case 1:

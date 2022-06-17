@@ -33,13 +33,14 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: 0.22040868, w: 0.97540766}
   m_LocalPosition: {x: 10.32, y: 0.14, z: -6}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 25.466}
 --- !u!95 &9051707950265888549
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -52,6 +53,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -284,6 +286,7 @@ MonoBehaviour:
   cavermocho: {fileID: 4244096505642039514, guid: 028b55277cd45cd42a9ef11f1a0bca1a, type: 3}
   huggymocho: {fileID: -1505084845826544260, guid: 13b85039f5af712488484b14964e2322, type: 3}
   casichino: {fileID: -5905807661838232222, guid: 6535fbfc329ea9b4aac42023659cf388, type: 3}
+  mommy: {fileID: -1524094010, guid: f94f37c15f5998642996b0cf1309e743, type: 3}
   anim_Casimocho: {fileID: 9100000, guid: 3103892f3b026ae459ef5fe84a315b01, type: 2}
   anim_Messimocho: {fileID: 9100000, guid: ffc6d1d1d198f804aa263775bf1f5787, type: 2}
   anim_Casifriend: {fileID: 9100000, guid: fabf6deeffd36e44ab9c54a8dea2b551, type: 2}
@@ -396,6 +399,7 @@ MonoBehaviour:
   anim_cavermocho: {fileID: 9100000, guid: 51eca105a42969d419d4e3ea96208fd2, type: 2}
   anim_huggymocho: {fileID: 9100000, guid: 076d17273edf4b14eaf7d5ac5cf56daf, type: 2}
   anim_casichino: {fileID: 9100000, guid: 57dd6912370c8c04eade98aaa0cdf879, type: 2}
+  anim_mommy: {fileID: 9100000, guid: b7e9cd1d15bdcfa42a741083af63faf7, type: 2}
 --- !u!114 &6822698773095740109
 MonoBehaviour:
   m_ObjectHideFlags: 0

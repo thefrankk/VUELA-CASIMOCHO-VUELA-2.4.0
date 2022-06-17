@@ -82,7 +82,7 @@ public class DifficultSelector : MonoBehaviour
         MenusManager.MenusManagerInstance.BackSound();
 
 
-        if (GameController.globalDistanciaRecorrida2 >= 65 && GameController.diamonds >= 25)
+        if (GameController.globalDistanciaRecorrida3 >= 65 && GameController.diamonds >= 25)
         {
             GameController.diamonds -= 25;
 
@@ -105,7 +105,7 @@ public class DifficultSelector : MonoBehaviour
     {
         MenusManager.MenusManagerInstance.BackSound();
 
-        if (GameController.globalDistanciaRecorrida2 >= 160 && GameController.diamonds >= 55 && LEVEL_INTERMEDIO == 1)
+        if (GameController.globalDistanciaRecorrida3 >= 160 && GameController.diamonds >= 55 && LEVEL_INTERMEDIO == 1)
         {
             GameController.diamonds -= 55;
 
@@ -129,7 +129,7 @@ public class DifficultSelector : MonoBehaviour
     public void UnlockCASIGOD()
     {
         MenusManager.MenusManagerInstance.BackSound();
-        if (GameController.globalDistanciaRecorrida2 >= 240 && GameController.diamonds >= 100 && LEVEL_INTERMEDIO == 1 && LEVEL_CASIPRO == 1)
+        if (GameController.globalDistanciaRecorrida3 >= 240 && GameController.diamonds >= 100 && LEVEL_INTERMEDIO == 1 && LEVEL_CASIPRO == 1)
         {
             GameController.diamonds -= 100;
 

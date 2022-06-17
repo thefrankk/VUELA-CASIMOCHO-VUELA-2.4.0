@@ -12,7 +12,7 @@ public class BuyGoldCoins : MonoBehaviour
     public Text currentGoldCoins;
     public Text currentCoin;
 
-    private int goldCoinsCost = 15;
+    private int goldCoinsCost = 40;
 
     // <>
 

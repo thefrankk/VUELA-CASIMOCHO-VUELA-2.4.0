@@ -15,10 +15,11 @@ public class MisRecords : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        recordsInt = new int[3];
+        recordsInt = new int[4];
         recordsInt[0] = GameController.globalDistanciaRecorrida;
         recordsInt[1] = GameController.globalDistanciaRecorrida1;
         recordsInt[2] = GameController.globalDistanciaRecorrida2;
+        recordsInt[3] = GameController.globalDistanciaRecorrida3;
 
 
 
@@ -30,6 +31,8 @@ public class MisRecords : MonoBehaviour
         recordsText[0].text = recordsInt[0].ToString();
         recordsText[1].text = recordsInt[1].ToString();
         recordsText[2].text = recordsInt[2].ToString();
+        recordsText[3].text = recordsInt[3].ToString();
+
 
     }
 

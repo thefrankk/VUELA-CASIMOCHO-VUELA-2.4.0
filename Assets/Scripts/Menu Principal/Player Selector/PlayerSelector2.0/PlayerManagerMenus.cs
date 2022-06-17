@@ -71,8 +71,8 @@ public class PlayerManagerMenus : MonoBehaviour
         //Asignamos una cantidad que va a tener
 
 
-        cart = new bool[112, 9];
-        repeatedCarts = new int[112];
+        cart = new bool[113, 9];
+        repeatedCarts = new int[113];
 
 
         var playersLocked = new Dictionary<GameController.playersToPlay, Boolean>();
@@ -197,6 +197,7 @@ public class PlayerManagerMenus : MonoBehaviour
         playerConfigs[GameController.playersToPlay.cavermocho] = new PlayerConfig("CAVERMOCHO", ".", 60);
         playerConfigs[GameController.playersToPlay.huggymocho] = new PlayerConfig("HUGGYMOCHO", ".", 60);
         playerConfigs[GameController.playersToPlay.casichino] = new PlayerConfig("CASICHINO", ".", 60);
+        playerConfigs[GameController.playersToPlay.mommy] = new PlayerConfig("MOMMY", ".", 60);
         this.playerConfigs = playerConfigs;
 
 
@@ -330,7 +331,7 @@ public class PlayerManagerMenus : MonoBehaviour
 
     void ReadRepeatedCarts()
     {
-        for (int i = 0; i < 112; i++)
+        for (int i = 0; i < 113; i++)
         {
             repeatedCarts[i] = PlayerPrefs.GetInt("repeatedCarts" + i, 0);
 
@@ -347,7 +348,7 @@ public class PlayerManagerMenus : MonoBehaviour
 
     void ReadRepeatedCartsInMenus()
     {
-        for (int i = 0; i < 112; i++)
+        for (int i = 0; i < 113; i++)
         {
             repeatedCarts[i] = PlayerPrefs.GetInt("repeatedCarts" + i, 0);
 
@@ -1063,6 +1064,11 @@ public class PlayerManagerMenus : MonoBehaviour
         this.doGenericPlayer(GameController.playersToPlay.casichino);
     }
 
+    public void Mommy()
+    {
+        this.doGenericPlayer(GameController.playersToPlay.mommy);
+    }
+
 
     #region Button actions from ALBUM
 
@@ -1613,6 +1619,10 @@ public class PlayerManagerMenus : MonoBehaviour
     public void CasichinoALBUM()
     {
         this.DoGenericALBUM(GameController.playersToPlay.casichino, "Casichino");
+    }
+    public void MommyALBUM()
+    {
+        this.DoGenericALBUM(GameController.playersToPlay.mommy, "Mommy");
     }
     #endregion
 

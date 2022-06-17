@@ -15,14 +15,13 @@ public class Manager : MonoBehaviour
     //Ubicacion del archivo data
 
     private String filePath;
-    
+
 
     private void Awake()
     {
+
+
         sharedInstance = this;
-
-
-
         filePath = Application.persistentDataPath + "/save.dat";
 
         
@@ -34,19 +33,18 @@ public class Manager : MonoBehaviour
     private void Start()
     {
         DataSave data = new DataSave();
-       
 
     }
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.K))
+       /* if (Input.GetKey(KeyCode.K))
         {
            // Debug.Log("Cleared data");
             ClearData();
             Application.Quit();
 
-        }
+        }*/
     }
 
     public void SaveData()
@@ -67,6 +65,7 @@ public class Manager : MonoBehaviour
         data.highscore = GameController.globalDistanciaRecorrida;
         data.highscore1 = GameController.globalDistanciaRecorrida1;
         data.highscore2 = GameController.globalDistanciaRecorrida2;
+        data.highscore3 = GameController.globalDistanciaRecorrida3;
         data.eggSavings = HuevosManager.eggsSavings;
         data.LevelReached = GameManager_Menu.levelReached;
 
@@ -86,6 +85,9 @@ public class Manager : MonoBehaviour
         //portals
         data.portal_word0 = GameController.portal_word[0];
 
+        
+        
+
 
         bf.Serialize(file, data);
         file.Close();
@@ -98,6 +100,7 @@ public class Manager : MonoBehaviour
 
     public void LoadData()
     {
+        
         if (File.Exists(filePath))
         {
             BinaryFormatter bf = new BinaryFormatter();
@@ -112,6 +115,7 @@ public class Manager : MonoBehaviour
             GameController.globalDistanciaRecorrida = data.highscore;
             GameController.globalDistanciaRecorrida1 = data.highscore1;
             GameController.globalDistanciaRecorrida2 = data.highscore2;
+            GameController.globalDistanciaRecorrida3 = data.highscore3;
             HuevosManager.eggsSavings = data.eggSavings;
             GameManager_Menu.levelReached = data.LevelReached;
 
@@ -128,8 +132,15 @@ public class Manager : MonoBehaviour
             DifficultSelector.LEVEL_CASIPRO = data.level_CASIPRO;
             DifficultSelector.LEVEL_INTERMEDIO = data.level_INTERMEDIO;
 
+            //gifts
+
+          
+
+         
+
+
             //portals
-            if(GameManager_Menu.currentEachState != GameManager_Menu.eachStateForGame.MenuPrincipal)
+            if (GameManager_Menu.currentEachState != GameManager_Menu.eachStateForGame.MenuPrincipal)
             {
                 GameController.portal_word[0] = data.portal_word0;
             }
@@ -138,6 +149,7 @@ public class Manager : MonoBehaviour
             file.Close();
         }
 
+        
 
     }
 

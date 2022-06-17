@@ -27,7 +27,7 @@ public static class GPGSIds
     //temporada 1 CgkIxIXhnJQJEAIQAA
     //temporada 2 CgkIxIXhnJQJEAIQAg
     //temporada 3 CgkIxIXhnJQJEAIQAw
-    public const string leaderboard_los_mejores_jugadores = "CgkIxIXhnJQJEAIQAw"; // <GPGSID>
+    public const string leaderboard_los_mejores_jugadores = "CgkIxIXhnJQJEAIQBA"; // <GPGSID>
 
 }
 

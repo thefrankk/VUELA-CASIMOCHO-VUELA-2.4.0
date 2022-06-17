@@ -71,7 +71,7 @@ public class Revive : MonoBehaviour
         _eggsOnPlay = GameController.eggsOnPlay;
         _diamondsOnPlay = GameController.diamondsOnPlay;
 
-        _playerLives = GameController.gamecontroller.LivesToPlayer();
+        _playerLives = 3;
 
         distance[0] = GameController.distanciaRecorrida;
         distance[1] = GameController.distanciaRecorrida1;
@@ -330,7 +330,6 @@ public class Revive : MonoBehaviour
         //Playerhabs
         //Le sacamos el jetpack
         GameController.gamecontroller.playerJetPack = false;
-        Debug.Log("Playerjetpack status " + GameController.gamecontroller.playerJetPack);
         GameController.playerHabs = GameController.CheckHabilitiesPlayer.outHabilities;
 
         GameController.gamecontroller.GameOver();

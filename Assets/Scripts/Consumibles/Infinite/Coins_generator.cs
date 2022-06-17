@@ -21,7 +21,7 @@ public class Coins_generator : MonoBehaviour
     float qr = 3;
     float altura = 0f;
     int alturaVariable = 0;
-    int objectPosition;
+    int objectPosition = 0;
     bool isSpawning = false; 
     //Tiempo maximo de demora en aparicion
 
@@ -38,24 +38,99 @@ public class Coins_generator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameObjectPooling.Clear();
 
         switch (GameManager_Menu.currentMundoIndex)
         {
             case 1:
-                maxTime = 0.3f; //0.3 //1f;
-               
+                switch(GameController.levelDifficultIndex)
+                {
+                    case 0:
+                        maxTime = 0.3f; //0.3 //1f;
+                        break;
+
+                    case 1:
+                        maxTime = 0.27f; //0.3 //1f;
+                        break;
+
+                    case 2:
+                        maxTime = 0.25f; //0.3 //1f;
+                        break;
+
+                    case 3:
+                        maxTime = 0.20f; //0.3 //1f;
+                        break;
+                }
+
+                
+
                 break;
             case 2:
-                maxTime = .25f;//0.32 //0.33 // 0.9f;
+
+                switch (GameController.levelDifficultIndex)
+                {
+                    case 0:
+                        maxTime = .25f;//0.32 //0.33 // 0.9f;
+                        break;
+
+                    case 1:
+                        maxTime = 0.22f; //0.3 //1f;
+                        break;
+
+                    case 2:
+                        maxTime = 0.20f; //0.3 //1f;
+                        break;
+
+                    case 3:
+                        maxTime = 0.18f; //0.3 //1f;
+                        break;
+                }
+
+                
                
                 break;
             case 3:
-                maxTime = .20f;//0.29 // 0.85f;
                 
+                switch (GameController.levelDifficultIndex)
+                {
+                    case 0:
+                        maxTime = .20f;//0.29 // 0.85f;
+                        break;
+
+                    case 1:
+                        maxTime = 0.18f; //0.3 //1f;
+                        break;
+
+                    case 2:
+                        maxTime = 0.16f; //0.3 //1f;
+                        break;
+
+                    case 3:
+                        maxTime = 0.15f; //0.3 //1f;
+                        break;
+                }
+
                 break;
             case 4:
-                maxTime = .15f;////0.26 //0.75f;
-               
+                
+                switch (GameController.levelDifficultIndex)
+                {
+                    case 0:
+                        maxTime = .15f;////0.26 //0.75f;
+                        break;
+
+                    case 1:
+                        maxTime = 0.13f; //0.3 //1f;
+                        break;
+
+                    case 2:
+                        maxTime = 0.12f; //0.3 //1f;
+                        break;
+
+                    case 3:
+                        maxTime = 0.10f; //0.3 //1f;
+                        break;
+                }
                 break;
 
         }
@@ -73,6 +148,7 @@ public class Coins_generator : MonoBehaviour
         if (subLevelManager.portalIsOnScreen)
             return;
 
+       // Debug.Log("maxtime "   + maxTime);
         
 
 
@@ -82,8 +158,6 @@ public class Coins_generator : MonoBehaviour
             {
                 if (!GameManager_Menu.guiOneTAP)
                 {
-
-                  
 
                         if (GameController.gamecontroller.levelType == GameController.typesOfLevels.subLevel)
                         {
@@ -130,27 +204,23 @@ public class Coins_generator : MonoBehaviour
                            
                                 if (time > maxTime)
                                 {                             
-                                            
                                         switch(GameController.gamecontroller.currentLevelInfinite)
                                         {
                                             case GameController.WorldsAndsLevels.World1SubLevel1:
-                                                 SpawnCoins(2, 50);
+                                                 SpawnCoins(2, 80);
                                                 break;
                                             case GameController.WorldsAndsLevels.World1SubLevel2:
-                                                 SpawnCoins(3, 50);
+                                                 SpawnCoins(3, 80);
                                                 break;
                                             case GameController.WorldsAndsLevels.World1Sublevel3:
-                                                  SpawnCoins(5, 100);
+                                                  SpawnCoins(5, 150);
                                                 break;
 
                                         }   
 
-                                    time = 0f;
-
+                                    
 
                                 }
-
-                            
                                  time += Time.deltaTime;
                         }   
                         else
@@ -191,9 +261,10 @@ public class Coins_generator : MonoBehaviour
             gameObjectPooling[objectPosition].transform.position = new Vector3(transform.position.x + Random.Range(-horizontal, horizontal), (altura + alturaVariable), -5f);
 
 
-            StartCoroutine(DeSpawn(coin, gameObjectPooling[objectPosition], 4f));
+            StartCoroutine(DeSpawn(coin, gameObjectPooling[objectPosition], 2.5f));
 
             ++objectPosition;
+
             if(a > 3)
             {
                 alturaVariable += 3;
@@ -209,12 +280,15 @@ public class Coins_generator : MonoBehaviour
         if(objectPosition > objectsMaxToSpawn)
         {
             objectPosition = 0;
+            gameObjectPooling.Clear();
         }
 
+        time = 0f;
 
+       // Debug.Log("Object position " + objectPosition);
     }
 
-
+    
     IEnumerator DeSpawn(GameObject primitive, GameObject go, float time)
     {
         yield return new WaitForSeconds(time);

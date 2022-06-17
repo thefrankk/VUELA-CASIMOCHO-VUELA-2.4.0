@@ -138,10 +138,8 @@ public class LogicPlayerSelector : MonoBehaviour
         //Desbloqueo de personajes por MONEDAS
         for (int i = 0; i < select_player.Length; i++)
         {
-
             if (unlockPlayer[i] == false)
             {
-                
                 unlockText[i].text = "DESBLOQUEAR";
                 if(unlockPrice[i] <= GameController.coins)
                 {

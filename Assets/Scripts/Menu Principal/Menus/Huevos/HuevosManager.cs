@@ -3,6 +3,7 @@ using System.Collections;
 
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.Threading.Tasks;
 
 //using System.Collections;
 using Random = UnityEngine.Random;
@@ -70,7 +71,7 @@ public class HuevosManager : MonoBehaviour
     public GameObject Reach100Eggs;
 
     public static int price = 0;
-
+    
     //Numeros ganadores
     int winnerNumber = 0;
     int winnerNumber1 = 0;
@@ -193,7 +194,7 @@ public class HuevosManager : MonoBehaviour
 
         Manager.sharedInstance.LoadData();
 
-        playerWinnerNames = new string[112];
+        playerWinnerNames = new string[113];
 
         #region // NOMBRES DE  LOS PERSONAJES GANADORES
         playerWinnerNames[0] = "CASIMOCHO";
@@ -317,10 +318,12 @@ public class HuevosManager : MonoBehaviour
         playerWinnerNames[109] = "CAVERMOCHO";
         playerWinnerNames[110] = "HUGGYMOCHO";
         playerWinnerNames[111] = "CASICHINO";
+        playerWinnerNames[112] = "MOMMY";
 
         #endregion
 
 
+       // OpenAllEggs();
 
     }
 
@@ -332,6 +335,22 @@ public class HuevosManager : MonoBehaviour
     }
     // <>
     //Bring the EGG and the counter:
+   /* public async void OpenAllEggs()
+    {
+        do 
+        {
+            GetEgg();
+            await Task.Delay(250);
+            GetEgg();
+            await Task.Delay(250);
+            BreakEGG();
+            await Task.Delay(250);
+            AcceptEgg();
+            await Task.Delay(250);
+
+        } while (eggsOpenCounter != 1020);
+    }*/
+
     public void GetEgg()
     {
         if (eggsSavings >= 1)
@@ -407,7 +426,6 @@ public class HuevosManager : MonoBehaviour
 
                 if (firstCount == 0)
                 {
-                   
 
                    MenusManager.MenusManagerInstance.CrackEggs(2);
                     egg.GetComponent<Button>().interactable = false;
@@ -428,7 +446,6 @@ public class HuevosManager : MonoBehaviour
 
                     //funcion del objecto ganador
                     EggPicker(winnerNumber, winnerNumber1);
-
 
 
                 }
@@ -461,16 +478,8 @@ public class HuevosManager : MonoBehaviour
                    
                     }
 
-
-            
-
         }
        
-
-
-
-
-
 
     }
 
@@ -512,7 +521,6 @@ public class HuevosManager : MonoBehaviour
                 o = 0;
 
                 return;
-                
             }
 
         }
@@ -566,14 +574,11 @@ public class HuevosManager : MonoBehaviour
         {
             n = 0;
         }
-        var randomNumber1 = Random.Range(n, 112); //112
-        var randomNumber2 = Random.Range(n, 112); //112
+        var randomNumber1 = Random.Range(n, 113); //113
+        var randomNumber2 = Random.Range(n, 113); //113
 
         int z = Random.Range(randomNumber1, randomNumber2);
         FinalNumber(z);
-
-
-
 
     }
 
@@ -599,7 +604,7 @@ public class HuevosManager : MonoBehaviour
                 winnerNumber1 = Random.Range(0, 9);
                 return;
             }
-            else if (value >= 80 && value <= 112)
+            else if (value >= 80 && value <= 113)
             {
                 t = Random.Range(0, 100);
 
@@ -642,7 +647,7 @@ public class HuevosManager : MonoBehaviour
                 return;
             }
         }
-        else if (value >= 80 && value <= 112)
+        else if (value >= 80 && value <= 113)
         {
             t = Random.Range(0, 100);
 
@@ -677,13 +682,16 @@ public class HuevosManager : MonoBehaviour
 
         
         
-        if(eggsOpenCounter >= 1008)
+        if(eggsOpenCounter >= 1000) //1014
         {
             Reached100Eggs();
             return;
         }
 
-         PlayerManagerMenus.cart[theWinnerNumber, theWinnerNumber1] = Convert.ToBoolean(PlayerPrefs.GetInt("cart1" + theWinnerNumber + "carts2" + theWinnerNumber1, 0));
+       // Debug.Log(theWinnerNumber + " " + theWinnerNumber1);
+            PlayerManagerMenus.cart[theWinnerNumber, theWinnerNumber1] = Convert.ToBoolean(PlayerPrefs.GetInt("cart1" + theWinnerNumber + "carts2" + theWinnerNumber1, 0));
+
+       
 
         //Debug 
        // Debug.Log(" 1RA TIRADA DE TODAS // SIN BLOQUEOS NI DESBLOQUEOS" + "Carta" + " " + winnerNumber + "Subcarta" + " " + winnerNumber1);
@@ -766,7 +774,7 @@ public class HuevosManager : MonoBehaviour
     {
 
         //Publicidad
-        if (eggsOpenedInARow >= 6)
+        if (eggsOpenedInARow >= 6)//6
         {
             ManagerAds.instance.showInterstitialAll();
             eggsOpenedInARow = 0;

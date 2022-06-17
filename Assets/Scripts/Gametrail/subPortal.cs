@@ -42,7 +42,7 @@ public class subPortal : MonoBehaviour
         {
            
            
-            if (counter >= 1.5f)
+            if (counter >= 1.0f)
             {
                 Loader(subLevelManager.instance.nextLevel);
 
@@ -84,7 +84,10 @@ public class subPortal : MonoBehaviour
             if (GameController.gStates == GameController.GamingStates.youLoose)
                 return;
 
-                player.TransitionScenes();
+
+            SSTools.ShowMessage("Cargando...", SSTools.Position.bottom, SSTools.Time.oneSecond);
+
+            player.TransitionScenes();
 
 
 
@@ -104,12 +107,9 @@ public class subPortal : MonoBehaviour
             //avanzar al siguiente nivel
             //StartCoroutine(TransitionNextLevel(subLevelManager.instance.nextLevel));
             // Loader(subLevelManager.instance.nextLevel);
-            Debug.Log("maxtime before get parameters" +Coins_generator.maxTime);
             GameController.gamecontroller.GetParameters();
             onTransition = true;
-            Debug.Log("maxtime after get parameters" + Coins_generator.maxTime);
 
-            Debug.Log("onTransition" + onTransition);
         }
     }
 

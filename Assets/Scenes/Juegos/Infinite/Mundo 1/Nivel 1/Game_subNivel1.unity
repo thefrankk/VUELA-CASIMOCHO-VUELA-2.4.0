@@ -826,11 +826,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2672326068199062104, guid: 12506bd50a5253041ab76a966140ca81, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.161015
+      value: 22.09
       objectReference: {fileID: 0}
     - target: {fileID: 2672326068199062104, guid: 12506bd50a5253041ab76a966140ca81, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.417639
+      value: -0.32
       objectReference: {fileID: 0}
     - target: {fileID: 2672326068199062104, guid: 12506bd50a5253041ab76a966140ca81, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1026,7 +1026,6 @@ MonoBehaviour:
   Obstaculo: {fileID: 8297864615978689400, guid: 5f31183457f97ff418060ff17e0774ff, type: 3}
   distanceMarker: {fileID: 5618694480334532201, guid: dc44647e1376acd4599e35b9c10009a4, type: 3}
   isSpace: 0
-  meteors: []
 --- !u!1 &1067855459
 GameObject:
   m_ObjectHideFlags: 0
@@ -1063,7 +1062,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 76, y: -3349}
-  m_SizeDelta: {x: 3030.06, y: 5446.8}
+  m_SizeDelta: {x: 3030.06, y: 5561.17}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1067855461
 MonoBehaviour:
@@ -1510,3 +1509,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 2700053002507742297, guid: ada8e3a1e49f4c441b64b50cd01e525e, type: 3}
+  gameObjectPooling: []
