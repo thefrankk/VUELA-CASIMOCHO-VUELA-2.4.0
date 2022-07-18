@@ -235,6 +235,19 @@ public class LOGICLevelSelector : MonoBehaviour
     {
         GenericPlayLevel(20, "Game_level21");
     }
+    public void PlayLevel22()
+    {
+        GenericPlayLevel(21, "Game_level22");
+    }
+    public void PlayLevel23()
+    {
+        GenericPlayLevel(22, "Game_level23");
+    }
+    public void PlayLevel24()
+    {
+        GenericPlayLevel(23, "Game_level24");
+    }
+    
     IEnumerator TransicionSceneGameLevel(string name)
     {
         yield return new WaitForSeconds(.5f);

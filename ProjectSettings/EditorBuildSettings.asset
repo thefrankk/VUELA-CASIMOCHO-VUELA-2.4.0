@@ -101,4 +101,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Juegos/Mundo1/Game_level21.unity
     guid: 5fc9f05344bb77144be50b58a355f633
+  - enabled: 1
+    path: Assets/Scenes/Juegos/Mundo1/Game_level22.unity
+    guid: 13ade53fdadf2da409a64172d312b61c
+  - enabled: 1
+    path: Assets/Scenes/Juegos/Mundo1/Game_level23.unity
+    guid: 9ddc0baabf6d2d947ac9a1bce202c2b2
+  - enabled: 1
+    path: Assets/Scenes/Juegos/Mundo1/Game_level24.unity
+    guid: c3e9bbd0806606f45880849fa084319c
   m_configObjects: {}

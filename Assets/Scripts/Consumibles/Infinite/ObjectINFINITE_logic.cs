@@ -14,11 +14,13 @@ public class ObjectINFINITE_logic : MonoBehaviour
     SpriteRenderer rend;
 
 
+    
     // <>
     // Start is called before the first frame update
     void Start()
     {
         rend = GetComponent<SpriteRenderer>();
+
     }
 
     // Update is called once per frame

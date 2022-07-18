@@ -94,7 +94,7 @@ public class Manager : MonoBehaviour
 
         LoadData();
 
-       
+      
     }
    
 

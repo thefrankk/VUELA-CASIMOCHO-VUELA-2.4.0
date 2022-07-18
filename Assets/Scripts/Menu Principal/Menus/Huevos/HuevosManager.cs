@@ -878,9 +878,10 @@ public class HuevosManager : MonoBehaviour
         }
     }
 
-
+    
     public void BuyFiveThousandEggs()
     {
+
         MenusManager.MenusManagerInstance.BackSound();
 
         eggsSavings += 1000;
