@@ -206,7 +206,7 @@ public class PlayerManagerMenus : MonoBehaviour
 
         //Funcion para desbloquear todos los pj
 
-       /* foreach (GameController.playersToPlay player in Enum.GetValues(typeof(GameController.playersToPlay)))
+       /*foreach (GameController.playersToPlay player in Enum.GetValues(typeof(GameController.playersToPlay)))
         {
             playersLocked[player] = true;
             PlayerPrefs.SetInt("PlayerLock" + (long)player, Convert.ToInt32(PlayerManagerMenus.playersLocked[(GameController.playersToPlay)(long)player]));

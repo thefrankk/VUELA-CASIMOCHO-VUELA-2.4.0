@@ -334,8 +334,8 @@ public class GameController : MonoBehaviour
 
         Application.targetFrameRate = 144;
 
-        PlayGamesPlatform.DebugLogEnabled = true;
-        PlayGamesPlatform.Activate();
+       // PlayGamesPlatform.DebugLogEnabled = true;
+        //PlayGamesPlatform.Activate();
 
 
 
@@ -368,7 +368,7 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-        SingInToGooglePlayServices();
+       // SingInToGooglePlayServices();
 
         
          saveCards.Load();
@@ -378,7 +378,7 @@ public class GameController : MonoBehaviour
     }
 
 
-    public void SingInToGooglePlayServices()
+   /* public void SingInToGooglePlayServices()
     {
         PlayGamesPlatform.Instance.Authenticate(SignInInteractivity.CanPromptOnce, (result) =>
         {
@@ -392,7 +392,7 @@ public class GameController : MonoBehaviour
                     break;
             }
         });
-    }
+    }*/
     
     public void LoadData()
     {
