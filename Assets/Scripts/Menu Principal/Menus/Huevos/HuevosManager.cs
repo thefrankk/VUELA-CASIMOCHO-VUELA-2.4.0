@@ -670,13 +670,8 @@ using System;
             IAPurchase.instace.BuyEggsConsumable();
         }
 
-<<<<<<< Updated upstream
     
-    public void BuyFiveThousandEggs()
-    {
-
-        MenusManager.MenusManagerInstance.BackSound();
-=======
+  
         public int CheckTypeCart(int cartValue)
         {
             var p = 0;
@@ -697,9 +692,6 @@ using System;
                 //tipo legenadrio 
                 p = 2;
             }
->>>>>>> Stashed changes
-
-
 
             return p;
         }
