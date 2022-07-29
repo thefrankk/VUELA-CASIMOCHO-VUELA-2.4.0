@@ -128,6 +128,7 @@ public class GameController : MonoBehaviour
     public static int globalDistanciaRecorrida1 = 0; // feb
     public static int globalDistanciaRecorrida2 = 0; // marzo
     public static int globalDistanciaRecorrida3 = 0; // junio
+    public static int globalDistanciaRecorrida4 = 0; // Julio
    
     //Nivel maximo alcanzado record
     public static int levelMax = 0;
@@ -140,12 +141,9 @@ public class GameController : MonoBehaviour
    
     public WorldsAndsLevels currentLevelInfinite;
 
-
-
     //Player object
     public GameObject PlayerPrefab;
     public bool playerJetPack;
-
 
 
     //Level ya jugado
@@ -334,8 +332,8 @@ public class GameController : MonoBehaviour
 
         Application.targetFrameRate = 144;
 
-       // PlayGamesPlatform.DebugLogEnabled = true;
-        //PlayGamesPlatform.Activate();
+        PlayGamesPlatform.DebugLogEnabled = true;
+        PlayGamesPlatform.Activate();
 
 
 
@@ -368,7 +366,7 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-       // SingInToGooglePlayServices();
+       SingInToGooglePlayServices();
 
         
          saveCards.Load();
@@ -378,7 +376,7 @@ public class GameController : MonoBehaviour
     }
 
 
-   /* public void SingInToGooglePlayServices()
+   public void SingInToGooglePlayServices()
     {
         PlayGamesPlatform.Instance.Authenticate(SignInInteractivity.CanPromptOnce, (result) =>
         {
@@ -392,7 +390,7 @@ public class GameController : MonoBehaviour
                     break;
             }
         });
-    }*/
+    }
     
     public void LoadData()
     {

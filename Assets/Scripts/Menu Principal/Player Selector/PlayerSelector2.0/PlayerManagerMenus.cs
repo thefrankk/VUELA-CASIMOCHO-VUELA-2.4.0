@@ -229,16 +229,6 @@ public class PlayerManagerMenus : MonoBehaviour
 
         Casimocho();
 
-
-
-
-
-
-
-
-
-
-
     }
 
     private void Update()
@@ -280,9 +270,6 @@ public class PlayerManagerMenus : MonoBehaviour
 
         if (!enter)
         {
-
-
-
 
             //enter = true;
         }

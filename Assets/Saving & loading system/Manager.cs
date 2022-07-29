@@ -66,6 +66,7 @@ public class Manager : MonoBehaviour
         data.highscore1 = GameController.globalDistanciaRecorrida1;
         data.highscore2 = GameController.globalDistanciaRecorrida2;
         data.highscore3 = GameController.globalDistanciaRecorrida3;
+        data.highscore4 = GameController.globalDistanciaRecorrida4;
         data.eggSavings = HuevosManager.eggsSavings;
         data.LevelReached = GameManager_Menu.levelReached;
 
@@ -116,6 +117,8 @@ public class Manager : MonoBehaviour
             GameController.globalDistanciaRecorrida1 = data.highscore1;
             GameController.globalDistanciaRecorrida2 = data.highscore2;
             GameController.globalDistanciaRecorrida3 = data.highscore3;
+            GameController.globalDistanciaRecorrida4 = data.highscore4;
+
             HuevosManager.eggsSavings = data.eggSavings;
             GameManager_Menu.levelReached = data.LevelReached;
 
@@ -133,11 +136,6 @@ public class Manager : MonoBehaviour
             DifficultSelector.LEVEL_INTERMEDIO = data.level_INTERMEDIO;
 
             //gifts
-
-          
-
-         
-
 
             //portals
             if (GameManager_Menu.currentEachState != GameManager_Menu.eachStateForGame.MenuPrincipal)

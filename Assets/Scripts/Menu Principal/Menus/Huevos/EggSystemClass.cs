@@ -78,24 +78,17 @@ public class EggSystemClass
         if (temp == 0 && firstUnlocked == 0 || secondUnlocked == 0)
             ++temp;
 
-            Debug.Log(temp);
             if (temp <= normalDifficult && firstUnlocked != 0)
             {
                 UnlockCard(unlockedCardsNormal, normalCardsQuantity, "NORMAL CARDS", normal, 0);
-                  Debug.LogWarning("my bebito fiu fiu putoo");
-        
              }
             else if (temp > (normalDifficult * firstUnlocked) && temp <= (mediumDifficult + normalDifficult) && secondUnlocked != 0)
             {
-                Debug.Log(normalDifficult + " " + mediumDifficult + " "  + temp);
-                Debug.LogWarning("my bebito fiu fiu second");
 
                 UnlockCard(unlockedCardsMedium, mediumCardsQuantity, "MEDIUM CARDS", medium, (50));
             }
             else if(temp > ((normalDifficult * firstUnlocked) + (mediumDifficult * secondUnlocked)) && temp <= 150)
             {
-                Debug.LogError("first unlocked");
-                Debug.LogWarning("my bebito fiu fiu");
                 UnlockCard(unlockedCardsHard, hardCardsQuantity, "HARD CARDS", hard, (50 + 30));
             }
 
@@ -126,7 +119,6 @@ public class EggSystemClass
                 return;
             }
 
-            Debug.Log("Cartas " + listByDifficult.Count + " otras crtas " + (quantityCards));
 
             int randomNumber = randomN;
 
@@ -135,7 +127,6 @@ public class EggSystemClass
             //Chequeamos si la carta ya fue completamente desbloqueada
             if (cards[FIRST_INDEX] <= 0)
             {
-                    Debug.Log(cards[FIRST_INDEX] + " mmm watafak" + " " + FIRST_INDEX);
               
                     for (int i = start; i < (start + quantityCards); i++)
                     {
@@ -143,10 +134,6 @@ public class EggSystemClass
 
                             if (!listByDifficult.Contains(randomNumber))
                             {
-
-                               Debug.Log(cards[randomNumber] + " mmm watafak " + i);
-
-
                                     FIRST_INDEX = randomNumber;
                                     SECOND_INDEX = cards[FIRST_INDEX];
                                     cards[FIRST_INDEX]--;
@@ -167,15 +154,11 @@ public class EggSystemClass
             if (cards[FIRST_INDEX] <= 0)
             {
                 listByDifficult.Add(FIRST_INDEX);
-                 Debug.Log("agregado a la lista " + FIRST_INDEX);
             }
 
 
             first_Index = FIRST_INDEX;
             second_Index = SECOND_INDEX;
-
-            Debug.Log(typeCard + " " + "el numero de carta desbloqueado es " + FIRST_INDEX);
-            Debug.Log("Aun quedan para desbloquear " + cards[FIRST_INDEX] + " sub personajes");
 
             if (listByDifficult.Count >= quantityCards)
             {
@@ -201,7 +184,7 @@ public class EggSystemClass
         }
 
 
-        public void GET_Quantitys()
+       /* public void GET_Quantitys()
         {
             Debug.Log(unlockedCardsNormal.Count + " cartas normales nmero de desbloqueadas");
             Debug.Log(unlockedCardsMedium.Count + " cartas medium nmero de desbloqueadas");
@@ -211,5 +194,5 @@ public class EggSystemClass
             Debug.Log(normalDifficult + " dificultad normal");
             Debug.Log(mediumDifficult + " dificultad medium ");
             Debug.Log(hardDifficult + " dificultad hard");
-        }
+        }*/
     }

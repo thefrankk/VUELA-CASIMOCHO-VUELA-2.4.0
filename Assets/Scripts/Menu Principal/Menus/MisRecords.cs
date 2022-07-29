@@ -20,6 +20,7 @@ public class MisRecords : MonoBehaviour
         recordsInt[1] = GameController.globalDistanciaRecorrida1;
         recordsInt[2] = GameController.globalDistanciaRecorrida2;
         recordsInt[3] = GameController.globalDistanciaRecorrida3;
+        recordsInt[4] = GameController.globalDistanciaRecorrida4;
 
 
 
@@ -32,6 +33,7 @@ public class MisRecords : MonoBehaviour
         recordsText[1].text = recordsInt[1].ToString();
         recordsText[2].text = recordsInt[2].ToString();
         recordsText[3].text = recordsInt[3].ToString();
+        recordsText[4].text = recordsInt[4].ToString();
 
 
     }

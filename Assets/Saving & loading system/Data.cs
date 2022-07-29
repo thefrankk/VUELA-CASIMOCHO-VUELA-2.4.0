@@ -31,6 +31,7 @@ class DataSave
     public int highscore1;
     public int highscore2;
     public int highscore3;
+    public int highscore4;
     public int eggSavings;
     public int LevelReached;
 

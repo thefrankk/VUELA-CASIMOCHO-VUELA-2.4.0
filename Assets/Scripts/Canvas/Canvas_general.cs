@@ -124,7 +124,7 @@ public class Canvas_general : MonoBehaviour
                         coins.text = GameController.diamonds.ToString();
 
                         //Variable a cambiar todos los meses.
-                        recordDistance.text = GameController.globalDistanciaRecorrida3.ToString();
+                        recordDistance.text = GameController.globalDistanciaRecorrida4.ToString();
                         coinsNotDiamond.text = GameController.coins.ToString();
 
                         break;
@@ -173,7 +173,7 @@ public class Canvas_general : MonoBehaviour
                 currentCoinsText.text = GameController.coinsOnPlay.ToString();
                 //recordDistance.text = GameController.globalDistanciaRecorrida.ToString();
                 //variable a cambiar todos los meses
-                recordDistance.text = GameController.globalDistanciaRecorrida3.ToString();
+                recordDistance.text = GameController.globalDistanciaRecorrida4.ToString();
 
                 if (GameController.cantReceiveCoins)
                 {

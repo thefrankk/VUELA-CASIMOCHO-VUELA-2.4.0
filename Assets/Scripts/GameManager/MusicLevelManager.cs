@@ -131,6 +131,10 @@ public class MusicLevelManager : MonoBehaviour
                     GenericPlaySound(word2_level2);
                     break;
 
+                default:
+                    GenericPlaySound(word2_level2);
+
+                    break;
 
             }
         }

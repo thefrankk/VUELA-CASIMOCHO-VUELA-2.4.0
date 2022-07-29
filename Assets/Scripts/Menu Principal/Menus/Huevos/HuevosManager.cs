@@ -328,9 +328,7 @@ using System;
 
             eggSystem.AddCards();
 
-
-            OpenAllEggs();
-
+        //-------------------------------
         }
 
         private void Update()
@@ -341,7 +339,7 @@ using System;
         }
         // <>
         //Bring the EGG and the counter:
-         public async void OpenAllEggs()
+         /*public async void OpenAllEggs()
          {
              do 
              {
@@ -354,9 +352,9 @@ using System;
                  AcceptEgg();
                  await Task.Delay(200);
 
-             } while (eggsOpenCounter != 1000);
+             } while (eggsOpenCounter != 980);
          }
-
+         */
         public void GetEgg()
         {
             if (eggsSavings >= 1)
@@ -366,7 +364,7 @@ using System;
                 {
 
                     MenusManager.MenusManagerInstance.BackSound();
-                    firstCount = Random.Range(tapsToOpen, 17); //50
+                    firstCount = Random.Range(tapsToOpen, 50); //50
                     animIndex.SetBool("closing", false);
                     animIndex.SetBool("opening", true);
                     firstTap = true;
@@ -402,7 +400,7 @@ using System;
             //data irrelevante y apartado grafico
             animIndex.enabled = false;
 
-            firstCount -= 17;  //--
+            firstCount --;  //--
             tapCounterNumber++;
 
             GameController.tapsOnEgg += 1;
@@ -453,9 +451,6 @@ using System;
                         i = 0;
                     }
 
-                    //  Debug.Log("Quedan " + firstCount + " taps");
-
-
                     spriteIndex.sprite = eggs[i];
 
                 }
@@ -476,16 +471,14 @@ using System;
         void EggPicker(int theWinnerNumber)
         {
 
-            if (eggsOpenCounter >= 1018) //1014
+            if (eggsOpenCounter >= 1020) //1014
             {
                 Reached100Eggs();
                 return;
             }
 
-
                 for (int i = 0; i < 9; i++)
                 {
-//                    Debug.Log(theWinnerNumber + " " + i );
 
                     PlayerManagerMenus.cart[theWinnerNumber, i] = Convert.ToBoolean(PlayerPrefs.GetInt("cart1" + theWinnerNumber + "carts2" + i, 0));
 
@@ -548,7 +541,7 @@ using System;
         {
 
             //Publicidad
-            if (eggsOpenedInARow >= 350)//6
+            if (eggsOpenedInARow >= 10)//10
             {
                 ManagerAds.instance.showInterstitialAll();
                 eggsOpenedInARow = 0;

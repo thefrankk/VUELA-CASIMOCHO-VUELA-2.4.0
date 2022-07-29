@@ -183,7 +183,7 @@ public class Admob : MonoBehaviour
         {
             case ManagerAds.rewards.rewardCoinsMenu:
 
-                GameController.coins += 30;
+                GameController.coins += 60;
                 MenusManager.MenusManagerInstance.BuySomething();
 
                 break;
